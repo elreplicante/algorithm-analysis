@@ -46,3 +46,17 @@ plot "bubble-sort.txt" with lines lw 2 title "f", \
 linear(x) with lines title "linear (ajustado)", \
 loglinear(x) with lines title "n log n (ajustado)", \
 cuadratic(x) with lines title "x^2 (ajustado)";
+
+
+# Quick Sort
+set output "quick-sort.png"
+fit cuadratic(x) "quick-sort.txt" via a;
+fit loglinear(x) "quick-sort.txt" via b;
+fit linear(x) "quick-sort.txt" via c;
+set ylabel "t (ms)"
+set xlabel "n (elementos en array)"
+
+plot "quick-sort.txt" with lines lw 2 title "f", \
+linear(x) with lines title "linear (ajustado)", \
+loglinear(x) with lines title "n log n (ajustado)", \
+cuadratic(x) with lines title "x^2 (ajustado)";

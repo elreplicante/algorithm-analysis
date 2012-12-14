@@ -48,6 +48,34 @@ void bubbleSort(int V[], int num) {
 		i++;
 	}
 }
+
+void quickSort(int V[], int left, int right) {
+
+	int i = left, j = right;
+	int tmp;
+	int pivot = V[(left + right) / 2];
+
+	/* partition */
+	while (i <= j) {
+		while (V[i] < pivot)
+			i++;
+		while (V[j] > pivot)
+			j--;
+		if (i <= j) {
+			tmp = V[i];
+			V[i] = V[j];
+			V[j] = tmp;
+			i++;
+			j--;
+		}
+	};
+
+	/* recursion */
+	if (left < j)
+		quickSort(V, left, j);
+	if (i < right)
+		quickSort(V, i, right);
+}
 /*
  * ordenacion.cpp
  *

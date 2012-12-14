@@ -9,17 +9,15 @@
 #include "interaction.h"
 #include "generators.h"
 
-
-
-
-
 int main() {
 
 	int problemSize = getProblemSize();
 	int maxInt = getMaximumInteger();
+	int GAP = getGap();
 
 	int V[problemSize];
 	generateArray(V, problemSize, maxInt);
+	printArrayContents(V, problemSize);
 
 	bool exitMenu = false;
 
@@ -27,16 +25,25 @@ int main() {
 		char option = chooseAlgorithm();
 		switch (option) {
 		case '1':
-			generateInsertionSortDataFile(problemSize, V);
+			generateInsertionSortDataFile(problemSize, V, GAP);
 			break;
 
 		case '2':
-			generateSelectionSortDataFile(problemSize, V);
+			generateSelectionSortDataFile(problemSize, V, GAP);
 			break;
 
 		case '3':
-					generateBubbleSortDataFile(problemSize, V);
-					break;
+			generateBubbleSortDataFile(problemSize, V, GAP);
+			break;
+
+		case '4':
+			generateQuickSortDataFile(problemSize, V, GAP);
+			break;
+
+		case '6': {
+			generateAllFiles(problemSize, V, GAP);
+			break;
+		}
 
 		case '0':
 			exitMenu = true;
