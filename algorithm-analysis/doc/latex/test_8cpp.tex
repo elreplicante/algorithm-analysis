@@ -7,7 +7,7 @@
 void {\bf make\-Four\-Copies} (int \-V[$\,$], int first[$\,$], int second[$\,$], int third[$\,$], int fourth[$\,$], int n)
 \item 
 void {\bf generate\-Array} (int \-V[$\,$], int n, int max\-Int)
-\begin{DoxyCompactList}\small\item\em \-Generates an array with n random integers. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em \-Generates an array with n random integers betwwen 0 and max\-Int. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \subsection{\-Function \-Documentation}
@@ -22,11 +22,15 @@ void {\bf generate\-Array} (int \-V[$\,$], int n, int max\-Int)
 )}\label{test_8cpp_a2f20db3718d4b2c7b8c5216a081ab1c4}
 
 
-\-Generates an array with n random integers. 
+\-Generates an array with n random integers betwwen 0 and max\-Int. 
 
 
 \begin{DoxyParams}{\-Parameters}
+{\em \-V} & the container array with a size of n \\
+\hline
 {\em n} & \-The array length \\
+\hline
+{\em max\-Int} & maximum integer to generate arraty to \\
 \hline
 \end{DoxyParams}
 \index{test.\-cpp@{test.\-cpp}!make\-Four\-Copies@{make\-Four\-Copies}}

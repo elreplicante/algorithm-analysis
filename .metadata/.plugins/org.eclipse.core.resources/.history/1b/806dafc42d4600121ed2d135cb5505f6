@@ -13,9 +13,8 @@
 
 /**
  * @brief Generates an array with n random integers betwwen 0 and maxInt
- * @param V the container array with a size of n
  * @param n The array length
- * @param maxInt maximum integer to generate arraty to
+ * @param maxInt maximum integer to generate
  */
 void generateArray(int V[], int n, int maxInt);
 
