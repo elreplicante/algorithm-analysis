@@ -1,0 +1,35 @@
+/*
+ * generators.cpp
+ *
+ *  Created on: 14/12/2012
+ *      Author: repli
+ */
+
+
+#include "generators.h"
+
+
+void generateInsertionSortDataFile(int problemSize, int V[]) {
+	ofstream file("insertion-sort.txt");
+	for (int i = 100; i < problemSize; i++) {
+		int arrayCopy[i];
+		copyArray(V, arrayCopy, i);
+		generateInsertionSortTime(file, arrayCopy, i);
+	}
+	file.close();
+}
+
+void generateSelectionSortDataFile(int problemSize, int V[]) {
+	ofstream file("selection-sort.txt");
+	for (int i = 100; i < problemSize; i++) {
+		int arrayCopy[i];
+		copyArray(V, arrayCopy, i);
+
+		generateSelectionSortTime(file, arrayCopy, i);
+
+	}
+	file.close();
+}
+
+
+

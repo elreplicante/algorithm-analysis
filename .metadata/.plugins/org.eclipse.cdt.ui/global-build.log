@@ -338,3 +338,342 @@ Invoking: MacOS X C++ Linker
 g++  -o "algorithm-analysis"  ./src/aux.o ./src/main.o ./src/ordenacion.o ./src/test.o   
 Finished building target: algorithm-analysis
  
+19:27:41 **** Incremental Build of configuration Debug for project algorithm-analysis ****
+make all 
+Building file: ../src/aux.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aux.d" -MT"src/aux.d" -o "src/aux.o" "../src/aux.cpp"
+Finished building: ../src/aux.cpp
+ 
+Building file: ../src/main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building file: ../src/test.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/test.d" -MT"src/test.d" -o "src/test.o" "../src/test.cpp"
+Finished building: ../src/test.cpp
+ 
+Building target: algorithm-analysis
+Invoking: MacOS X C++ Linker
+g++  -o "algorithm-analysis"  ./src/aux.o ./src/main.o ./src/ordenacion.o ./src/test.o   
+Finished building target: algorithm-analysis
+ 
+19:28:29 **** Incremental Build of configuration Debug for project algorithm-analysis ****
+make all 
+make: Nothing to be done for `all'.
+19:29:27 **** Incremental Build of configuration Debug for project algorithm-analysis ****
+make all 
+Building file: ../src/main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:66: error: jump to case label
+../src/main.cpp:54: error:   crosses initialization of 'std::ofstream file'
+../src/main.cpp:75: error: jump to case label
+../src/main.cpp:54: error:   crosses initialization of 'std::ofstream file'
+../src/main.cpp:79: error: jump to case label
+../src/main.cpp:54: error:   crosses initialization of 'std::ofstream file'
+make: *** [src/main.o] Error 1
+19:29:37 **** Incremental Build of configuration Debug for project algorithm-analysis ****
+make all 
+Building file: ../src/main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: algorithm-analysis
+Invoking: MacOS X C++ Linker
+g++  -o "algorithm-analysis"  ./src/aux.o ./src/main.o ./src/ordenacion.o ./src/test.o   
+Finished building target: algorithm-analysis
+ 
+19:29:52 **** Incremental Build of configuration Debug for project algorithm-analysis ****
+make all 
+make: Nothing to be done for `all'.
+19:31:38 **** Incremental Build of configuration Debug for project algorithm-analysis ****
+make all 
+Building file: ../src/aux.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aux.d" -MT"src/aux.d" -o "src/aux.o" "../src/aux.cpp"
+Finished building: ../src/aux.cpp
+ 
+Building file: ../src/main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building file: ../src/test.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/test.d" -MT"src/test.d" -o "src/test.o" "../src/test.cpp"
+Finished building: ../src/test.cpp
+ 
+Building target: algorithm-analysis
+Invoking: MacOS X C++ Linker
+g++  -o "algorithm-analysis"  ./src/aux.o ./src/main.o ./src/ordenacion.o ./src/test.o   
+Finished building target: algorithm-analysis
+ 
+19:33:38 **** Incremental Build of configuration Debug for project algorithm-analysis ****
+make all 
+Building file: ../src/main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp:39: error: 'problemSize' was not declared in this scope
+../src/main.cpp: In function 'void generateInsertionSortDataFile(int)':
+../src/main.cpp:43: error: 'V' was not declared in this scope
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:39: error: too many arguments to function 'void generateInsertionSortDataFile(int)'
+../src/main.cpp:64: error: at this point in file
+make: *** [src/main.o] Error 1
+19:34:03 **** Incremental Build of configuration Debug for project algorithm-analysis ****
+make all 
+Building file: ../src/main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: algorithm-analysis
+Invoking: MacOS X C++ Linker
+g++  -o "algorithm-analysis"  ./src/aux.o ./src/main.o ./src/ordenacion.o ./src/test.o   
+Finished building target: algorithm-analysis
+ 
+19:34:13 **** Incremental Build of configuration Debug for project algorithm-analysis ****
+make all 
+make: Nothing to be done for `all'.
+19:37:57 **** Incremental Build of configuration Debug for project algorithm-analysis ****
+make all 
+Building file: ../src/main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: algorithm-analysis
+Invoking: MacOS X C++ Linker
+g++  -o "algorithm-analysis"  ./src/aux.o ./src/main.o ./src/ordenacion.o ./src/test.o   
+Finished building target: algorithm-analysis
+ 
+19:38:00 **** Incremental Build of configuration Debug for project algorithm-analysis ****
+make all 
+make: Nothing to be done for `all'.
+19:42:49 **** Incremental Build of configuration Debug for project algorithm-analysis ****
+make all 
+Building file: ../src/aux.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aux.d" -MT"src/aux.d" -o "src/aux.o" "../src/aux.cpp"
+Finished building: ../src/aux.cpp
+ 
+Building file: ../src/interaction.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/interaction.d" -MT"src/interaction.d" -o "src/interaction.o" "../src/interaction.cpp"
+../src/interaction.cpp: In function 'int getProblemSize()':
+../src/interaction.cpp:12: error: 'cout' was not declared in this scope
+../src/interaction.cpp:13: error: 'cin' was not declared in this scope
+../src/interaction.cpp: In function 'int getMaximumInteger()':
+../src/interaction.cpp:19: error: 'cout' was not declared in this scope
+../src/interaction.cpp:20: error: 'cin' was not declared in this scope
+../src/interaction.cpp: In function 'char chooseAlgorithm()':
+../src/interaction.cpp:27: error: 'cout' was not declared in this scope
+../src/interaction.cpp:33: error: 'cin' was not declared in this scope
+make: *** [src/interaction.o] Error 1
+19:43:01 **** Incremental Build of configuration Debug for project algorithm-analysis ****
+make all 
+Building file: ../src/interaction.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/interaction.d" -MT"src/interaction.d" -o "src/interaction.o" "../src/interaction.cpp"
+../src/interaction.cpp: In function 'int getProblemSize()':
+../src/interaction.cpp:14: error: 'cout' was not declared in this scope
+../src/interaction.cpp:15: error: 'cin' was not declared in this scope
+../src/interaction.cpp: In function 'int getMaximumInteger()':
+../src/interaction.cpp:21: error: 'cout' was not declared in this scope
+../src/interaction.cpp:22: error: 'cin' was not declared in this scope
+../src/interaction.cpp: In function 'char chooseAlgorithm()':
+../src/interaction.cpp:29: error: 'cout' was not declared in this scope
+../src/interaction.cpp:35: error: 'cin' was not declared in this scope
+make: *** [src/interaction.o] Error 1
+19:43:02 **** Incremental Build of configuration Debug for project algorithm-analysis ****
+make all 
+Building file: ../src/interaction.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/interaction.d" -MT"src/interaction.d" -o "src/interaction.o" "../src/interaction.cpp"
+../src/interaction.cpp: In function 'int getProblemSize()':
+../src/interaction.cpp:14: error: 'cout' was not declared in this scope
+../src/interaction.cpp:15: error: 'cin' was not declared in this scope
+../src/interaction.cpp: In function 'int getMaximumInteger()':
+../src/interaction.cpp:21: error: 'cout' was not declared in this scope
+../src/interaction.cpp:22: error: 'cin' was not declared in this scope
+../src/interaction.cpp: In function 'char chooseAlgorithm()':
+../src/interaction.cpp:29: error: 'cout' was not declared in this scope
+../src/interaction.cpp:35: error: 'cin' was not declared in this scope
+make: *** [src/interaction.o] Error 1
+19:43:22 **** Incremental Build of configuration Debug for project algorithm-analysis ****
+make all 
+Building file: ../src/interaction.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/interaction.d" -MT"src/interaction.d" -o "src/interaction.o" "../src/interaction.cpp"
+../src/interaction.cpp: In function 'int getProblemSize()':
+../src/interaction.cpp:14: error: 'cout' was not declared in this scope
+../src/interaction.cpp:15: error: 'cin' was not declared in this scope
+../src/interaction.cpp: In function 'int getMaximumInteger()':
+../src/interaction.cpp:21: error: 'cout' was not declared in this scope
+../src/interaction.cpp:22: error: 'cin' was not declared in this scope
+../src/interaction.cpp: In function 'char chooseAlgorithm()':
+../src/interaction.cpp:29: error: 'cout' was not declared in this scope
+../src/interaction.cpp:35: error: 'cin' was not declared in this scope
+make: *** [src/interaction.o] Error 1
+19:43:25 **** Incremental Build of configuration Debug for project algorithm-analysis ****
+make all 
+Building file: ../src/interaction.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/interaction.d" -MT"src/interaction.d" -o "src/interaction.o" "../src/interaction.cpp"
+../src/interaction.cpp: In function 'int getProblemSize()':
+../src/interaction.cpp:14: error: 'cout' was not declared in this scope
+../src/interaction.cpp:15: error: 'cin' was not declared in this scope
+../src/interaction.cpp: In function 'int getMaximumInteger()':
+../src/interaction.cpp:21: error: 'cout' was not declared in this scope
+../src/interaction.cpp:22: error: 'cin' was not declared in this scope
+../src/interaction.cpp: In function 'char chooseAlgorithm()':
+../src/interaction.cpp:29: error: 'cout' was not declared in this scope
+../src/interaction.cpp:35: error: 'cin' was not declared in this scope
+make: *** [src/interaction.o] Error 1
+19:43:47 **** Incremental Build of configuration Debug for project algorithm-analysis ****
+make all 
+Building file: ../src/interaction.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/interaction.d" -MT"src/interaction.d" -o "src/interaction.o" "../src/interaction.cpp"
+../src/interaction.cpp: In function 'int getProblemSize()':
+../src/interaction.cpp:13: error: 'cout' was not declared in this scope
+../src/interaction.cpp:14: error: 'cin' was not declared in this scope
+../src/interaction.cpp: In function 'int getMaximumInteger()':
+../src/interaction.cpp:20: error: 'cout' was not declared in this scope
+../src/interaction.cpp:21: error: 'cin' was not declared in this scope
+../src/interaction.cpp: In function 'char chooseAlgorithm()':
+../src/interaction.cpp:28: error: 'cout' was not declared in this scope
+../src/interaction.cpp:34: error: 'cin' was not declared in this scope
+make: *** [src/interaction.o] Error 1
+19:44:10 **** Incremental Build of configuration Debug for project algorithm-analysis ****
+make all 
+Building file: ../src/interaction.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/interaction.d" -MT"src/interaction.d" -o "src/interaction.o" "../src/interaction.cpp"
+Finished building: ../src/interaction.cpp
+ 
+Building file: ../src/main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building file: ../src/ordenacion.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ordenacion.d" -MT"src/ordenacion.d" -o "src/ordenacion.o" "../src/ordenacion.cpp"
+Finished building: ../src/ordenacion.cpp
+ 
+Building file: ../src/test.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/test.d" -MT"src/test.d" -o "src/test.o" "../src/test.cpp"
+Finished building: ../src/test.cpp
+ 
+Building target: algorithm-analysis
+Invoking: MacOS X C++ Linker
+g++  -o "algorithm-analysis"  ./src/aux.o ./src/interaction.o ./src/main.o ./src/ordenacion.o ./src/test.o   
+Finished building target: algorithm-analysis
+ 
+19:49:16 **** Incremental Build of configuration Debug for project algorithm-analysis ****
+make all 
+Building file: ../src/aux.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aux.d" -MT"src/aux.d" -o "src/aux.o" "../src/aux.cpp"
+Finished building: ../src/aux.cpp
+ 
+Building file: ../src/main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building file: ../src/test.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/test.d" -MT"src/test.d" -o "src/test.o" "../src/test.cpp"
+Finished building: ../src/test.cpp
+ 
+Building file: ../src/generators.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/generators.d" -MT"src/generators.d" -o "src/generators.o" "../src/generators.cpp"
+Finished building: ../src/generators.cpp
+ 
+Building target: algorithm-analysis
+Invoking: MacOS X C++ Linker
+g++  -o "algorithm-analysis"  ./src/aux.o ./src/generators.o ./src/interaction.o ./src/main.o ./src/ordenacion.o ./src/test.o   
+Finished building target: algorithm-analysis
+ 
+19:49:39 **** Incremental Build of configuration Debug for project algorithm-analysis ****
+make all 
+Building file: ../src/main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: algorithm-analysis
+Invoking: MacOS X C++ Linker
+g++  -o "algorithm-analysis"  ./src/aux.o ./src/generators.o ./src/interaction.o ./src/main.o ./src/ordenacion.o ./src/test.o   
+Finished building target: algorithm-analysis
+ 
+19:49:42 **** Incremental Build of configuration Debug for project algorithm-analysis ****
+make all 
+make: Nothing to be done for `all'.
+19:53:39 **** Incremental Build of configuration Debug for project algorithm-analysis ****
+make all 
+Building file: ../src/generators.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/generators.d" -MT"src/generators.d" -o "src/generators.o" "../src/generators.cpp"
+../src/generators.cpp: In function 'void generateBubbleSortDataFile(int, int*)':
+../src/generators.cpp:65: error: 'generateSBubbleSortTime' was not declared in this scope
+make: *** [src/generators.o] Error 1
+19:53:50 **** Incremental Build of configuration Debug for project algorithm-analysis ****
+make all 
+Building file: ../src/generators.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/generators.d" -MT"src/generators.d" -o "src/generators.o" "../src/generators.cpp"
+Finished building: ../src/generators.cpp
+ 
+Building target: algorithm-analysis
+Invoking: MacOS X C++ Linker
+g++  -o "algorithm-analysis"  ./src/aux.o ./src/generators.o ./src/interaction.o ./src/main.o ./src/ordenacion.o ./src/test.o   
+Finished building target: algorithm-analysis
+ 
+19:57:53 **** Incremental Build of configuration Debug for project algorithm-analysis ****
+make all 
+Building file: ../src/generators.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/generators.d" -MT"src/generators.d" -o "src/generators.o" "../src/generators.cpp"
+Finished building: ../src/generators.cpp
+ 
+Building file: ../src/interaction.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/interaction.d" -MT"src/interaction.d" -o "src/interaction.o" "../src/interaction.cpp"
+Finished building: ../src/interaction.cpp
+ 
+Building file: ../src/main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:38: error: 'generateBubbleSortDataFile' was not declared in this scope
+make: *** [src/main.o] Error 1
+19:58:42 **** Incremental Build of configuration Debug for project algorithm-analysis ****
+make all 
+Building file: ../src/generators.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/generators.d" -MT"src/generators.d" -o "src/generators.o" "../src/generators.cpp"
+Finished building: ../src/generators.cpp
+ 
+Building file: ../src/main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: algorithm-analysis
+Invoking: MacOS X C++ Linker
+g++  -o "algorithm-analysis"  ./src/aux.o ./src/generators.o ./src/interaction.o ./src/main.o ./src/ordenacion.o ./src/test.o   
+Finished building target: algorithm-analysis
+ 
+19:58:46 **** Incremental Build of configuration Debug for project algorithm-analysis ****
+make all 
+make: Nothing to be done for `all'.

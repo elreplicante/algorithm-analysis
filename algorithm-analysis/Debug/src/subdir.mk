@@ -5,18 +5,24 @@
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
 ../src/aux.cpp \
+../src/generators.cpp \
+../src/interaction.cpp \
 ../src/main.cpp \
 ../src/ordenacion.cpp \
 ../src/test.cpp 
 
 OBJS += \
 ./src/aux.o \
+./src/generators.o \
+./src/interaction.o \
 ./src/main.o \
 ./src/ordenacion.o \
 ./src/test.o 
 
 CPP_DEPS += \
 ./src/aux.d \
+./src/generators.d \
+./src/interaction.d \
 ./src/main.d \
 ./src/ordenacion.d \
 ./src/test.d 

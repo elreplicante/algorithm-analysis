@@ -6,35 +6,12 @@
  */
 
 #include "test.h"
-#include "ordenacion.h"
+#include "interaction.h"
+#include "generators.h"
 
-int getProblemSize() {
-	int problemSize;
-	cout << "Enter the problem size (array length):";
-	cin >> problemSize;
-	return problemSize;
-}
 
-int getMaximumInteger() {
-	int maxInt;
-	cout << "Enter the maximum integer to generate (array length):";
-	cin >> maxInt;
-	return maxInt;
-}
 
-char chooseAlgorithm() {
-	char option;
 
-	cout << "select the algorithm for generating the data which:\n";
-	cout << "1: Insertion Sort.\n";
-	cout << "2: Selection Sort.\n";
-	cout << "0: Exit.\n";
-	cout << "Choose an option:";
-
-	cin >> option;
-
-	return option;
-}
 
 int main() {
 
@@ -46,33 +23,27 @@ int main() {
 
 	bool exitMenu = false;
 
-
 	while (!exitMenu) {
 		char option = chooseAlgorithm();
 		switch (option) {
 		case '1':
-			for (int i = 100; i < problemSize; i++) {
-				int arrayCopy[i];
-				copyArray(V, arrayCopy, i);
-				generateInsertionSortTime(arrayCopy, i);
-			}
-
+			generateInsertionSortDataFile(problemSize, V);
 			break;
 
 		case '2':
-			for (int i = 100; i < problemSize; i++) {
-				int arrayCopy2[i];
-				copyArray(V, arrayCopy2, i);
-				generateSelectionSortTime(arrayCopy2, i);
-			}
-
+			generateSelectionSortDataFile(problemSize, V);
 			break;
+
+		case '3':
+					generateBubbleSortDataFile(problemSize, V);
+					break;
 
 		case '0':
 			exitMenu = true;
 			break;
 
 		default:
+			cout << "Choose a valid option.\n\n";
 			break;
 		}
 	}

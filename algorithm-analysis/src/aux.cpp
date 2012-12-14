@@ -66,33 +66,3 @@ void printArrayContents(int V[], int n) {
 	}
 	cout << ')' << endl;
 }
-
-
-void generateInsertionSortTime(int V[], int n) {
-	ofstream file("insertion-sort.txt");
-	clock_t initalTime = clock();
-	insertionSort(V, n);
-	clock_t finalTime = clock();
-	float time = ((float) (finalTime - initalTime)) / CLOCKS_PER_SEC;
-	file << setprecision(20) << fixed << n << " " << time << "\n";
-	file.close();
-
-}
-
-
-void generateSelectionSortTime(int V[], int n) {
-	ofstream file("selection-sort.txt");
-		clock_t initalTime = clock();
-		insertionSort(V, n);
-		clock_t finalTime = clock();
-		float time = ((float) (finalTime - initalTime)) / CLOCKS_PER_SEC;
-		file << setprecision(20) << fixed << n << " " << time << "\n";
-		file.close();
-
-
-}
-
-
-
-
-

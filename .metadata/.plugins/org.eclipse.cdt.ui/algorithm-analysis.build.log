@@ -1,15 +1,6 @@
-19:22:28 **** Incremental Build of configuration Debug for project algorithm-analysis ****
+19:58:46 **** Incremental Build of configuration Debug for project algorithm-analysis ****
 make all 
-Building file: ../src/main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
-Finished building: ../src/main.cpp
- 
-Building target: algorithm-analysis
-Invoking: MacOS X C++ Linker
-g++  -o "algorithm-analysis"  ./src/aux.o ./src/main.o ./src/ordenacion.o ./src/test.o   
-Finished building target: algorithm-analysis
- 
+make: Nothing to be done for `all'.
 
-19:22:28 Build Finished (took 322ms)
+19:58:46 Build Finished (took 63ms)
 
