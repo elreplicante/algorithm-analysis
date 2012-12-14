@@ -11,3 +11,9 @@
 *.lai
 *.la
 *.a
+
+*.jar
+
+algorithm-analysis/Debug/algorithm-analysis
+
+algorithm-analysis/insertion-sort.txt

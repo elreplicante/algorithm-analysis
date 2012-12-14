@@ -1,0 +1,139 @@
+17:50:30 **** Incremental Build of configuration Debug for project algorith-analysis ****
+make all 
+Building target: algorith-analysis
+Invoking: MacOS X C++ Linker
+g++  -o "algorith-analysis"  ./src/aux.o ./src/main.o ./src/ordenacion.o ./src/test.o   
+Undefined symbols for architecture x86_64:
+  "generateArray(int*, int)", referenced from:
+      _main in main.o
+ld: symbol(s) not found for architecture x86_64
+collect2: ld returned 1 exit status
+make: *** [algorith-analysis] Error 1
+17:52:05 **** Incremental Build of configuration Debug for project algorith-analysis ****
+make all 
+Building file: ../src/test.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/test.d" -MT"src/test.d" -o "src/test.o" "../src/test.cpp"
+Finished building: ../src/test.cpp
+ 
+Building target: algorith-analysis
+Invoking: MacOS X C++ Linker
+g++  -o "algorith-analysis"  ./src/aux.o ./src/main.o ./src/ordenacion.o ./src/test.o   
+Finished building target: algorith-analysis
+ 
+17:54:57 **** Incremental Build of configuration Debug for project algorith-analysis ****
+make all 
+make: Nothing to be done for `all'.
+18:31:03 **** Incremental Build of configuration Debug for project algorith-analysis ****
+make all 
+Building file: ../src/aux.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aux.d" -MT"src/aux.d" -o "src/aux.o" "../src/aux.cpp"
+Finished building: ../src/aux.cpp
+ 
+Building file: ../src/main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/test.h: In function 'int main()':
+../src/test.h:18: error: too many arguments to function 'void generateArray(int*, int)'
+../src/main.cpp:33: error: at this point in file
+make: *** [src/main.o] Error 1
+18:31:29 **** Incremental Build of configuration Debug for project algorith-analysis ****
+make all 
+Building file: ../src/main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/test.h: In function 'int main()':
+../src/test.h:18: error: too many arguments to function 'void generateArray(int*, int)'
+../src/main.cpp:33: error: at this point in file
+make: *** [src/main.o] Error 1
+18:31:31 **** Incremental Build of configuration Debug for project algorith-analysis ****
+make all 
+Building file: ../src/main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/test.h: In function 'int main()':
+../src/test.h:18: error: too many arguments to function 'void generateArray(int*, int)'
+../src/main.cpp:33: error: at this point in file
+make: *** [src/main.o] Error 1
+18:31:46 **** Incremental Build of configuration Debug for project algorith-analysis ****
+make all 
+Building file: ../src/main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building file: ../src/test.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/test.d" -MT"src/test.d" -o "src/test.o" "../src/test.cpp"
+Finished building: ../src/test.cpp
+ 
+Building target: algorith-analysis
+Invoking: MacOS X C++ Linker
+g++  -o "algorith-analysis"  ./src/aux.o ./src/main.o ./src/ordenacion.o ./src/test.o   
+Finished building target: algorith-analysis
+ 
+18:32:40 **** Incremental Build of configuration Debug for project algorith-analysis ****
+make all 
+Building file: ../src/aux.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aux.d" -MT"src/aux.d" -o "src/aux.o" "../src/aux.cpp"
+Finished building: ../src/aux.cpp
+ 
+Building target: algorith-analysis
+Invoking: MacOS X C++ Linker
+g++  -o "algorith-analysis"  ./src/aux.o ./src/main.o ./src/ordenacion.o ./src/test.o   
+Finished building target: algorith-analysis
+ 
+18:34:20 **** Incremental Build of configuration Debug for project algorith-analysis ****
+make all 
+Building file: ../src/main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: algorith-analysis
+Invoking: MacOS X C++ Linker
+g++  -o "algorith-analysis"  ./src/aux.o ./src/main.o ./src/ordenacion.o ./src/test.o   
+Finished building target: algorith-analysis
+ 
+18:34:24 **** Incremental Build of configuration Debug for project algorith-analysis ****
+make all 
+make: Nothing to be done for `all'.
+18:34:29 **** Clean-only build of configuration Debug for project algorith-analysis ****
+make clean 
+rm -rf  ./src/aux.o ./src/main.o ./src/ordenacion.o ./src/test.o  ./src/aux.d ./src/main.d ./src/ordenacion.d ./src/test.d  algorith-analysis
+ 
+18:34:32 **** Build of configuration Debug for project algorith-analysis ****
+make all 
+Building file: ../src/aux.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aux.d" -MT"src/aux.d" -o "src/aux.o" "../src/aux.cpp"
+Finished building: ../src/aux.cpp
+ 
+Building file: ../src/main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building file: ../src/ordenacion.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ordenacion.d" -MT"src/ordenacion.d" -o "src/ordenacion.o" "../src/ordenacion.cpp"
+Finished building: ../src/ordenacion.cpp
+ 
+Building file: ../src/test.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/test.d" -MT"src/test.d" -o "src/test.o" "../src/test.cpp"
+Finished building: ../src/test.cpp
+ 
+Building target: algorith-analysis
+Invoking: MacOS X C++ Linker
+g++  -o "algorith-analysis"  ./src/aux.o ./src/main.o ./src/ordenacion.o ./src/test.o   
+Finished building target: algorith-analysis
+ 
+18:34:54 **** Incremental Build of configuration Debug for project algorith-analysis ****
+make all 
+make: Nothing to be done for `all'.
+18:36:02 **** Incremental Build of configuration Debug for project algorith-analysis ****
+make all 
+make: Nothing to be done for `all'.

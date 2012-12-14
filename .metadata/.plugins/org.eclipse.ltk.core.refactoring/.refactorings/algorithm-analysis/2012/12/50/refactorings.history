@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;algorithm-analysis/ordenes.gplot&apos; to &apos;script.gplot&apos;" description="Rename resource &apos;ordenes.gplot&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="ordenes.gplot" name="script.gplot" stamp="1355506714405" updateReferences="true"/>
+</session>
