@@ -137,3 +137,204 @@ make: Nothing to be done for `all'.
 18:36:02 **** Incremental Build of configuration Debug for project algorith-analysis ****
 make all 
 make: Nothing to be done for `all'.
+18:56:48 **** Clean-only build of configuration Debug for project algorithm-analysis ****
+make clean 
+rm -rf  ./src/aux.o ./src/main.o ./src/ordenacion.o ./src/test.o  ./src/aux.d ./src/main.d ./src/ordenacion.d ./src/test.d  algorith-analysis
+ 
+18:56:49 **** Build of configuration Debug for project algorithm-analysis ****
+make all 
+Building file: ../src/aux.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aux.d" -MT"src/aux.d" -o "src/aux.o" "../src/aux.cpp"
+Finished building: ../src/aux.cpp
+ 
+Building file: ../src/main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:38: error: invalid initialization of non-const reference of type 'std::ofstream&' from a temporary of type 'int*'
+../src/aux.h:34: error: in passing argument 1 of 'void generateInsertionSortTime(std::ofstream&, int*, int)'
+../src/main.cpp:40: error: invalid initialization of non-const reference of type 'std::ofstream&' from a temporary of type 'int*'
+../src/aux.h:36: error: in passing argument 1 of 'void generateSelectionSortTime(std::ofstream&, int*, int)'
+make: *** [src/main.o] Error 1
+18:57:13 **** Incremental Build of configuration Debug for project algorithm-analysis ****
+make all 
+Building file: ../src/aux.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aux.d" -MT"src/aux.d" -o "src/aux.o" "../src/aux.cpp"
+Finished building: ../src/aux.cpp
+ 
+Building file: ../src/main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building file: ../src/ordenacion.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ordenacion.d" -MT"src/ordenacion.d" -o "src/ordenacion.o" "../src/ordenacion.cpp"
+Finished building: ../src/ordenacion.cpp
+ 
+Building file: ../src/test.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/test.d" -MT"src/test.d" -o "src/test.o" "../src/test.cpp"
+Finished building: ../src/test.cpp
+ 
+Building target: algorithm-analysis
+Invoking: MacOS X C++ Linker
+g++  -o "algorithm-analysis"  ./src/aux.o ./src/main.o ./src/ordenacion.o ./src/test.o   
+Finished building target: algorithm-analysis
+ 
+18:57:18 **** Incremental Build of configuration Debug for project algorithm-analysis ****
+make all 
+make: Nothing to be done for `all'.
+18:57:40 **** Incremental Build of configuration Debug for project algorithm-analysis ****
+make all 
+make: Nothing to be done for `all'.
+18:58:29 **** Clean-only build of configuration Debug for project algorithm-analysis ****
+make clean 
+rm -rf  ./src/aux.o ./src/main.o ./src/ordenacion.o ./src/test.o  ./src/aux.d ./src/main.d ./src/ordenacion.d ./src/test.d  algorithm-analysis
+ 
+18:58:33 **** Build of configuration Debug for project algorithm-analysis ****
+make all 
+Building file: ../src/aux.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aux.d" -MT"src/aux.d" -o "src/aux.o" "../src/aux.cpp"
+Finished building: ../src/aux.cpp
+ 
+Building file: ../src/main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building file: ../src/ordenacion.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ordenacion.d" -MT"src/ordenacion.d" -o "src/ordenacion.o" "../src/ordenacion.cpp"
+Finished building: ../src/ordenacion.cpp
+ 
+Building file: ../src/test.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/test.d" -MT"src/test.d" -o "src/test.o" "../src/test.cpp"
+Finished building: ../src/test.cpp
+ 
+Building target: algorithm-analysis
+Invoking: MacOS X C++ Linker
+g++  -o "algorithm-analysis"  ./src/aux.o ./src/main.o ./src/ordenacion.o ./src/test.o   
+Finished building target: algorithm-analysis
+ 
+18:58:37 **** Incremental Build of configuration Debug for project algorithm-analysis ****
+make all 
+make: Nothing to be done for `all'.
+18:59:31 **** Incremental Build of configuration Debug for project algorithm-analysis ****
+make all 
+make: Nothing to be done for `all'.
+19:10:56 **** Incremental Build of configuration Debug for project algorithm-analysis ****
+make all 
+Building file: ../src/main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: algorithm-analysis
+Invoking: MacOS X C++ Linker
+g++  -o "algorithm-analysis"  ./src/aux.o ./src/main.o ./src/ordenacion.o ./src/test.o   
+Finished building target: algorithm-analysis
+ 
+19:10:59 **** Incremental Build of configuration Debug for project algorithm-analysis ****
+make all 
+make: Nothing to be done for `all'.
+19:11:35 **** Incremental Build of configuration Debug for project algorithm-analysis ****
+make all 
+make: Nothing to be done for `all'.
+19:13:09 **** Incremental Build of configuration Debug for project algorithm-analysis ****
+make all 
+make: Nothing to be done for `all'.
+19:15:20 **** Incremental Build of configuration Debug for project algorithm-analysis ****
+make all 
+Building file: ../src/main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: algorithm-analysis
+Invoking: MacOS X C++ Linker
+g++  -o "algorithm-analysis"  ./src/aux.o ./src/main.o ./src/ordenacion.o ./src/test.o   
+Finished building target: algorithm-analysis
+ 
+19:16:04 **** Incremental Build of configuration Debug for project algorithm-analysis ****
+make all 
+make: Nothing to be done for `all'.
+19:17:11 **** Incremental Build of configuration Debug for project algorithm-analysis ****
+make all 
+Building file: ../src/aux.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aux.d" -MT"src/aux.d" -o "src/aux.o" "../src/aux.cpp"
+Finished building: ../src/aux.cpp
+ 
+Building target: algorithm-analysis
+Invoking: MacOS X C++ Linker
+g++  -o "algorithm-analysis"  ./src/aux.o ./src/main.o ./src/ordenacion.o ./src/test.o   
+Finished building target: algorithm-analysis
+ 
+19:17:37 **** Incremental Build of configuration Debug for project algorithm-analysis ****
+make all 
+Building file: ../src/aux.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aux.d" -MT"src/aux.d" -o "src/aux.o" "../src/aux.cpp"
+Finished building: ../src/aux.cpp
+ 
+Building target: algorithm-analysis
+Invoking: MacOS X C++ Linker
+g++  -o "algorithm-analysis"  ./src/aux.o ./src/main.o ./src/ordenacion.o ./src/test.o   
+Finished building target: algorithm-analysis
+ 
+19:18:21 **** Incremental Build of configuration Debug for project algorithm-analysis ****
+make all 
+Building file: ../src/aux.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aux.d" -MT"src/aux.d" -o "src/aux.o" "../src/aux.cpp"
+Finished building: ../src/aux.cpp
+ 
+Building target: algorithm-analysis
+Invoking: MacOS X C++ Linker
+g++  -o "algorithm-analysis"  ./src/aux.o ./src/main.o ./src/ordenacion.o ./src/test.o   
+Finished building target: algorithm-analysis
+ 
+19:19:28 **** Incremental Build of configuration Debug for project algorithm-analysis ****
+make all 
+Building file: ../src/main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: algorithm-analysis
+Invoking: MacOS X C++ Linker
+g++  -o "algorithm-analysis"  ./src/aux.o ./src/main.o ./src/ordenacion.o ./src/test.o   
+Finished building target: algorithm-analysis
+ 
+19:19:43 **** Incremental Build of configuration Debug for project algorithm-analysis ****
+make all 
+make: Nothing to be done for `all'.
+19:21:46 **** Incremental Build of configuration Debug for project algorithm-analysis ****
+make all 
+Building file: ../src/main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: algorithm-analysis
+Invoking: MacOS X C++ Linker
+g++  -o "algorithm-analysis"  ./src/aux.o ./src/main.o ./src/ordenacion.o ./src/test.o   
+Finished building target: algorithm-analysis
+ 
+19:22:28 **** Incremental Build of configuration Debug for project algorithm-analysis ****
+make all 
+Building file: ../src/main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: algorithm-analysis
+Invoking: MacOS X C++ Linker
+g++  -o "algorithm-analysis"  ./src/aux.o ./src/main.o ./src/ordenacion.o ./src/test.o   
+Finished building target: algorithm-analysis
+ 

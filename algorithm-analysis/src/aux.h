@@ -31,6 +31,8 @@ bool checkIsOrdered(int V[], int n);
 
 void printArrayContents(int V[], int n);
 
-void generateInsertionSortTime(ofstream &file, int V[], int n);
+void generateInsertionSortTime(int V[], int n);
+
+void generateSelectionSortTime(int V[], int n);
 
 #endif /* AUX_H_ */
