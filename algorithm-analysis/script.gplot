@@ -1,4 +1,7 @@
 set terminal png nocrop enhanced size 1024,768
+#set terminal lapng
+#set output "plot.png"
+
 
 
 # lineas de ajuste
@@ -60,3 +63,6 @@ plot "quick-sort.txt" with lines lw 2 title "f", \
 linear(x) with lines title "linear (ajustado)", \
 loglinear(x) with lines title "n log n (ajustado)", \
 cuadratic(x) with lines title "x^2 (ajustado)";
+
+
+#unset output
