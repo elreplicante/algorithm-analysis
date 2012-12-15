@@ -18,6 +18,8 @@ void bubbleSort(int V[], int num);
 
 void quickSort(int V[], int left, int right);
 
+void mergesort(int *a, int*b, int low, int high);
+
 
 
 

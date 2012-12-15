@@ -1,5 +1,8 @@
 .metadata
 .settings
+.metadata/
+.settings/
+.project
 
 # Compiled Object files
 *.slo
@@ -49,3 +52,20 @@ algorithm-analysis/Debug/algorithm-analysis
 paper/analisis-asintotico-de-algoritmos.synctex.gz
 
 *.gz
+
+
+.metadata/.plugins/org.eclipse.cdt.core/.log
+
+*.pdom
+
+*.log
+
+*.log
+
+*.index
+
+*.resources
+
+*.prefs
+
+*.xmi
