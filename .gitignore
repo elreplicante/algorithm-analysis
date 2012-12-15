@@ -1,3 +1,6 @@
+.metadata
+.settings
+
 # Compiled Object files
 *.slo
 *.lo
@@ -16,4 +19,29 @@
 
 algorithm-analysis/Debug/algorithm-analysis
 
-algorithm-analysis/insertion-sort.txt
+
+#LATEX FILES
+
+
+*.aux
+*.bak
+*.backup
+*.bbl
+*.blg
+*.cdx
+*.clg
+*.cnd
+*.dvi
+*.exa
+*.glx
+*.gxg
+*.gxs
+*.idx
+*.ilg
+*.ind
+*.log
+*.lof
+*.lot
+*.out
+*.ps
+*.toc
