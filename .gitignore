@@ -45,3 +45,7 @@ algorithm-analysis/Debug/algorithm-analysis
 *.out
 *.ps
 *.toc
+
+paper/analisis-asintotico-de-algoritmos.synctex.gz
+
+*.gz
