@@ -6,7 +6,7 @@
  */
 
 
-#include "test.h"
+#include "../include/test.h"
 
 void makeFourCopies(int V[], int first[], int second[], int third[],int fourth[], int n) {
 	copyArray(V, first, n);

@@ -1,49 +1,37 @@
-20:36:21 **** Incremental Build of configuration Debug for project algorithm-analysis ****
+23:01:42 **** Incremental Build of configuration Debug for project algorithm-analysis ****
 make all 
-Building file: ../src/main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
-Finished building: ../src/main.cpp
- 
-Building target: algorithm-analysis
-Invoking: MacOS X C++ Linker
-g++  -o "algorithm-analysis"  ./src/aux.o ./src/generators.o ./src/interaction.o ./src/main.o ./src/ordenacion.o ./src/test.o   
-Finished building target: algorithm-analysis
- 
-20:36:26 **** Clean-only build of configuration Debug for project algorithm-analysis ****
-make clean 
-rm -rf  ./src/aux.o ./src/generators.o ./src/interaction.o ./src/main.o ./src/ordenacion.o ./src/test.o  ./src/aux.d ./src/generators.d ./src/interaction.d ./src/main.d ./src/ordenacion.d ./src/test.d  algorithm-analysis
- 
-20:36:28 **** Build of configuration Debug for project algorithm-analysis ****
+make: Nothing to be done for `all'.
+23:02:01 **** Incremental Build of configuration Debug for project algorithm-analysis ****
 make all 
 Building file: ../src/aux.cpp
 Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aux.d" -MT"src/aux.d" -o "src/aux.o" "../src/aux.cpp"
+g++ -I/usr/include/c++/4.2.1 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aux.d" -MT"src/aux.d" -o "src/aux.o" "../src/aux.cpp"
+In file included from ../src/aux.cpp:1:
+../src/../include/aux.h:1:16: warning: time: No such file or directory
 Finished building: ../src/aux.cpp
  
 Building file: ../src/generators.cpp
 Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/generators.d" -MT"src/generators.d" -o "src/generators.o" "../src/generators.cpp"
+g++ -I/usr/include/c++/4.2.1 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/generators.d" -MT"src/generators.d" -o "src/generators.o" "../src/generators.cpp"
+In file included from ../src/../include/generators.h:12,
+                 from ../src/generators.cpp:1:
+../src/../include/aux.h:1:16: warning: time: No such file or directory
 Finished building: ../src/generators.cpp
- 
-Building file: ../src/interaction.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/interaction.d" -MT"src/interaction.d" -o "src/interaction.o" "../src/interaction.cpp"
-Finished building: ../src/interaction.cpp
  
 Building file: ../src/main.cpp
 Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+g++ -I/usr/include/c++/4.2.1 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+In file included from ../src/../include/test.h:7,
+                 from ../src/main.cpp:9:
+../src/../include/../include/aux.h:1:16: warning: time: No such file or directory
 Finished building: ../src/main.cpp
- 
-Building file: ../src/ordenacion.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ordenacion.d" -MT"src/ordenacion.d" -o "src/ordenacion.o" "../src/ordenacion.cpp"
-Finished building: ../src/ordenacion.cpp
  
 Building file: ../src/test.cpp
 Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/test.d" -MT"src/test.d" -o "src/test.o" "../src/test.cpp"
+g++ -I/usr/include/c++/4.2.1 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/test.d" -MT"src/test.d" -o "src/test.o" "../src/test.cpp"
+In file included from ../src/../include/test.h:7,
+                 from ../src/test.cpp:9:
+../src/../include/../include/aux.h:1:16: warning: time: No such file or directory
 Finished building: ../src/test.cpp
  
 Building target: algorithm-analysis
@@ -51,409 +39,26 @@ Invoking: MacOS X C++ Linker
 g++  -o "algorithm-analysis"  ./src/aux.o ./src/generators.o ./src/interaction.o ./src/main.o ./src/ordenacion.o ./src/test.o   
 Finished building target: algorithm-analysis
  
-20:36:34 **** Incremental Build of configuration Debug for project algorithm-analysis ****
-make all 
-make: Nothing to be done for `all'.
-20:37:13 **** Incremental Build of configuration Debug for project algorithm-analysis ****
-make all 
-make: Nothing to be done for `all'.
-20:44:52 **** Incremental Build of configuration Debug for project algorithm-analysis ****
+23:02:14 **** Incremental Build of configuration Debug for project algorithm-analysis ****
 make all 
 Building file: ../src/aux.cpp
 Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aux.d" -MT"src/aux.d" -o "src/aux.o" "../src/aux.cpp"
-Finished building: ../src/aux.cpp
- 
-Building target: algorithm-analysis
-Invoking: MacOS X C++ Linker
-g++  -o "algorithm-analysis"  ./src/aux.o ./src/generators.o ./src/interaction.o ./src/main.o ./src/ordenacion.o ./src/test.o   
-Finished building target: algorithm-analysis
- 
-20:44:53 **** Incremental Build of configuration Debug for project algorithm-analysis ****
-make all 
-make: Nothing to be done for `all'.
-20:47:35 **** Incremental Build of configuration Debug for project algorithm-analysis ****
-make all 
-Building file: ../src/aux.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aux.d" -MT"src/aux.d" -o "src/aux.o" "../src/aux.cpp"
-Finished building: ../src/aux.cpp
- 
-Building file: ../src/main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
-../src/main.cpp: In function 'int main()':
-../src/main.cpp:19: error: 'printArrayContentsToFile' was not declared in this scope
-make: *** [src/main.o] Error 1
-20:48:12 **** Incremental Build of configuration Debug for project algorithm-analysis ****
-make all 
-Building file: ../src/aux.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aux.d" -MT"src/aux.d" -o "src/aux.o" "../src/aux.cpp"
-../src/aux.cpp: In function 'void printArrayContents(int*, int)':
-../src/aux.cpp:69: error: redefinition of 'void printArrayContents(int*, int)'
-../src/aux.cpp:61: error: 'void printArrayContents(int*, int)' previously defined here
-make: *** [src/aux.o] Error 1
-20:48:35 **** Incremental Build of configuration Debug for project algorithm-analysis ****
-make all 
-Building file: ../src/aux.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aux.d" -MT"src/aux.d" -o "src/aux.o" "../src/aux.cpp"
-Finished building: ../src/aux.cpp
- 
-Building file: ../src/main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
-../src/main.cpp: In function 'int main()':
-../src/main.cpp:19: error: 'printArrayContentsToFile' was not declared in this scope
-make: *** [src/main.o] Error 1
-20:48:49 **** Incremental Build of configuration Debug for project algorithm-analysis ****
-make all 
-Building file: ../src/main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
-Finished building: ../src/main.cpp
- 
-Building target: algorithm-analysis
-Invoking: MacOS X C++ Linker
-g++  -o "algorithm-analysis"  ./src/aux.o ./src/generators.o ./src/interaction.o ./src/main.o ./src/ordenacion.o ./src/test.o   
-Finished building target: algorithm-analysis
- 
-20:48:56 **** Incremental Build of configuration Debug for project algorithm-analysis ****
-make all 
-make: Nothing to be done for `all'.
-20:53:18 **** Incremental Build of configuration Debug for project algorithm-analysis ****
-make all 
-Building file: ../src/aux.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aux.d" -MT"src/aux.d" -o "src/aux.o" "../src/aux.cpp"
+g++ -I/usr/include/c++/4.2.1 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aux.d" -MT"src/aux.d" -o "src/aux.o" "../src/aux.cpp"
 Finished building: ../src/aux.cpp
  
 Building file: ../src/generators.cpp
 Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/generators.d" -MT"src/generators.d" -o "src/generators.o" "../src/generators.cpp"
-In file included from ../src/generators.cpp:8:
-../src/generators.h:30: error: 'problemSize' was not declared in this scope
-../src/generators.cpp:91: error: 'problemSize' was not declared in this scope
-../src/generators.cpp: In function 'void generateAllFiles(int)':
-../src/generators.cpp:92: error: 'V' was not declared in this scope
-make: *** [src/generators.o] Error 1
-20:53:40 **** Incremental Build of configuration Debug for project algorithm-analysis ****
-make all 
-Building file: ../src/generators.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/generators.d" -MT"src/generators.d" -o "src/generators.o" "../src/generators.cpp"
-In file included from ../src/generators.cpp:8:
-../src/generators.h:30: error: 'problemSize' was not declared in this scope
-make: *** [src/generators.o] Error 1
-20:53:51 **** Incremental Build of configuration Debug for project algorithm-analysis ****
-make all 
-Building file: ../src/generators.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/generators.d" -MT"src/generators.d" -o "src/generators.o" "../src/generators.cpp"
+g++ -I/usr/include/c++/4.2.1 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/generators.d" -MT"src/generators.d" -o "src/generators.o" "../src/generators.cpp"
 Finished building: ../src/generators.cpp
  
 Building file: ../src/main.cpp
 Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+g++ -I/usr/include/c++/4.2.1 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
 Finished building: ../src/main.cpp
- 
-Building target: algorithm-analysis
-Invoking: MacOS X C++ Linker
-g++  -o "algorithm-analysis"  ./src/aux.o ./src/generators.o ./src/interaction.o ./src/main.o ./src/ordenacion.o ./src/test.o   
-Finished building target: algorithm-analysis
- 
-20:56:25 **** Incremental Build of configuration Debug for project algorithm-analysis ****
-make all 
-Building file: ../src/generators.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/generators.d" -MT"src/generators.d" -o "src/generators.o" "../src/generators.cpp"
-Finished building: ../src/generators.cpp
- 
-Building file: ../src/main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
-Finished building: ../src/main.cpp
- 
-Building target: algorithm-analysis
-Invoking: MacOS X C++ Linker
-g++  -o "algorithm-analysis"  ./src/aux.o ./src/generators.o ./src/interaction.o ./src/main.o ./src/ordenacion.o ./src/test.o   
-Finished building target: algorithm-analysis
- 
-20:59:54 **** Incremental Build of configuration Debug for project algorithm-analysis ****
-make all 
-Building file: ../src/generators.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/generators.d" -MT"src/generators.d" -o "src/generators.o" "../src/generators.cpp"
-Finished building: ../src/generators.cpp
- 
-Building file: ../src/interaction.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/interaction.d" -MT"src/interaction.d" -o "src/interaction.o" "../src/interaction.cpp"
-Finished building: ../src/interaction.cpp
- 
-Building file: ../src/main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
-Finished building: ../src/main.cpp
- 
-Building target: algorithm-analysis
-Invoking: MacOS X C++ Linker
-g++  -o "algorithm-analysis"  ./src/aux.o ./src/generators.o ./src/interaction.o ./src/main.o ./src/ordenacion.o ./src/test.o   
-Finished building target: algorithm-analysis
- 
-21:00:11 **** Incremental Build of configuration Debug for project algorithm-analysis ****
-make all 
-Building file: ../src/main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
-../src/main.cpp: In function 'int main()':
-../src/main.cpp:16: error: expected unqualified-id before numeric constant
-make: *** [src/main.o] Error 1
-21:00:44 **** Incremental Build of configuration Debug for project algorithm-analysis ****
-make all 
-Building file: ../src/generators.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/generators.d" -MT"src/generators.d" -o "src/generators.o" "../src/generators.cpp"
-../src/generators.cpp: In function 'void generateInsertionSortDataFile(int, int*)':
-../src/generators.cpp:49: error: 'GAP' was not declared in this scope
-../src/generators.cpp: In function 'void generateSelectionSortDataFile(int, int*)':
-../src/generators.cpp:60: error: 'GAP' was not declared in this scope
-../src/generators.cpp: In function 'void generateBubbleSortDataFile(int, int*)':
-../src/generators.cpp:71: error: 'GAP' was not declared in this scope
-../src/generators.cpp: In function 'void generateQuickSortDataFile(int, int*)':
-../src/generators.cpp:82: error: 'GAP' was not declared in this scope
-make: *** [src/generators.o] Error 1
-21:00:54 **** Incremental Build of configuration Debug for project algorithm-analysis ****
-make all 
-Building file: ../src/generators.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/generators.d" -MT"src/generators.d" -o "src/generators.o" "../src/generators.cpp"
-../src/generators.cpp: In function 'void generateInsertionSortDataFile(int, int*)':
-../src/generators.cpp:49: error: 'GAP' was not declared in this scope
-../src/generators.cpp: In function 'void generateSelectionSortDataFile(int, int*)':
-../src/generators.cpp:60: error: 'GAP' was not declared in this scope
-../src/generators.cpp: In function 'void generateBubbleSortDataFile(int, int*)':
-../src/generators.cpp:71: error: 'GAP' was not declared in this scope
-../src/generators.cpp: In function 'void generateQuickSortDataFile(int, int*)':
-../src/generators.cpp:82: error: 'GAP' was not declared in this scope
-make: *** [src/generators.o] Error 1
-21:01:11 **** Incremental Build of configuration Debug for project algorithm-analysis ****
-make all 
-Building file: ../src/generators.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/generators.d" -MT"src/generators.d" -o "src/generators.o" "../src/generators.cpp"
-../src/generators.cpp: In function 'void generateInsertionSortDataFile(int, int*)':
-../src/generators.cpp:49: error: 'GAP' was not declared in this scope
-../src/generators.cpp: In function 'void generateSelectionSortDataFile(int, int*)':
-../src/generators.cpp:60: error: 'GAP' was not declared in this scope
-../src/generators.cpp: In function 'void generateBubbleSortDataFile(int, int*)':
-../src/generators.cpp:71: error: 'GAP' was not declared in this scope
-../src/generators.cpp: In function 'void generateQuickSortDataFile(int, int*)':
-../src/generators.cpp:82: error: 'GAP' was not declared in this scope
-make: *** [src/generators.o] Error 1
-21:02:37 **** Incremental Build of configuration Debug for project algorithm-analysis ****
-make all 
-Building file: ../src/generators.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/generators.d" -MT"src/generators.d" -o "src/generators.o" "../src/generators.cpp"
-Finished building: ../src/generators.cpp
- 
-Building file: ../src/main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
-../src/main.cpp: In function 'int main()':
-../src/main.cpp:16: warning: unused variable 'GAP'
-Finished building: ../src/main.cpp
- 
-Building target: algorithm-analysis
-Invoking: MacOS X C++ Linker
-g++  -o "algorithm-analysis"  ./src/aux.o ./src/generators.o ./src/interaction.o ./src/main.o ./src/ordenacion.o ./src/test.o   
-Undefined symbols for architecture x86_64:
-  "generateQuickSortDataFile(int, int*)", referenced from:
-      generateAllFiles(int, int*)in generators.o
-      _main in main.o
-     (maybe you meant: generateQuickSortDataFile(int, int*, int))
-  "generateBubbleSortDataFile(int, int*)", referenced from:
-      generateAllFiles(int, int*)in generators.o
-      _main in main.o
-     (maybe you meant: generateBubbleSortDataFile(int, int*, int))
-  "generateInsertionSortDataFile(int, int*)", referenced from:
-      generateAllFiles(int, int*)in generators.o
-      _main in main.o
-     (maybe you meant: generateInsertionSortDataFile(int, int*, int))
-  "generateSelectionSortDataFile(int, int*)", referenced from:
-      generateAllFiles(int, int*)in generators.o
-      _main in main.o
-     (maybe you meant: generateSelectionSortDataFile(int, int*, int))
-ld: symbol(s) not found for architecture x86_64
-collect2: ld returned 1 exit status
-make: *** [algorithm-analysis] Error 1
-21:03:17 **** Incremental Build of configuration Debug for project algorithm-analysis ****
-make all 
-Building file: ../src/generators.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/generators.d" -MT"src/generators.d" -o "src/generators.o" "../src/generators.cpp"
-../src/generators.cpp: In function 'void generateAllFiles(int, int*)':
-../src/generators.cpp:47: error: too few arguments to function 'void generateInsertionSortDataFile(int, int*, int)'
-../src/generators.cpp:92: error: at this point in file
-../src/generators.cpp:69: error: too few arguments to function 'void generateBubbleSortDataFile(int, int*, int)'
-../src/generators.cpp:93: error: at this point in file
-../src/generators.cpp:58: error: too few arguments to function 'void generateSelectionSortDataFile(int, int*, int)'
-../src/generators.cpp:94: error: at this point in file
-../src/generators.cpp:80: error: too few arguments to function 'void generateQuickSortDataFile(int, int*, int)'
-../src/generators.cpp:95: error: at this point in file
-make: *** [src/generators.o] Error 1
-21:03:51 **** Clean-only build of configuration Debug for project algorithm-analysis ****
-make clean 
-rm -rf  ./src/aux.o ./src/generators.o ./src/interaction.o ./src/main.o ./src/ordenacion.o ./src/test.o  ./src/aux.d ./src/generators.d ./src/interaction.d ./src/main.d ./src/ordenacion.d ./src/test.d  algorithm-analysis
- 
-21:03:56 **** Build of configuration Debug for project algorithm-analysis ****
-make all 
-Building file: ../src/aux.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aux.d" -MT"src/aux.d" -o "src/aux.o" "../src/aux.cpp"
-Finished building: ../src/aux.cpp
- 
-Building file: ../src/generators.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/generators.d" -MT"src/generators.d" -o "src/generators.o" "../src/generators.cpp"
-../src/generators.cpp: In function 'void generateAllFiles(int, int*)':
-../src/generators.cpp:47: error: too few arguments to function 'void generateInsertionSortDataFile(int, int*, int)'
-../src/generators.cpp:92: error: at this point in file
-../src/generators.cpp:69: error: too few arguments to function 'void generateBubbleSortDataFile(int, int*, int)'
-../src/generators.cpp:93: error: at this point in file
-../src/generators.cpp:58: error: too few arguments to function 'void generateSelectionSortDataFile(int, int*, int)'
-../src/generators.cpp:94: error: at this point in file
-../src/generators.cpp:80: error: too few arguments to function 'void generateQuickSortDataFile(int, int*, int)'
-../src/generators.cpp:95: error: at this point in file
-make: *** [src/generators.o] Error 1
-21:04:29 **** Incremental Build of configuration Debug for project algorithm-analysis ****
-make all 
-Building file: ../src/generators.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/generators.d" -MT"src/generators.d" -o "src/generators.o" "../src/generators.cpp"
-../src/generators.cpp:91: error: expected unqualified-id before 'int'
-make: *** [src/generators.o] Error 1
-21:04:36 **** Incremental Build of configuration Debug for project algorithm-analysis ****
-make all 
-Building file: ../src/generators.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/generators.d" -MT"src/generators.d" -o "src/generators.o" "../src/generators.cpp"
-../src/generators.cpp:91: error: expected unqualified-id before 'int'
-make: *** [src/generators.o] Error 1
-21:05:09 **** Incremental Build of configuration Debug for project algorithm-analysis ****
-make all 
-Building file: ../src/generators.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/generators.d" -MT"src/generators.d" -o "src/generators.o" "../src/generators.cpp"
-Finished building: ../src/generators.cpp
- 
-Building file: ../src/interaction.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/interaction.d" -MT"src/interaction.d" -o "src/interaction.o" "../src/interaction.cpp"
-Finished building: ../src/interaction.cpp
- 
-Building file: ../src/main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
-../src/generators.h: In function 'int main()':
-../src/generators.h:24: error: too few arguments to function 'void generateInsertionSortDataFile(int, int*, int)'
-../src/main.cpp:28: error: at this point in file
-../src/generators.h:26: error: too few arguments to function 'void generateSelectionSortDataFile(int, int*, int)'
-../src/main.cpp:32: error: at this point in file
-../src/generators.h:28: error: too few arguments to function 'void generateBubbleSortDataFile(int, int*, int)'
-../src/main.cpp:36: error: at this point in file
-../src/generators.h:30: error: too few arguments to function 'void generateQuickSortDataFile(int, int*, int)'
-../src/main.cpp:40: error: at this point in file
-../src/main.cpp:16: warning: unused variable 'GAP'
-make: *** [src/main.o] Error 1
-21:05:59 **** Incremental Build of configuration Debug for project algorithm-analysis ****
-make all 
-Building file: ../src/main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
-Finished building: ../src/main.cpp
- 
-Building file: ../src/ordenacion.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ordenacion.d" -MT"src/ordenacion.d" -o "src/ordenacion.o" "../src/ordenacion.cpp"
-Finished building: ../src/ordenacion.cpp
  
 Building file: ../src/test.cpp
 Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/test.d" -MT"src/test.d" -o "src/test.o" "../src/test.cpp"
-Finished building: ../src/test.cpp
- 
-Building target: algorithm-analysis
-Invoking: MacOS X C++ Linker
-g++  -o "algorithm-analysis"  ./src/aux.o ./src/generators.o ./src/interaction.o ./src/main.o ./src/ordenacion.o ./src/test.o   
-Undefined symbols for architecture x86_64:
-  "generateAllFiles(int, int*)", referenced from:
-      _main in main.o
-     (maybe you meant: generateAllFiles(int, int*, int))
-ld: symbol(s) not found for architecture x86_64
-collect2: ld returned 1 exit status
-make: *** [algorithm-analysis] Error 1
-21:06:13 **** Incremental Build of configuration Debug for project algorithm-analysis ****
-make all 
-Building file: ../src/main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
-../src/generators.h: In function 'int main()':
-../src/generators.h:32: error: too many arguments to function 'void generateAllFiles(int, int*)'
-../src/main.cpp:44: error: at this point in file
-make: *** [src/main.o] Error 1
-21:06:28 **** Incremental Build of configuration Debug for project algorithm-analysis ****
-make all 
-Building file: ../src/generators.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/generators.d" -MT"src/generators.d" -o "src/generators.o" "../src/generators.cpp"
-Finished building: ../src/generators.cpp
- 
-Building file: ../src/main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
-Finished building: ../src/main.cpp
- 
-Building target: algorithm-analysis
-Invoking: MacOS X C++ Linker
-g++  -o "algorithm-analysis"  ./src/aux.o ./src/generators.o ./src/interaction.o ./src/main.o ./src/ordenacion.o ./src/test.o   
-Finished building target: algorithm-analysis
- 
-21:06:41 **** Incremental Build of configuration Debug for project algorithm-analysis ****
-make all 
-make: Nothing to be done for `all'.
-21:35:18 **** Incremental Build of configuration Debug for project algorithm-analysis ****
-make all 
-Building file: ../src/aux.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aux.d" -MT"src/aux.d" -o "src/aux.o" "../src/aux.cpp"
-Finished building: ../src/aux.cpp
- 
-Building file: ../src/generators.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/generators.d" -MT"src/generators.d" -o "src/generators.o" "../src/generators.cpp"
-Finished building: ../src/generators.cpp
- 
-Building file: ../src/interaction.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/interaction.d" -MT"src/interaction.d" -o "src/interaction.o" "../src/interaction.cpp"
-Finished building: ../src/interaction.cpp
- 
-Building file: ../src/main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
-Finished building: ../src/main.cpp
- 
-Building file: ../src/ordenacion.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ordenacion.d" -MT"src/ordenacion.d" -o "src/ordenacion.o" "../src/ordenacion.cpp"
-Finished building: ../src/ordenacion.cpp
- 
-Building file: ../src/test.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/test.d" -MT"src/test.d" -o "src/test.o" "../src/test.cpp"
+g++ -I/usr/include/c++/4.2.1 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/test.d" -MT"src/test.d" -o "src/test.o" "../src/test.cpp"
 Finished building: ../src/test.cpp
  
 Building target: algorithm-analysis
@@ -461,16 +66,37 @@ Invoking: MacOS X C++ Linker
 g++  -o "algorithm-analysis"  ./src/aux.o ./src/generators.o ./src/interaction.o ./src/main.o ./src/ordenacion.o ./src/test.o   
 Finished building target: algorithm-analysis
  
-21:36:25 **** Incremental Build of configuration Debug for project algorithm-analysis ****
+09:12:19 **** Incremental Build of configuration Debug for project algorithm-analysis ****
 make all 
+Building file: ../src/aux.cpp
+Invoking: GCC C++ Compiler
+g++ -I/usr/include/c++/4.2.1 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aux.d" -MT"src/aux.d" -o "src/aux.o" "../src/aux.cpp"
+In file included from ../src/aux.cpp:1:
+../src/../include/aux.h:1:17: warning: timeh: No such file or directory
+Finished building: ../src/aux.cpp
+ 
+Building file: ../src/generators.cpp
+Invoking: GCC C++ Compiler
+g++ -I/usr/include/c++/4.2.1 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/generators.d" -MT"src/generators.d" -o "src/generators.o" "../src/generators.cpp"
+In file included from ../src/../include/generators.h:12,
+                 from ../src/generators.cpp:1:
+../src/../include/aux.h:1:17: warning: timeh: No such file or directory
+Finished building: ../src/generators.cpp
+ 
 Building file: ../src/main.cpp
 Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+g++ -I/usr/include/c++/4.2.1 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+In file included from ../src/../include/test.h:7,
+                 from ../src/main.cpp:9:
+../src/../include/../include/aux.h:1:17: warning: timeh: No such file or directory
 Finished building: ../src/main.cpp
  
 Building file: ../src/test.cpp
 Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/test.d" -MT"src/test.d" -o "src/test.o" "../src/test.cpp"
+g++ -I/usr/include/c++/4.2.1 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/test.d" -MT"src/test.d" -o "src/test.o" "../src/test.cpp"
+In file included from ../src/../include/test.h:7,
+                 from ../src/test.cpp:9:
+../src/../include/../include/aux.h:1:17: warning: timeh: No such file or directory
 Finished building: ../src/test.cpp
  
 Building target: algorithm-analysis
@@ -478,3 +104,33 @@ Invoking: MacOS X C++ Linker
 g++  -o "algorithm-analysis"  ./src/aux.o ./src/generators.o ./src/interaction.o ./src/main.o ./src/ordenacion.o ./src/test.o   
 Finished building target: algorithm-analysis
  
+09:12:39 **** Incremental Build of configuration Debug for project algorithm-analysis ****
+make all 
+Building file: ../src/aux.cpp
+Invoking: GCC C++ Compiler
+g++ -I/usr/include/c++/4.2.1 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aux.d" -MT"src/aux.d" -o "src/aux.o" "../src/aux.cpp"
+Finished building: ../src/aux.cpp
+ 
+Building file: ../src/generators.cpp
+Invoking: GCC C++ Compiler
+g++ -I/usr/include/c++/4.2.1 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/generators.d" -MT"src/generators.d" -o "src/generators.o" "../src/generators.cpp"
+Finished building: ../src/generators.cpp
+ 
+Building file: ../src/main.cpp
+Invoking: GCC C++ Compiler
+g++ -I/usr/include/c++/4.2.1 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building file: ../src/test.cpp
+Invoking: GCC C++ Compiler
+g++ -I/usr/include/c++/4.2.1 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/test.d" -MT"src/test.d" -o "src/test.o" "../src/test.cpp"
+Finished building: ../src/test.cpp
+ 
+Building target: algorithm-analysis
+Invoking: MacOS X C++ Linker
+g++  -o "algorithm-analysis"  ./src/aux.o ./src/generators.o ./src/interaction.o ./src/main.o ./src/ordenacion.o ./src/test.o   
+Finished building target: algorithm-analysis
+ 
+09:15:54 **** Incremental Build of configuration Debug for project algorithm-analysis ****
+make all 
+make: Nothing to be done for `all'.

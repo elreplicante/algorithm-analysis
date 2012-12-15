@@ -1,4 +1,4 @@
-#include "aux.h"
+#include "../include/aux.h"
 
 void createRandomArray(int V[], int n, int maxInteger) {
 	srand(time(NULL));

@@ -1,4 +1,4 @@
-set terminal png nocrop enhanced font helvetica 12 size 1024,768
+set terminal png nocrop enhanced size 1024,768
 
 
 # lineas de ajuste

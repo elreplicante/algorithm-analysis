@@ -1,5 +1,6 @@
-src/aux.d src/aux.o: ../src/aux.cpp ../src/aux.h ../src/ordenacion.h
+src/aux.d src/aux.o: ../src/aux.cpp ../src/../include/aux.h \
+  ../src/../include/../include/ordenacion.h
 
-../src/aux.h:
+../src/../include/aux.h:
 
-../src/ordenacion.h:
+../src/../include/../include/ordenacion.h:

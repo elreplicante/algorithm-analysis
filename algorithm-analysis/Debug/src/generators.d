@@ -1,8 +1,9 @@
 src/generators.d src/generators.o: ../src/generators.cpp \
-  ../src/generators.h ../src/aux.h ../src/ordenacion.h
+  ../src/../include/generators.h ../src/../include/aux.h \
+  ../src/../include/../include/ordenacion.h
 
-../src/generators.h:
+../src/../include/generators.h:
 
-../src/aux.h:
+../src/../include/aux.h:
 
-../src/ordenacion.h:
+../src/../include/../include/ordenacion.h:

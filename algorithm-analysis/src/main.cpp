@@ -1,13 +1,15 @@
 /*
- * main.cpp
  *
- *  Created on: 14/12/2012
- *      Author: repli
+ * Main application file
+ *
+ * Gets data from user and controls the execution
+ *
  */
 
-#include "test.h"
-#include "interaction.h"
-#include "generators.h"
+#include "../include/test.h"
+#include "../include/interaction.h"
+#include "../include/generators.h"
+
 
 int main() {
 
@@ -50,7 +52,7 @@ int main() {
 			break;
 
 		default:
-			cout << "Choose a valid option.\n\n";
+			//cout << "Choose a valid option.\n\n";
 			break;
 		}
 	}

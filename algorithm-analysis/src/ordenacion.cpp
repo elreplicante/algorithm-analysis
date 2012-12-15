@@ -1,4 +1,4 @@
-#include "ordenacion.h"
+#include "../include/ordenacion.h"
 
 void insertionSort(int V[], int num) {
 	int i, j, x;

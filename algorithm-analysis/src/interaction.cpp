@@ -5,7 +5,7 @@
  *      Author: repli
  */
 
-#include "interaction.h"
+#include "../include/interaction.h"
 #include <iostream>
 using namespace std;
 

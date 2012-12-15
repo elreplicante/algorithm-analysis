@@ -1,11 +1,4 @@
-/*
- * generators.cpp
- *
- *  Created on: 14/12/2012
- *      Author: repli
- */
-
-#include "generators.h"
+#include "../include/generators.h"
 
 void generateInsertionSortTime(ofstream &file, int V[], int n) {
 
@@ -46,7 +39,7 @@ void generateQuickSortTime(ofstream &file, int V[], int n) {
 
 void generateInsertionSortDataFile(int problemSize, int V[], int GAP) {
 	ofstream file("insertion-sort.txt");
-	for (int i = 100; i < problemSize; i += GAP) {
+	for (int i = 1; i < problemSize; i += GAP - 1) {
 		int arrayCopy[i];
 		copyArray(V, arrayCopy, i);
 		generateInsertionSortTime(file, arrayCopy, i);
@@ -57,7 +50,7 @@ void generateInsertionSortDataFile(int problemSize, int V[], int GAP) {
 
 void generateSelectionSortDataFile(int problemSize, int V[], int GAP) {
 	ofstream file("selection-sort.txt");
-	for (int i = 100; i < problemSize; i += GAP) {
+	for (int i = 1; i < problemSize; i += GAP - 1) {
 		int arrayCopy[i];
 		copyArray(V, arrayCopy, i);
 		generateSelectionSortTime(file, arrayCopy, i);
@@ -68,7 +61,7 @@ void generateSelectionSortDataFile(int problemSize, int V[], int GAP) {
 
 void generateBubbleSortDataFile(int problemSize, int V[], int GAP) {
 	ofstream file("bubble-sort.txt");
-	for (int i = 100; i < problemSize; i += GAP) {
+	for (int i = 1; i < problemSize; i += GAP - 1) {
 		int arrayCopy[i];
 		copyArray(V, arrayCopy, i);
 		generateBubbleSortTime(file, arrayCopy, i);
@@ -79,7 +72,7 @@ void generateBubbleSortDataFile(int problemSize, int V[], int GAP) {
 
 void generateQuickSortDataFile(int problemSize, int V[], int GAP) {
 	ofstream file("quick-sort.txt");
-	for (int i = 100; i < problemSize; i += GAP) {
+	for (int i = 1; i < problemSize; i += GAP - 1) {
 		int arrayCopy[i];
 		copyArray(V, arrayCopy, i);
 		generateQuickSortTime(file, arrayCopy, i);
