@@ -37,6 +37,7 @@ void generateQuickSortTime(ofstream &file, int V[], int n) {
 
 }
 
+
 void generateInsertionSortDataFile(int problemSize, int V[], int GAP) {
 	ofstream file("insertion-sort.txt");
 	for (int i = 1; i < problemSize; i += GAP - 1) {

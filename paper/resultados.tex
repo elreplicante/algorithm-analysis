@@ -1,0 +1,50 @@
+\section{Análisis de resultados}
+
+%Gráfica de ordenación por inserción
+\subsection{Ordenación por inserci\'on}
+Un buen algoritmo de ordenación para un número pequeño elementos. Funciona de la manera análoga a la que se ordenaría un mazo de cartas:
+\begin{enumerate}
+\item Empezamos con la mano izquierda vacía y las cartas boca abajo sobre la mesa.
+\item A continuación, cogemos una carta de la mesa, y la insertamos en la posición correcta en la mano izquierda.
+\item Para encontrar la posición correcta en la que insertar la carta, se compara con cada una de las cartas que ya tenemos en la mano izquierda, recorriendo de derecha a izquierda.
+\item En todo momento, las cartas sujetas con la mano izquierda se ordenan, permaneciendo las cartas originales sin ordenar encima de la pila en la mesa.
+\end{enumerate}
+
+	\begin{figure}[H]
+  		\centering
+   		 \includegraphics[width=1.0\textwidth]{insertion-sort.png}
+  		\caption{Ordenación por inserción}
+ 			 \label{fig:insertion}
+		\end{figure}
+
+%Gráfica de ordenación por selección
+\subsection{Ordenación por selecci\'on}
+Es un algoritmo de ordenación por comparación. Su complejidad es de $O(n^2)$. Resulta ineficiente en tamaños de problema grandes, y suele funcionar peor que la ordenación por inserción. Se caracteriza por su sencillez, y también tiene ventajas de rendimiento sobre algoritmos más complicados en determinadas situaciones, sobre todo cuando la memoria auxiliar es limitada.
+El algoritmo divide la lista de entrada en dos partes: la lista secundaria de los elementos que ya están ordenados, dispuestos de izquierda a derecha, y la lista secundaria de los elementos restantes a ser ordenados, ocupando el resto de la lista. Inicialmente, la sublista ordenada está vacía y la sublista sin ordenar es la lista original menos los elementos ordenados. El algoritmo continúa encontrando siempre el elemento inmediatamente superior (según orden de clasificación) y lo cambia con el último elemento del array.
+
+	\begin{figure}[H]
+	  \centering
+	    \includegraphics[width=1.0\textwidth]{selection-sort.png}
+	  \caption{Ordenación por selección}
+	  \label{fig:selection}
+	\end{figure}
+
+%Gráfica de ordenación por burbuja
+\subsection{Ordenación por burbuja}
+
+	\begin{figure}[H]
+	  \centering
+	    \includegraphics[width=1.0\textwidth]{bubble-sort.png}
+	  \caption{Ordenación por burbuja}
+	  \label{fig:bubble}
+	\end{figure}
+
+%Gráfica de ordenación rápida
+\subsection{Ordenación r\'apida}
+
+	\begin{figure}[H]
+  		\centering
+   	 	\includegraphics[width=1.0\textwidth]{quick-sort.png}
+  		\caption{Ordenación rápida}
+  		\label{fig:quick}
+	\end{figure}

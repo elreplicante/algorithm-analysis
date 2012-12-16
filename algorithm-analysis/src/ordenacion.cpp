@@ -108,14 +108,6 @@ void merge(int *a, int *b, int low, int pivot, int high) {
 		a[k] = b[k];
 }
 
-void mergesort(int *a, int*b, int low, int high) {
-	int pivot;
-	if (low < high) {
-		pivot = (low + high) / 2;
-		mergesort(a, b, low, pivot);
-		mergesort(a, b, pivot + 1, high);
-		merge(a, b, low, pivot, high);
-	}
-}
+
 
 

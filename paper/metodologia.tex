@@ -1,0 +1,10 @@
+\section{Método de obtención de tiempos y gráficas}
+	\begin{enumerate}
+		\item El programa preguntará por el tamaño del problema (la longitud del array)
+		\item También podemos elegir el mayor entero a generar (un entero puede tener un valor 				máximo de $32767$ )
+		\item El programa preguntará por el salto \emph{(gap)} entre iteraciones.  Cuanto menor 				sea el tamaño de la iteración, más ajustada será la gráfica.  Se recomienda un salto 				de entre $50$ y $100$.
+		\item En primera instancia se genera un array con números aleatorios que sirve como base 					para las ordenaciones.  De esta manera las copias del array original se hacen del 					tamaño que corresponde a la iteración, en lugar de hacer copias con el tamaño original 				del problema y así evitar problemas de memoria para tamaños del problema muy grandes 					$(n > 20000)$.  Así, si el tamaño del array a ordenar en cada iteración es de $n$ 					elementos, el programa copia el array en intervalos de $0 < gap < n$ hasta alcanzar el 				tamaño del problema $n$.
+		\item El programa genera un archivo con los datos separados por un salto de línea.  Cada 					línea contiene el tamaño del problema y el tiempo empleado para la ordenación expresado 			en milisegundos $(ms)$
+		\item Con los archivo de datos, pueden ejecutarse órdenes con la sintaxis de \emph{GnuPlot}
+			que generen las gráficas de las métricas generadas 
+	\end{enumerate}
