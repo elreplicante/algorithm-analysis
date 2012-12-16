@@ -19,6 +19,12 @@
  */
 void generateArray(int V[], int n, int maxInt);
 
-void makeFourCopies(int V[], int first[], int second[], int third[],int fourth[], int n);
+
+/**
+ * @brief Makes four copies of a given array
+ * @param V the original array
+ * @param n the array length
+ */
+void makeFourCopies(int V[], int first[], int second[], int third[], int fourth[], int n);
 
 #endif /* TEST_H_ */

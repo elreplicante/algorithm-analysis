@@ -1,113 +1,113 @@
-\indexentry{include/aux.\discretionary {-}{}{}h@{include/aux.\discretionary {-}{}{}h}|hyperpage}{3}
-\indexentry{aux.\discretionary {-}{}{}h@{aux.\discretionary {-}{}{}h}!check\discretionary {-}{}{}Array\discretionary {-}{}{}Equality@{check\discretionary {-}{}{}Array\discretionary {-}{}{}Equality}|hyperpage}{3}
-\indexentry{check\discretionary {-}{}{}Array\discretionary {-}{}{}Equality@{check\discretionary {-}{}{}Array\discretionary {-}{}{}Equality}!aux.h@{aux.\discretionary {-}{}{}h}|hyperpage}{3}
-\indexentry{aux.\discretionary {-}{}{}h@{aux.\discretionary {-}{}{}h}!check\discretionary {-}{}{}Is\discretionary {-}{}{}Ordered@{check\discretionary {-}{}{}Is\discretionary {-}{}{}Ordered}|hyperpage}{3}
-\indexentry{check\discretionary {-}{}{}Is\discretionary {-}{}{}Ordered@{check\discretionary {-}{}{}Is\discretionary {-}{}{}Ordered}!aux.h@{aux.\discretionary {-}{}{}h}|hyperpage}{3}
-\indexentry{aux.\discretionary {-}{}{}h@{aux.\discretionary {-}{}{}h}!copy\discretionary {-}{}{}Array@{copy\discretionary {-}{}{}Array}|hyperpage}{3}
-\indexentry{copy\discretionary {-}{}{}Array@{copy\discretionary {-}{}{}Array}!aux.h@{aux.\discretionary {-}{}{}h}|hyperpage}{3}
-\indexentry{aux.\discretionary {-}{}{}h@{aux.\discretionary {-}{}{}h}!create\discretionary {-}{}{}Random\discretionary {-}{}{}Array@{create\discretionary {-}{}{}Random\discretionary {-}{}{}Array}|hyperpage}{3}
-\indexentry{create\discretionary {-}{}{}Random\discretionary {-}{}{}Array@{create\discretionary {-}{}{}Random\discretionary {-}{}{}Array}!aux.h@{aux.\discretionary {-}{}{}h}|hyperpage}{3}
-\indexentry{aux.\discretionary {-}{}{}h@{aux.\discretionary {-}{}{}h}!print\discretionary {-}{}{}Array\discretionary {-}{}{}Contents@{print\discretionary {-}{}{}Array\discretionary {-}{}{}Contents}|hyperpage}{3}
-\indexentry{print\discretionary {-}{}{}Array\discretionary {-}{}{}Contents@{print\discretionary {-}{}{}Array\discretionary {-}{}{}Contents}!aux.h@{aux.\discretionary {-}{}{}h}|hyperpage}{3}
-\indexentry{include/generators.\discretionary {-}{}{}h@{include/generators.\discretionary {-}{}{}h}|hyperpage}{4}
-\indexentry{generators.\discretionary {-}{}{}h@{generators.\discretionary {-}{}{}h}!generate\discretionary {-}{}{}All\discretionary {-}{}{}Files@{generate\discretionary {-}{}{}All\discretionary {-}{}{}Files}|hyperpage}{4}
-\indexentry{generate\discretionary {-}{}{}All\discretionary {-}{}{}Files@{generate\discretionary {-}{}{}All\discretionary {-}{}{}Files}!generators.h@{generators.\discretionary {-}{}{}h}|hyperpage}{4}
-\indexentry{generators.\discretionary {-}{}{}h@{generators.\discretionary {-}{}{}h}!generate\discretionary {-}{}{}Bubble\discretionary {-}{}{}Sort\discretionary {-}{}{}Data\discretionary {-}{}{}File@{generate\discretionary {-}{}{}Bubble\discretionary {-}{}{}Sort\discretionary {-}{}{}Data\discretionary {-}{}{}File}|hyperpage}{4}
-\indexentry{generate\discretionary {-}{}{}Bubble\discretionary {-}{}{}Sort\discretionary {-}{}{}Data\discretionary {-}{}{}File@{generate\discretionary {-}{}{}Bubble\discretionary {-}{}{}Sort\discretionary {-}{}{}Data\discretionary {-}{}{}File}!generators.h@{generators.\discretionary {-}{}{}h}|hyperpage}{4}
-\indexentry{generators.\discretionary {-}{}{}h@{generators.\discretionary {-}{}{}h}!generate\discretionary {-}{}{}Bubble\discretionary {-}{}{}Sort\discretionary {-}{}{}Time@{generate\discretionary {-}{}{}Bubble\discretionary {-}{}{}Sort\discretionary {-}{}{}Time}|hyperpage}{4}
-\indexentry{generate\discretionary {-}{}{}Bubble\discretionary {-}{}{}Sort\discretionary {-}{}{}Time@{generate\discretionary {-}{}{}Bubble\discretionary {-}{}{}Sort\discretionary {-}{}{}Time}!generators.h@{generators.\discretionary {-}{}{}h}|hyperpage}{4}
-\indexentry{generators.\discretionary {-}{}{}h@{generators.\discretionary {-}{}{}h}!generate\discretionary {-}{}{}Insertion\discretionary {-}{}{}Sort\discretionary {-}{}{}Data\discretionary {-}{}{}File@{generate\discretionary {-}{}{}Insertion\discretionary {-}{}{}Sort\discretionary {-}{}{}Data\discretionary {-}{}{}File}|hyperpage}{4}
-\indexentry{generate\discretionary {-}{}{}Insertion\discretionary {-}{}{}Sort\discretionary {-}{}{}Data\discretionary {-}{}{}File@{generate\discretionary {-}{}{}Insertion\discretionary {-}{}{}Sort\discretionary {-}{}{}Data\discretionary {-}{}{}File}!generators.h@{generators.\discretionary {-}{}{}h}|hyperpage}{4}
-\indexentry{generators.\discretionary {-}{}{}h@{generators.\discretionary {-}{}{}h}!generate\discretionary {-}{}{}Insertion\discretionary {-}{}{}Sort\discretionary {-}{}{}Time@{generate\discretionary {-}{}{}Insertion\discretionary {-}{}{}Sort\discretionary {-}{}{}Time}|hyperpage}{4}
-\indexentry{generate\discretionary {-}{}{}Insertion\discretionary {-}{}{}Sort\discretionary {-}{}{}Time@{generate\discretionary {-}{}{}Insertion\discretionary {-}{}{}Sort\discretionary {-}{}{}Time}!generators.h@{generators.\discretionary {-}{}{}h}|hyperpage}{4}
-\indexentry{generators.\discretionary {-}{}{}h@{generators.\discretionary {-}{}{}h}!generate\discretionary {-}{}{}Quick\discretionary {-}{}{}Sort\discretionary {-}{}{}Data\discretionary {-}{}{}File@{generate\discretionary {-}{}{}Quick\discretionary {-}{}{}Sort\discretionary {-}{}{}Data\discretionary {-}{}{}File}|hyperpage}{4}
-\indexentry{generate\discretionary {-}{}{}Quick\discretionary {-}{}{}Sort\discretionary {-}{}{}Data\discretionary {-}{}{}File@{generate\discretionary {-}{}{}Quick\discretionary {-}{}{}Sort\discretionary {-}{}{}Data\discretionary {-}{}{}File}!generators.h@{generators.\discretionary {-}{}{}h}|hyperpage}{4}
-\indexentry{generators.\discretionary {-}{}{}h@{generators.\discretionary {-}{}{}h}!generate\discretionary {-}{}{}Quick\discretionary {-}{}{}Sort\discretionary {-}{}{}Time@{generate\discretionary {-}{}{}Quick\discretionary {-}{}{}Sort\discretionary {-}{}{}Time}|hyperpage}{4}
-\indexentry{generate\discretionary {-}{}{}Quick\discretionary {-}{}{}Sort\discretionary {-}{}{}Time@{generate\discretionary {-}{}{}Quick\discretionary {-}{}{}Sort\discretionary {-}{}{}Time}!generators.h@{generators.\discretionary {-}{}{}h}|hyperpage}{4}
-\indexentry{generators.\discretionary {-}{}{}h@{generators.\discretionary {-}{}{}h}!generate\discretionary {-}{}{}Selection\discretionary {-}{}{}Sort\discretionary {-}{}{}Data\discretionary {-}{}{}File@{generate\discretionary {-}{}{}Selection\discretionary {-}{}{}Sort\discretionary {-}{}{}Data\discretionary {-}{}{}File}|hyperpage}{4}
-\indexentry{generate\discretionary {-}{}{}Selection\discretionary {-}{}{}Sort\discretionary {-}{}{}Data\discretionary {-}{}{}File@{generate\discretionary {-}{}{}Selection\discretionary {-}{}{}Sort\discretionary {-}{}{}Data\discretionary {-}{}{}File}!generators.h@{generators.\discretionary {-}{}{}h}|hyperpage}{4}
-\indexentry{generators.\discretionary {-}{}{}h@{generators.\discretionary {-}{}{}h}!generate\discretionary {-}{}{}Selection\discretionary {-}{}{}Sort\discretionary {-}{}{}Time@{generate\discretionary {-}{}{}Selection\discretionary {-}{}{}Sort\discretionary {-}{}{}Time}|hyperpage}{4}
-\indexentry{generate\discretionary {-}{}{}Selection\discretionary {-}{}{}Sort\discretionary {-}{}{}Time@{generate\discretionary {-}{}{}Selection\discretionary {-}{}{}Sort\discretionary {-}{}{}Time}!generators.h@{generators.\discretionary {-}{}{}h}|hyperpage}{4}
-\indexentry{include/interaction.\discretionary {-}{}{}h@{include/interaction.\discretionary {-}{}{}h}|hyperpage}{4}
-\indexentry{interaction.\discretionary {-}{}{}h@{interaction.\discretionary {-}{}{}h}!choose\discretionary {-}{}{}Algorithm@{choose\discretionary {-}{}{}Algorithm}|hyperpage}{5}
-\indexentry{choose\discretionary {-}{}{}Algorithm@{choose\discretionary {-}{}{}Algorithm}!interaction.h@{interaction.\discretionary {-}{}{}h}|hyperpage}{5}
-\indexentry{interaction.\discretionary {-}{}{}h@{interaction.\discretionary {-}{}{}h}!get\discretionary {-}{}{}Gap@{get\discretionary {-}{}{}Gap}|hyperpage}{5}
-\indexentry{get\discretionary {-}{}{}Gap@{get\discretionary {-}{}{}Gap}!interaction.h@{interaction.\discretionary {-}{}{}h}|hyperpage}{5}
-\indexentry{interaction.\discretionary {-}{}{}h@{interaction.\discretionary {-}{}{}h}!get\discretionary {-}{}{}Maximum\discretionary {-}{}{}Integer@{get\discretionary {-}{}{}Maximum\discretionary {-}{}{}Integer}|hyperpage}{5}
-\indexentry{get\discretionary {-}{}{}Maximum\discretionary {-}{}{}Integer@{get\discretionary {-}{}{}Maximum\discretionary {-}{}{}Integer}!interaction.h@{interaction.\discretionary {-}{}{}h}|hyperpage}{5}
-\indexentry{interaction.\discretionary {-}{}{}h@{interaction.\discretionary {-}{}{}h}!get\discretionary {-}{}{}Problem\discretionary {-}{}{}Size@{get\discretionary {-}{}{}Problem\discretionary {-}{}{}Size}|hyperpage}{5}
-\indexentry{get\discretionary {-}{}{}Problem\discretionary {-}{}{}Size@{get\discretionary {-}{}{}Problem\discretionary {-}{}{}Size}!interaction.h@{interaction.\discretionary {-}{}{}h}|hyperpage}{5}
-\indexentry{include/ordenacion.\discretionary {-}{}{}h@{include/ordenacion.\discretionary {-}{}{}h}|hyperpage}{5}
-\indexentry{ordenacion.\discretionary {-}{}{}h@{ordenacion.\discretionary {-}{}{}h}!bubble\discretionary {-}{}{}Sort@{bubble\discretionary {-}{}{}Sort}|hyperpage}{5}
-\indexentry{bubble\discretionary {-}{}{}Sort@{bubble\discretionary {-}{}{}Sort}!ordenacion.h@{ordenacion.\discretionary {-}{}{}h}|hyperpage}{5}
-\indexentry{ordenacion.\discretionary {-}{}{}h@{ordenacion.\discretionary {-}{}{}h}!insertion\discretionary {-}{}{}Sort@{insertion\discretionary {-}{}{}Sort}|hyperpage}{5}
-\indexentry{insertion\discretionary {-}{}{}Sort@{insertion\discretionary {-}{}{}Sort}!ordenacion.h@{ordenacion.\discretionary {-}{}{}h}|hyperpage}{5}
-\indexentry{ordenacion.\discretionary {-}{}{}h@{ordenacion.\discretionary {-}{}{}h}!quick\discretionary {-}{}{}Sort@{quick\discretionary {-}{}{}Sort}|hyperpage}{6}
-\indexentry{quick\discretionary {-}{}{}Sort@{quick\discretionary {-}{}{}Sort}!ordenacion.h@{ordenacion.\discretionary {-}{}{}h}|hyperpage}{6}
-\indexentry{ordenacion.\discretionary {-}{}{}h@{ordenacion.\discretionary {-}{}{}h}!selection\discretionary {-}{}{}Sort@{selection\discretionary {-}{}{}Sort}|hyperpage}{6}
-\indexentry{selection\discretionary {-}{}{}Sort@{selection\discretionary {-}{}{}Sort}!ordenacion.h@{ordenacion.\discretionary {-}{}{}h}|hyperpage}{6}
-\indexentry{include/test.\discretionary {-}{}{}h@{include/test.\discretionary {-}{}{}h}|hyperpage}{6}
-\indexentry{test.\discretionary {-}{}{}h@{test.\discretionary {-}{}{}h}!generate\discretionary {-}{}{}Array@{generate\discretionary {-}{}{}Array}|hyperpage}{6}
-\indexentry{generate\discretionary {-}{}{}Array@{generate\discretionary {-}{}{}Array}!test.h@{test.\discretionary {-}{}{}h}|hyperpage}{6}
-\indexentry{test.\discretionary {-}{}{}h@{test.\discretionary {-}{}{}h}!make\discretionary {-}{}{}Four\discretionary {-}{}{}Copies@{make\discretionary {-}{}{}Four\discretionary {-}{}{}Copies}|hyperpage}{7}
-\indexentry{make\discretionary {-}{}{}Four\discretionary {-}{}{}Copies@{make\discretionary {-}{}{}Four\discretionary {-}{}{}Copies}!test.h@{test.\discretionary {-}{}{}h}|hyperpage}{7}
-\indexentry{src/aux.\discretionary {-}{}{}cpp@{src/aux.\discretionary {-}{}{}cpp}|hyperpage}{7}
-\indexentry{aux.\discretionary {-}{}{}cpp@{aux.\discretionary {-}{}{}cpp}!check\discretionary {-}{}{}Array\discretionary {-}{}{}Equality@{check\discretionary {-}{}{}Array\discretionary {-}{}{}Equality}|hyperpage}{7}
-\indexentry{check\discretionary {-}{}{}Array\discretionary {-}{}{}Equality@{check\discretionary {-}{}{}Array\discretionary {-}{}{}Equality}!aux.cpp@{aux.\discretionary {-}{}{}cpp}|hyperpage}{7}
-\indexentry{aux.\discretionary {-}{}{}cpp@{aux.\discretionary {-}{}{}cpp}!check\discretionary {-}{}{}Is\discretionary {-}{}{}Ordered@{check\discretionary {-}{}{}Is\discretionary {-}{}{}Ordered}|hyperpage}{7}
-\indexentry{check\discretionary {-}{}{}Is\discretionary {-}{}{}Ordered@{check\discretionary {-}{}{}Is\discretionary {-}{}{}Ordered}!aux.cpp@{aux.\discretionary {-}{}{}cpp}|hyperpage}{7}
-\indexentry{aux.\discretionary {-}{}{}cpp@{aux.\discretionary {-}{}{}cpp}!check\discretionary {-}{}{}Same\discretionary {-}{}{}Length@{check\discretionary {-}{}{}Same\discretionary {-}{}{}Length}|hyperpage}{7}
-\indexentry{check\discretionary {-}{}{}Same\discretionary {-}{}{}Length@{check\discretionary {-}{}{}Same\discretionary {-}{}{}Length}!aux.cpp@{aux.\discretionary {-}{}{}cpp}|hyperpage}{7}
-\indexentry{aux.\discretionary {-}{}{}cpp@{aux.\discretionary {-}{}{}cpp}!copy\discretionary {-}{}{}Array@{copy\discretionary {-}{}{}Array}|hyperpage}{7}
-\indexentry{copy\discretionary {-}{}{}Array@{copy\discretionary {-}{}{}Array}!aux.cpp@{aux.\discretionary {-}{}{}cpp}|hyperpage}{7}
-\indexentry{aux.\discretionary {-}{}{}cpp@{aux.\discretionary {-}{}{}cpp}!create\discretionary {-}{}{}Random\discretionary {-}{}{}Array@{create\discretionary {-}{}{}Random\discretionary {-}{}{}Array}|hyperpage}{7}
-\indexentry{create\discretionary {-}{}{}Random\discretionary {-}{}{}Array@{create\discretionary {-}{}{}Random\discretionary {-}{}{}Array}!aux.cpp@{aux.\discretionary {-}{}{}cpp}|hyperpage}{7}
-\indexentry{aux.\discretionary {-}{}{}cpp@{aux.\discretionary {-}{}{}cpp}!print\discretionary {-}{}{}Array\discretionary {-}{}{}Contents@{print\discretionary {-}{}{}Array\discretionary {-}{}{}Contents}|hyperpage}{7}
-\indexentry{print\discretionary {-}{}{}Array\discretionary {-}{}{}Contents@{print\discretionary {-}{}{}Array\discretionary {-}{}{}Contents}!aux.cpp@{aux.\discretionary {-}{}{}cpp}|hyperpage}{7}
-\indexentry{src/generators.\discretionary {-}{}{}cpp@{src/generators.\discretionary {-}{}{}cpp}|hyperpage}{7}
-\indexentry{generators.\discretionary {-}{}{}cpp@{generators.\discretionary {-}{}{}cpp}!generate\discretionary {-}{}{}All\discretionary {-}{}{}Files@{generate\discretionary {-}{}{}All\discretionary {-}{}{}Files}|hyperpage}{8}
-\indexentry{generate\discretionary {-}{}{}All\discretionary {-}{}{}Files@{generate\discretionary {-}{}{}All\discretionary {-}{}{}Files}!generators.cpp@{generators.\discretionary {-}{}{}cpp}|hyperpage}{8}
-\indexentry{generators.\discretionary {-}{}{}cpp@{generators.\discretionary {-}{}{}cpp}!generate\discretionary {-}{}{}Bubble\discretionary {-}{}{}Sort\discretionary {-}{}{}Data\discretionary {-}{}{}File@{generate\discretionary {-}{}{}Bubble\discretionary {-}{}{}Sort\discretionary {-}{}{}Data\discretionary {-}{}{}File}|hyperpage}{8}
-\indexentry{generate\discretionary {-}{}{}Bubble\discretionary {-}{}{}Sort\discretionary {-}{}{}Data\discretionary {-}{}{}File@{generate\discretionary {-}{}{}Bubble\discretionary {-}{}{}Sort\discretionary {-}{}{}Data\discretionary {-}{}{}File}!generators.cpp@{generators.\discretionary {-}{}{}cpp}|hyperpage}{8}
-\indexentry{generators.\discretionary {-}{}{}cpp@{generators.\discretionary {-}{}{}cpp}!generate\discretionary {-}{}{}Bubble\discretionary {-}{}{}Sort\discretionary {-}{}{}Time@{generate\discretionary {-}{}{}Bubble\discretionary {-}{}{}Sort\discretionary {-}{}{}Time}|hyperpage}{8}
-\indexentry{generate\discretionary {-}{}{}Bubble\discretionary {-}{}{}Sort\discretionary {-}{}{}Time@{generate\discretionary {-}{}{}Bubble\discretionary {-}{}{}Sort\discretionary {-}{}{}Time}!generators.cpp@{generators.\discretionary {-}{}{}cpp}|hyperpage}{8}
-\indexentry{generators.\discretionary {-}{}{}cpp@{generators.\discretionary {-}{}{}cpp}!generate\discretionary {-}{}{}Insertion\discretionary {-}{}{}Sort\discretionary {-}{}{}Data\discretionary {-}{}{}File@{generate\discretionary {-}{}{}Insertion\discretionary {-}{}{}Sort\discretionary {-}{}{}Data\discretionary {-}{}{}File}|hyperpage}{8}
-\indexentry{generate\discretionary {-}{}{}Insertion\discretionary {-}{}{}Sort\discretionary {-}{}{}Data\discretionary {-}{}{}File@{generate\discretionary {-}{}{}Insertion\discretionary {-}{}{}Sort\discretionary {-}{}{}Data\discretionary {-}{}{}File}!generators.cpp@{generators.\discretionary {-}{}{}cpp}|hyperpage}{8}
-\indexentry{generators.\discretionary {-}{}{}cpp@{generators.\discretionary {-}{}{}cpp}!generate\discretionary {-}{}{}Insertion\discretionary {-}{}{}Sort\discretionary {-}{}{}Time@{generate\discretionary {-}{}{}Insertion\discretionary {-}{}{}Sort\discretionary {-}{}{}Time}|hyperpage}{8}
-\indexentry{generate\discretionary {-}{}{}Insertion\discretionary {-}{}{}Sort\discretionary {-}{}{}Time@{generate\discretionary {-}{}{}Insertion\discretionary {-}{}{}Sort\discretionary {-}{}{}Time}!generators.cpp@{generators.\discretionary {-}{}{}cpp}|hyperpage}{8}
-\indexentry{generators.\discretionary {-}{}{}cpp@{generators.\discretionary {-}{}{}cpp}!generate\discretionary {-}{}{}Quick\discretionary {-}{}{}Sort\discretionary {-}{}{}Data\discretionary {-}{}{}File@{generate\discretionary {-}{}{}Quick\discretionary {-}{}{}Sort\discretionary {-}{}{}Data\discretionary {-}{}{}File}|hyperpage}{8}
-\indexentry{generate\discretionary {-}{}{}Quick\discretionary {-}{}{}Sort\discretionary {-}{}{}Data\discretionary {-}{}{}File@{generate\discretionary {-}{}{}Quick\discretionary {-}{}{}Sort\discretionary {-}{}{}Data\discretionary {-}{}{}File}!generators.cpp@{generators.\discretionary {-}{}{}cpp}|hyperpage}{8}
-\indexentry{generators.\discretionary {-}{}{}cpp@{generators.\discretionary {-}{}{}cpp}!generate\discretionary {-}{}{}Quick\discretionary {-}{}{}Sort\discretionary {-}{}{}Time@{generate\discretionary {-}{}{}Quick\discretionary {-}{}{}Sort\discretionary {-}{}{}Time}|hyperpage}{8}
-\indexentry{generate\discretionary {-}{}{}Quick\discretionary {-}{}{}Sort\discretionary {-}{}{}Time@{generate\discretionary {-}{}{}Quick\discretionary {-}{}{}Sort\discretionary {-}{}{}Time}!generators.cpp@{generators.\discretionary {-}{}{}cpp}|hyperpage}{8}
-\indexentry{generators.\discretionary {-}{}{}cpp@{generators.\discretionary {-}{}{}cpp}!generate\discretionary {-}{}{}Selection\discretionary {-}{}{}Sort\discretionary {-}{}{}Data\discretionary {-}{}{}File@{generate\discretionary {-}{}{}Selection\discretionary {-}{}{}Sort\discretionary {-}{}{}Data\discretionary {-}{}{}File}|hyperpage}{8}
-\indexentry{generate\discretionary {-}{}{}Selection\discretionary {-}{}{}Sort\discretionary {-}{}{}Data\discretionary {-}{}{}File@{generate\discretionary {-}{}{}Selection\discretionary {-}{}{}Sort\discretionary {-}{}{}Data\discretionary {-}{}{}File}!generators.cpp@{generators.\discretionary {-}{}{}cpp}|hyperpage}{8}
-\indexentry{generators.\discretionary {-}{}{}cpp@{generators.\discretionary {-}{}{}cpp}!generate\discretionary {-}{}{}Selection\discretionary {-}{}{}Sort\discretionary {-}{}{}Time@{generate\discretionary {-}{}{}Selection\discretionary {-}{}{}Sort\discretionary {-}{}{}Time}|hyperpage}{8}
-\indexentry{generate\discretionary {-}{}{}Selection\discretionary {-}{}{}Sort\discretionary {-}{}{}Time@{generate\discretionary {-}{}{}Selection\discretionary {-}{}{}Sort\discretionary {-}{}{}Time}!generators.cpp@{generators.\discretionary {-}{}{}cpp}|hyperpage}{8}
-\indexentry{src/interaction.\discretionary {-}{}{}cpp@{src/interaction.\discretionary {-}{}{}cpp}|hyperpage}{8}
-\indexentry{interaction.\discretionary {-}{}{}cpp@{interaction.\discretionary {-}{}{}cpp}!choose\discretionary {-}{}{}Algorithm@{choose\discretionary {-}{}{}Algorithm}|hyperpage}{9}
-\indexentry{choose\discretionary {-}{}{}Algorithm@{choose\discretionary {-}{}{}Algorithm}!interaction.cpp@{interaction.\discretionary {-}{}{}cpp}|hyperpage}{9}
-\indexentry{interaction.\discretionary {-}{}{}cpp@{interaction.\discretionary {-}{}{}cpp}!get\discretionary {-}{}{}Gap@{get\discretionary {-}{}{}Gap}|hyperpage}{9}
-\indexentry{get\discretionary {-}{}{}Gap@{get\discretionary {-}{}{}Gap}!interaction.cpp@{interaction.\discretionary {-}{}{}cpp}|hyperpage}{9}
-\indexentry{interaction.\discretionary {-}{}{}cpp@{interaction.\discretionary {-}{}{}cpp}!get\discretionary {-}{}{}Maximum\discretionary {-}{}{}Integer@{get\discretionary {-}{}{}Maximum\discretionary {-}{}{}Integer}|hyperpage}{9}
-\indexentry{get\discretionary {-}{}{}Maximum\discretionary {-}{}{}Integer@{get\discretionary {-}{}{}Maximum\discretionary {-}{}{}Integer}!interaction.cpp@{interaction.\discretionary {-}{}{}cpp}|hyperpage}{9}
-\indexentry{interaction.\discretionary {-}{}{}cpp@{interaction.\discretionary {-}{}{}cpp}!get\discretionary {-}{}{}Problem\discretionary {-}{}{}Size@{get\discretionary {-}{}{}Problem\discretionary {-}{}{}Size}|hyperpage}{9}
-\indexentry{get\discretionary {-}{}{}Problem\discretionary {-}{}{}Size@{get\discretionary {-}{}{}Problem\discretionary {-}{}{}Size}!interaction.cpp@{interaction.\discretionary {-}{}{}cpp}|hyperpage}{9}
-\indexentry{src/main.\discretionary {-}{}{}cpp@{src/main.\discretionary {-}{}{}cpp}|hyperpage}{9}
-\indexentry{main.\discretionary {-}{}{}cpp@{main.\discretionary {-}{}{}cpp}!main@{main}|hyperpage}{9}
-\indexentry{main@{main}!main.cpp@{main.\discretionary {-}{}{}cpp}|hyperpage}{9}
-\indexentry{src/ordenacion.\discretionary {-}{}{}cpp@{src/ordenacion.\discretionary {-}{}{}cpp}|hyperpage}{9}
-\indexentry{ordenacion.\discretionary {-}{}{}cpp@{ordenacion.\discretionary {-}{}{}cpp}!bubble\discretionary {-}{}{}Sort@{bubble\discretionary {-}{}{}Sort}|hyperpage}{10}
-\indexentry{bubble\discretionary {-}{}{}Sort@{bubble\discretionary {-}{}{}Sort}!ordenacion.cpp@{ordenacion.\discretionary {-}{}{}cpp}|hyperpage}{10}
-\indexentry{ordenacion.\discretionary {-}{}{}cpp@{ordenacion.\discretionary {-}{}{}cpp}!insertion\discretionary {-}{}{}Sort@{insertion\discretionary {-}{}{}Sort}|hyperpage}{10}
-\indexentry{insertion\discretionary {-}{}{}Sort@{insertion\discretionary {-}{}{}Sort}!ordenacion.cpp@{ordenacion.\discretionary {-}{}{}cpp}|hyperpage}{10}
-\indexentry{ordenacion.\discretionary {-}{}{}cpp@{ordenacion.\discretionary {-}{}{}cpp}!merge@{merge}|hyperpage}{10}
-\indexentry{merge@{merge}!ordenacion.cpp@{ordenacion.\discretionary {-}{}{}cpp}|hyperpage}{10}
-\indexentry{ordenacion.\discretionary {-}{}{}cpp@{ordenacion.\discretionary {-}{}{}cpp}!quick\discretionary {-}{}{}Sort@{quick\discretionary {-}{}{}Sort}|hyperpage}{10}
-\indexentry{quick\discretionary {-}{}{}Sort@{quick\discretionary {-}{}{}Sort}!ordenacion.cpp@{ordenacion.\discretionary {-}{}{}cpp}|hyperpage}{10}
-\indexentry{ordenacion.\discretionary {-}{}{}cpp@{ordenacion.\discretionary {-}{}{}cpp}!selection\discretionary {-}{}{}Sort@{selection\discretionary {-}{}{}Sort}|hyperpage}{10}
-\indexentry{selection\discretionary {-}{}{}Sort@{selection\discretionary {-}{}{}Sort}!ordenacion.cpp@{ordenacion.\discretionary {-}{}{}cpp}|hyperpage}{10}
-\indexentry{src/test.\discretionary {-}{}{}cpp@{src/test.\discretionary {-}{}{}cpp}|hyperpage}{11}
-\indexentry{test.\discretionary {-}{}{}cpp@{test.\discretionary {-}{}{}cpp}!generate\discretionary {-}{}{}Array@{generate\discretionary {-}{}{}Array}|hyperpage}{11}
-\indexentry{generate\discretionary {-}{}{}Array@{generate\discretionary {-}{}{}Array}!test.cpp@{test.\discretionary {-}{}{}cpp}|hyperpage}{11}
-\indexentry{test.\discretionary {-}{}{}cpp@{test.\discretionary {-}{}{}cpp}!make\discretionary {-}{}{}Four\discretionary {-}{}{}Copies@{make\discretionary {-}{}{}Four\discretionary {-}{}{}Copies}|hyperpage}{11}
-\indexentry{make\discretionary {-}{}{}Four\discretionary {-}{}{}Copies@{make\discretionary {-}{}{}Four\discretionary {-}{}{}Copies}!test.cpp@{test.\discretionary {-}{}{}cpp}|hyperpage}{11}
+\indexentry{include/aux.\-h@{include/aux.\-h}}{3}
+\indexentry{aux.\-h@{aux.\-h}!check\-Array\-Equality@{check\-Array\-Equality}}{3}
+\indexentry{check\-Array\-Equality@{check\-Array\-Equality}!aux.h@{aux.\-h}}{3}
+\indexentry{aux.\-h@{aux.\-h}!check\-Is\-Ordered@{check\-Is\-Ordered}}{4}
+\indexentry{check\-Is\-Ordered@{check\-Is\-Ordered}!aux.h@{aux.\-h}}{4}
+\indexentry{aux.\-h@{aux.\-h}!copy\-Array@{copy\-Array}}{4}
+\indexentry{copy\-Array@{copy\-Array}!aux.h@{aux.\-h}}{4}
+\indexentry{aux.\-h@{aux.\-h}!create\-Random\-Array@{create\-Random\-Array}}{4}
+\indexentry{create\-Random\-Array@{create\-Random\-Array}!aux.h@{aux.\-h}}{4}
+\indexentry{aux.\-h@{aux.\-h}!print\-Array\-Contents@{print\-Array\-Contents}}{4}
+\indexentry{print\-Array\-Contents@{print\-Array\-Contents}!aux.h@{aux.\-h}}{4}
+\indexentry{include/generators.\-h@{include/generators.\-h}}{5}
+\indexentry{generators.\-h@{generators.\-h}!generate\-All\-Files@{generate\-All\-Files}}{5}
+\indexentry{generate\-All\-Files@{generate\-All\-Files}!generators.h@{generators.\-h}}{5}
+\indexentry{generators.\-h@{generators.\-h}!generate\-Bubble\-Sort\-Data\-File@{generate\-Bubble\-Sort\-Data\-File}}{5}
+\indexentry{generate\-Bubble\-Sort\-Data\-File@{generate\-Bubble\-Sort\-Data\-File}!generators.h@{generators.\-h}}{5}
+\indexentry{generators.\-h@{generators.\-h}!generate\-Bubble\-Sort\-Time@{generate\-Bubble\-Sort\-Time}}{5}
+\indexentry{generate\-Bubble\-Sort\-Time@{generate\-Bubble\-Sort\-Time}!generators.h@{generators.\-h}}{5}
+\indexentry{generators.\-h@{generators.\-h}!generate\-Insertion\-Sort\-Data\-File@{generate\-Insertion\-Sort\-Data\-File}}{5}
+\indexentry{generate\-Insertion\-Sort\-Data\-File@{generate\-Insertion\-Sort\-Data\-File}!generators.h@{generators.\-h}}{5}
+\indexentry{generators.\-h@{generators.\-h}!generate\-Insertion\-Sort\-Time@{generate\-Insertion\-Sort\-Time}}{5}
+\indexentry{generate\-Insertion\-Sort\-Time@{generate\-Insertion\-Sort\-Time}!generators.h@{generators.\-h}}{5}
+\indexentry{generators.\-h@{generators.\-h}!generate\-Quick\-Sort\-Data\-File@{generate\-Quick\-Sort\-Data\-File}}{5}
+\indexentry{generate\-Quick\-Sort\-Data\-File@{generate\-Quick\-Sort\-Data\-File}!generators.h@{generators.\-h}}{5}
+\indexentry{generators.\-h@{generators.\-h}!generate\-Quick\-Sort\-Time@{generate\-Quick\-Sort\-Time}}{5}
+\indexentry{generate\-Quick\-Sort\-Time@{generate\-Quick\-Sort\-Time}!generators.h@{generators.\-h}}{5}
+\indexentry{generators.\-h@{generators.\-h}!generate\-Selection\-Sort\-Data\-File@{generate\-Selection\-Sort\-Data\-File}}{5}
+\indexentry{generate\-Selection\-Sort\-Data\-File@{generate\-Selection\-Sort\-Data\-File}!generators.h@{generators.\-h}}{5}
+\indexentry{generators.\-h@{generators.\-h}!generate\-Selection\-Sort\-Time@{generate\-Selection\-Sort\-Time}}{5}
+\indexentry{generate\-Selection\-Sort\-Time@{generate\-Selection\-Sort\-Time}!generators.h@{generators.\-h}}{5}
+\indexentry{include/interaction.\-h@{include/interaction.\-h}}{5}
+\indexentry{interaction.\-h@{interaction.\-h}!choose\-Algorithm@{choose\-Algorithm}}{6}
+\indexentry{choose\-Algorithm@{choose\-Algorithm}!interaction.h@{interaction.\-h}}{6}
+\indexentry{interaction.\-h@{interaction.\-h}!get\-Gap@{get\-Gap}}{6}
+\indexentry{get\-Gap@{get\-Gap}!interaction.h@{interaction.\-h}}{6}
+\indexentry{interaction.\-h@{interaction.\-h}!get\-Maximum\-Integer@{get\-Maximum\-Integer}}{6}
+\indexentry{get\-Maximum\-Integer@{get\-Maximum\-Integer}!interaction.h@{interaction.\-h}}{6}
+\indexentry{interaction.\-h@{interaction.\-h}!get\-Problem\-Size@{get\-Problem\-Size}}{6}
+\indexentry{get\-Problem\-Size@{get\-Problem\-Size}!interaction.h@{interaction.\-h}}{6}
+\indexentry{include/ordenacion.\-h@{include/ordenacion.\-h}}{6}
+\indexentry{ordenacion.\-h@{ordenacion.\-h}!bubble\-Sort@{bubble\-Sort}}{7}
+\indexentry{bubble\-Sort@{bubble\-Sort}!ordenacion.h@{ordenacion.\-h}}{7}
+\indexentry{ordenacion.\-h@{ordenacion.\-h}!insertion\-Sort@{insertion\-Sort}}{7}
+\indexentry{insertion\-Sort@{insertion\-Sort}!ordenacion.h@{ordenacion.\-h}}{7}
+\indexentry{ordenacion.\-h@{ordenacion.\-h}!quick\-Sort@{quick\-Sort}}{7}
+\indexentry{quick\-Sort@{quick\-Sort}!ordenacion.h@{ordenacion.\-h}}{7}
+\indexentry{ordenacion.\-h@{ordenacion.\-h}!selection\-Sort@{selection\-Sort}}{7}
+\indexentry{selection\-Sort@{selection\-Sort}!ordenacion.h@{ordenacion.\-h}}{7}
+\indexentry{include/test.\-h@{include/test.\-h}}{8}
+\indexentry{test.\-h@{test.\-h}!generate\-Array@{generate\-Array}}{8}
+\indexentry{generate\-Array@{generate\-Array}!test.h@{test.\-h}}{8}
+\indexentry{test.\-h@{test.\-h}!make\-Four\-Copies@{make\-Four\-Copies}}{8}
+\indexentry{make\-Four\-Copies@{make\-Four\-Copies}!test.h@{test.\-h}}{8}
+\indexentry{src/aux.\-cpp@{src/aux.\-cpp}}{8}
+\indexentry{aux.\-cpp@{aux.\-cpp}!check\-Array\-Equality@{check\-Array\-Equality}}{9}
+\indexentry{check\-Array\-Equality@{check\-Array\-Equality}!aux.cpp@{aux.\-cpp}}{9}
+\indexentry{aux.\-cpp@{aux.\-cpp}!check\-Is\-Ordered@{check\-Is\-Ordered}}{9}
+\indexentry{check\-Is\-Ordered@{check\-Is\-Ordered}!aux.cpp@{aux.\-cpp}}{9}
+\indexentry{aux.\-cpp@{aux.\-cpp}!check\-Same\-Length@{check\-Same\-Length}}{9}
+\indexentry{check\-Same\-Length@{check\-Same\-Length}!aux.cpp@{aux.\-cpp}}{9}
+\indexentry{aux.\-cpp@{aux.\-cpp}!copy\-Array@{copy\-Array}}{9}
+\indexentry{copy\-Array@{copy\-Array}!aux.cpp@{aux.\-cpp}}{9}
+\indexentry{aux.\-cpp@{aux.\-cpp}!create\-Random\-Array@{create\-Random\-Array}}{9}
+\indexentry{create\-Random\-Array@{create\-Random\-Array}!aux.cpp@{aux.\-cpp}}{9}
+\indexentry{aux.\-cpp@{aux.\-cpp}!print\-Array\-Contents@{print\-Array\-Contents}}{10}
+\indexentry{print\-Array\-Contents@{print\-Array\-Contents}!aux.cpp@{aux.\-cpp}}{10}
+\indexentry{src/generators.\-cpp@{src/generators.\-cpp}}{10}
+\indexentry{generators.\-cpp@{generators.\-cpp}!generate\-All\-Files@{generate\-All\-Files}}{10}
+\indexentry{generate\-All\-Files@{generate\-All\-Files}!generators.cpp@{generators.\-cpp}}{10}
+\indexentry{generators.\-cpp@{generators.\-cpp}!generate\-Bubble\-Sort\-Data\-File@{generate\-Bubble\-Sort\-Data\-File}}{10}
+\indexentry{generate\-Bubble\-Sort\-Data\-File@{generate\-Bubble\-Sort\-Data\-File}!generators.cpp@{generators.\-cpp}}{10}
+\indexentry{generators.\-cpp@{generators.\-cpp}!generate\-Bubble\-Sort\-Time@{generate\-Bubble\-Sort\-Time}}{10}
+\indexentry{generate\-Bubble\-Sort\-Time@{generate\-Bubble\-Sort\-Time}!generators.cpp@{generators.\-cpp}}{10}
+\indexentry{generators.\-cpp@{generators.\-cpp}!generate\-Insertion\-Sort\-Data\-File@{generate\-Insertion\-Sort\-Data\-File}}{10}
+\indexentry{generate\-Insertion\-Sort\-Data\-File@{generate\-Insertion\-Sort\-Data\-File}!generators.cpp@{generators.\-cpp}}{10}
+\indexentry{generators.\-cpp@{generators.\-cpp}!generate\-Insertion\-Sort\-Time@{generate\-Insertion\-Sort\-Time}}{10}
+\indexentry{generate\-Insertion\-Sort\-Time@{generate\-Insertion\-Sort\-Time}!generators.cpp@{generators.\-cpp}}{10}
+\indexentry{generators.\-cpp@{generators.\-cpp}!generate\-Quick\-Sort\-Data\-File@{generate\-Quick\-Sort\-Data\-File}}{10}
+\indexentry{generate\-Quick\-Sort\-Data\-File@{generate\-Quick\-Sort\-Data\-File}!generators.cpp@{generators.\-cpp}}{10}
+\indexentry{generators.\-cpp@{generators.\-cpp}!generate\-Quick\-Sort\-Time@{generate\-Quick\-Sort\-Time}}{10}
+\indexentry{generate\-Quick\-Sort\-Time@{generate\-Quick\-Sort\-Time}!generators.cpp@{generators.\-cpp}}{10}
+\indexentry{generators.\-cpp@{generators.\-cpp}!generate\-Selection\-Sort\-Data\-File@{generate\-Selection\-Sort\-Data\-File}}{11}
+\indexentry{generate\-Selection\-Sort\-Data\-File@{generate\-Selection\-Sort\-Data\-File}!generators.cpp@{generators.\-cpp}}{11}
+\indexentry{generators.\-cpp@{generators.\-cpp}!generate\-Selection\-Sort\-Time@{generate\-Selection\-Sort\-Time}}{11}
+\indexentry{generate\-Selection\-Sort\-Time@{generate\-Selection\-Sort\-Time}!generators.cpp@{generators.\-cpp}}{11}
+\indexentry{src/interaction.\-cpp@{src/interaction.\-cpp}}{11}
+\indexentry{interaction.\-cpp@{interaction.\-cpp}!choose\-Algorithm@{choose\-Algorithm}}{11}
+\indexentry{choose\-Algorithm@{choose\-Algorithm}!interaction.cpp@{interaction.\-cpp}}{11}
+\indexentry{interaction.\-cpp@{interaction.\-cpp}!get\-Gap@{get\-Gap}}{11}
+\indexentry{get\-Gap@{get\-Gap}!interaction.cpp@{interaction.\-cpp}}{11}
+\indexentry{interaction.\-cpp@{interaction.\-cpp}!get\-Maximum\-Integer@{get\-Maximum\-Integer}}{11}
+\indexentry{get\-Maximum\-Integer@{get\-Maximum\-Integer}!interaction.cpp@{interaction.\-cpp}}{11}
+\indexentry{interaction.\-cpp@{interaction.\-cpp}!get\-Problem\-Size@{get\-Problem\-Size}}{12}
+\indexentry{get\-Problem\-Size@{get\-Problem\-Size}!interaction.cpp@{interaction.\-cpp}}{12}
+\indexentry{src/main.\-cpp@{src/main.\-cpp}}{12}
+\indexentry{main.\-cpp@{main.\-cpp}!main@{main}}{12}
+\indexentry{main@{main}!main.cpp@{main.\-cpp}}{12}
+\indexentry{src/ordenacion.\-cpp@{src/ordenacion.\-cpp}}{12}
+\indexentry{ordenacion.\-cpp@{ordenacion.\-cpp}!bubble\-Sort@{bubble\-Sort}}{13}
+\indexentry{bubble\-Sort@{bubble\-Sort}!ordenacion.cpp@{ordenacion.\-cpp}}{13}
+\indexentry{ordenacion.\-cpp@{ordenacion.\-cpp}!insertion\-Sort@{insertion\-Sort}}{13}
+\indexentry{insertion\-Sort@{insertion\-Sort}!ordenacion.cpp@{ordenacion.\-cpp}}{13}
+\indexentry{ordenacion.\-cpp@{ordenacion.\-cpp}!merge@{merge}}{13}
+\indexentry{merge@{merge}!ordenacion.cpp@{ordenacion.\-cpp}}{13}
+\indexentry{ordenacion.\-cpp@{ordenacion.\-cpp}!quick\-Sort@{quick\-Sort}}{13}
+\indexentry{quick\-Sort@{quick\-Sort}!ordenacion.cpp@{ordenacion.\-cpp}}{13}
+\indexentry{ordenacion.\-cpp@{ordenacion.\-cpp}!selection\-Sort@{selection\-Sort}}{13}
+\indexentry{selection\-Sort@{selection\-Sort}!ordenacion.cpp@{ordenacion.\-cpp}}{13}
+\indexentry{src/test.\-cpp@{src/test.\-cpp}}{14}
+\indexentry{test.\-cpp@{test.\-cpp}!generate\-Array@{generate\-Array}}{14}
+\indexentry{generate\-Array@{generate\-Array}!test.cpp@{test.\-cpp}}{14}
+\indexentry{test.\-cpp@{test.\-cpp}!make\-Four\-Copies@{make\-Four\-Copies}}{14}
+\indexentry{make\-Four\-Copies@{make\-Four\-Copies}!test.cpp@{test.\-cpp}}{14}
