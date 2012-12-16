@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<title>AlgorithmAnalysis: src/aux.h File Reference</title>
+<title>AlgorithmAnalysis: include/aux.h File Reference</title>
 
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
@@ -28,7 +28,7 @@
   
   <td style="padding-left: 0.5em;">
    <div id="projectname">AlgorithmAnalysis
-   &#160;<span id="projectnumber">1.0</span>
+   &#160;<span id="projectnumber">1.1</span>
    </div>
    
   </td>
@@ -71,24 +71,28 @@
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">src/aux.h File Reference</div>  </div>
+<div class="title">include/aux.h File Reference</div>  </div>
 </div>
 <div class="contents">
 <div class="textblock"><code>#include &lt;time.h&gt;</code><br/>
 <code>#include &lt;cstdlib&gt;</code><br/>
 <code>#include &lt;iostream&gt;</code><br/>
-<code>#include &quot;<a class="el" href="ordenacion_8h.html">ordenacion.h</a>&quot;</code><br/>
+<code>#include &quot;../include/ordenacion.h&quot;</code><br/>
 <code>#include &lt;fstream&gt;</code><br/>
 <code>#include &lt;iomanip&gt;</code><br/>
 </div><table class="memberdecls">
 <tr><td colspan="2"><h2><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="aux_8h.html#a5be9772a6203b77b246090767811dd0f">createRandomArray</a> (int V[], int arrayLegth, int maxInteger)</td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a random integer array between 0 and.  <a href="#a5be9772a6203b77b246090767811dd0f"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="aux_8h.html#a3524baead649ebaf6c3cc7b951164e59">createRandomArray</a> (int V[], int arrayLength, int maxInteger)</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a random integer array between 0 and MaxInteger.  <a href="#a3524baead649ebaf6c3cc7b951164e59"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="aux_8h.html#afba001e6ee8d26a3ca68ac86f648c712">copyArray</a> (int V[], int W[], int n)</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies an array contents into another array with the same length.  <a href="#afba001e6ee8d26a3ca68ac86f648c712"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="aux_8h.html#ac09cd9a9225fb4fbf9149f0d74523e6f">checkArrayEquality</a> (int V[], int W[], int n)</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks equality between two given arrays (both arrays have same content in same order)  <a href="#ac09cd9a9225fb4fbf9149f0d74523e6f"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="aux_8h.html#a8553d71c82adfb850fc54596aa58fb2f">checkIsOrdered</a> (int V[], int n)</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if an array is ordered.  <a href="#a8553d71c82adfb850fc54596aa58fb2f"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="aux_8h.html#aea6d79dade8214ad68f1aa1f4ab304d0">printArrayContents</a> (int V[], int n)</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints array content on console.  <a href="#aea6d79dade8214ad68f1aa1f4ab304d0"></a><br/></td></tr>
 </table>
 <hr/><h2>Function Documentation</h2>
 <a class="anchor" id="ac09cd9a9225fb4fbf9149f0d74523e6f"></a><!-- doxytag: member="aux.h::checkArrayEquality" ref="ac09cd9a9225fb4fbf9149f0d74523e6f" args="(int V[], int W[], int n)" -->
@@ -122,6 +126,16 @@ Functions</h2></td></tr>
 </div>
 <div class="memdoc">
 
+<p>Checks equality between two given arrays (both arrays have same content in same order) </p>
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">V</td><td>the original array </td></tr>
+    <tr><td class="paramname">W</td><td>the other array </td></tr>
+    <tr><td class="paramname">n</td><td>the array's length </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a class="anchor" id="a8553d71c82adfb850fc54596aa58fb2f"></a><!-- doxytag: member="aux.h::checkIsOrdered" ref="a8553d71c82adfb850fc54596aa58fb2f" args="(int V[], int n)" -->
@@ -148,6 +162,15 @@ Functions</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+
+<p>Checks if an array is ordered. </p>
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">V</td><td>the array </td></tr>
+    <tr><td class="paramname">n</td><td>the array's length </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -182,9 +205,19 @@ Functions</h2></td></tr>
 </div>
 <div class="memdoc">
 
+<p>Copies an array contents into another array with the same length. </p>
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">V</td><td>the original array </td></tr>
+    <tr><td class="paramname">W</td><td>the cloned array </td></tr>
+    <tr><td class="paramname">n</td><td>the array's length </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
-<a class="anchor" id="a5be9772a6203b77b246090767811dd0f"></a><!-- doxytag: member="aux.h::createRandomArray" ref="a5be9772a6203b77b246090767811dd0f" args="(int V[], int arrayLegth, int maxInteger)" -->
+<a class="anchor" id="a3524baead649ebaf6c3cc7b951164e59"></a><!-- doxytag: member="aux.h::createRandomArray" ref="a3524baead649ebaf6c3cc7b951164e59" args="(int V[], int arrayLength, int maxInteger)" -->
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -198,7 +231,7 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>arrayLegth</em>, </td>
+          <td class="paramname"><em>arrayLength</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -215,7 +248,15 @@ Functions</h2></td></tr>
 </div>
 <div class="memdoc">
 
-<p>Creates a random integer array between 0 and. </p>
+<p>Creates a random integer array between 0 and MaxInteger. </p>
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">V</td><td>an array already set to a length of arrayLength </td></tr>
+    <tr><td class="paramname">arrayLength</td><td>the array's length </td></tr>
+    <tr><td class="paramname">maxInteger</td><td>the maximum integer to generate </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -244,6 +285,15 @@ Functions</h2></td></tr>
 </div>
 <div class="memdoc">
 
+<p>Prints array content on console. </p>
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">V</td><td>the array </td></tr>
+    <tr><td class="paramname">n</td><td>the array's length </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 </div>
@@ -252,7 +302,7 @@ Functions</h2></td></tr>
     <ul>
       <li class="navelem"><a class="el" href="aux_8h.html">aux.h</a>      </li>
 
-    <li class="footer">Generated on Fri Dec 14 2012 22:11:02 for AlgorithmAnalysis by
+    <li class="footer">Generated on Sun Dec 16 2012 15:44:28 for AlgorithmAnalysis by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.7.5.1 </li>
    </ul>

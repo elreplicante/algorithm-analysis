@@ -1,21 +1,21 @@
 \section{src/aux.cpp \-File \-Reference}
 \label{aux_8cpp}\index{src/aux.\-cpp@{src/aux.\-cpp}}
-{\ttfamily \#include \char`\"{}aux.\-h\char`\"{}}\*
+{\ttfamily \#include \char`\"{}../include/aux.\-h\char`\"{}}\*
 \subsection*{\-Functions}
 \begin{DoxyCompactItemize}
 \item 
 void {\bf create\-Random\-Array} (int \-V[$\,$], int n, int max\-Integer)
-\begin{DoxyCompactList}\small\item\em \-Creates a random integer array between 0 and. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em \-Creates a random integer array between 0 and \-Max\-Integer. \end{DoxyCompactList}\item 
 void {\bf copy\-Array} (int \-V[$\,$], int \-W[$\,$], int n)
-\item 
+\begin{DoxyCompactList}\small\item\em \-Copies an array contents into another array with the same length. \end{DoxyCompactList}\item 
 bool {\bf check\-Same\-Length} (int \-V[$\,$], int \-W[$\,$])
 \item 
 bool {\bf check\-Array\-Equality} (int \-V[$\,$], int \-W[$\,$], int n)
-\item 
+\begin{DoxyCompactList}\small\item\em \-Checks equality between two given arrays (both arrays have same content in same order) \end{DoxyCompactList}\item 
 bool {\bf check\-Is\-Ordered} (int \-V[$\,$], int n)
-\item 
+\begin{DoxyCompactList}\small\item\em \-Checks if an array is ordered. \end{DoxyCompactList}\item 
 void {\bf print\-Array\-Contents} (int \-V[$\,$], int n)
-\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em \-Prints array content on console. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \subsection{\-Function \-Documentation}
@@ -28,6 +28,19 @@ void {\bf print\-Array\-Contents} (int \-V[$\,$], int n)
 \item[{int}]{n}
 \end{DoxyParamCaption}
 )}\label{aux_8cpp_ac09cd9a9225fb4fbf9149f0d74523e6f}
+
+
+\-Checks equality between two given arrays (both arrays have same content in same order) 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em \-V} & the original array \\
+\hline
+{\em \-W} & the other array \\
+\hline
+{\em n} & the array's length \\
+\hline
+\end{DoxyParams}
 \index{aux.\-cpp@{aux.\-cpp}!check\-Is\-Ordered@{check\-Is\-Ordered}}
 \index{check\-Is\-Ordered@{check\-Is\-Ordered}!aux.cpp@{aux.\-cpp}}
 \subsubsection[{check\-Is\-Ordered}]{\setlength{\rightskip}{0pt plus 5cm}bool check\-Is\-Ordered (
@@ -36,6 +49,17 @@ void {\bf print\-Array\-Contents} (int \-V[$\,$], int n)
 \item[{int}]{n}
 \end{DoxyParamCaption}
 )}\label{aux_8cpp_a8553d71c82adfb850fc54596aa58fb2f}
+
+
+\-Checks if an array is ordered. 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em \-V} & the array \\
+\hline
+{\em n} & the array's length \\
+\hline
+\end{DoxyParams}
 \index{aux.\-cpp@{aux.\-cpp}!check\-Same\-Length@{check\-Same\-Length}}
 \index{check\-Same\-Length@{check\-Same\-Length}!aux.cpp@{aux.\-cpp}}
 \subsubsection[{check\-Same\-Length}]{\setlength{\rightskip}{0pt plus 5cm}bool check\-Same\-Length (
@@ -53,19 +77,41 @@ void {\bf print\-Array\-Contents} (int \-V[$\,$], int n)
 \item[{int}]{n}
 \end{DoxyParamCaption}
 )}\label{aux_8cpp_afba001e6ee8d26a3ca68ac86f648c712}
+
+
+\-Copies an array contents into another array with the same length. 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em \-V} & the original array \\
+\hline
+{\em \-W} & the cloned array \\
+\hline
+{\em n} & the array's length \\
+\hline
+\end{DoxyParams}
 \index{aux.\-cpp@{aux.\-cpp}!create\-Random\-Array@{create\-Random\-Array}}
 \index{create\-Random\-Array@{create\-Random\-Array}!aux.cpp@{aux.\-cpp}}
 \subsubsection[{create\-Random\-Array}]{\setlength{\rightskip}{0pt plus 5cm}void create\-Random\-Array (
 \begin{DoxyParamCaption}
 \item[{int}]{\-V[$\,$], }
-\item[{int}]{n, }
+\item[{int}]{array\-Length, }
 \item[{int}]{max\-Integer}
 \end{DoxyParamCaption}
 )}\label{aux_8cpp_a4c87f960cf38f1dc1fd8691795e08fea}
 
 
-\-Creates a random integer array between 0 and. 
+\-Creates a random integer array between 0 and \-Max\-Integer. 
 
+
+\begin{DoxyParams}{\-Parameters}
+{\em \-V} & an array already set to a length of array\-Length \\
+\hline
+{\em array\-Length} & the array's length \\
+\hline
+{\em max\-Integer} & the maximum integer to generate \\
+\hline
+\end{DoxyParams}
 \index{aux.\-cpp@{aux.\-cpp}!print\-Array\-Contents@{print\-Array\-Contents}}
 \index{print\-Array\-Contents@{print\-Array\-Contents}!aux.cpp@{aux.\-cpp}}
 \subsubsection[{print\-Array\-Contents}]{\setlength{\rightskip}{0pt plus 5cm}void print\-Array\-Contents (
@@ -74,3 +120,14 @@ void {\bf print\-Array\-Contents} (int \-V[$\,$], int n)
 \item[{int}]{n}
 \end{DoxyParamCaption}
 )}\label{aux_8cpp_aea6d79dade8214ad68f1aa1f4ab304d0}
+
+
+\-Prints array content on console. 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em \-V} & the array \\
+\hline
+{\em n} & the array's length \\
+\hline
+\end{DoxyParams}

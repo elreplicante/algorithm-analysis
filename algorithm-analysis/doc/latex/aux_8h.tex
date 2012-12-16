@@ -1,24 +1,24 @@
-\section{src/aux.h \-File \-Reference}
-\label{aux_8h}\index{src/aux.\-h@{src/aux.\-h}}
+\section{include/aux.h \-File \-Reference}
+\label{aux_8h}\index{include/aux.\-h@{include/aux.\-h}}
 {\ttfamily \#include $<$time.\-h$>$}\*
 {\ttfamily \#include $<$cstdlib$>$}\*
 {\ttfamily \#include $<$iostream$>$}\*
-{\ttfamily \#include \char`\"{}ordenacion.\-h\char`\"{}}\*
+{\ttfamily \#include \char`\"{}../include/ordenacion.\-h\char`\"{}}\*
 {\ttfamily \#include $<$fstream$>$}\*
 {\ttfamily \#include $<$iomanip$>$}\*
 \subsection*{\-Functions}
 \begin{DoxyCompactItemize}
 \item 
-void {\bf create\-Random\-Array} (int \-V[$\,$], int array\-Legth, int max\-Integer)
-\begin{DoxyCompactList}\small\item\em \-Creates a random integer array between 0 and. \end{DoxyCompactList}\item 
+void {\bf create\-Random\-Array} (int \-V[$\,$], int array\-Length, int max\-Integer)
+\begin{DoxyCompactList}\small\item\em \-Creates a random integer array between 0 and \-Max\-Integer. \end{DoxyCompactList}\item 
 void {\bf copy\-Array} (int \-V[$\,$], int \-W[$\,$], int n)
-\item 
+\begin{DoxyCompactList}\small\item\em \-Copies an array contents into another array with the same length. \end{DoxyCompactList}\item 
 bool {\bf check\-Array\-Equality} (int \-V[$\,$], int \-W[$\,$], int n)
-\item 
+\begin{DoxyCompactList}\small\item\em \-Checks equality between two given arrays (both arrays have same content in same order) \end{DoxyCompactList}\item 
 bool {\bf check\-Is\-Ordered} (int \-V[$\,$], int n)
-\item 
+\begin{DoxyCompactList}\small\item\em \-Checks if an array is ordered. \end{DoxyCompactList}\item 
 void {\bf print\-Array\-Contents} (int \-V[$\,$], int n)
-\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em \-Prints array content on console. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \subsection{\-Function \-Documentation}
@@ -31,6 +31,19 @@ void {\bf print\-Array\-Contents} (int \-V[$\,$], int n)
 \item[{int}]{n}
 \end{DoxyParamCaption}
 )}\label{aux_8h_ac09cd9a9225fb4fbf9149f0d74523e6f}
+
+
+\-Checks equality between two given arrays (both arrays have same content in same order) 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em \-V} & the original array \\
+\hline
+{\em \-W} & the other array \\
+\hline
+{\em n} & the array's length \\
+\hline
+\end{DoxyParams}
 \index{aux.\-h@{aux.\-h}!check\-Is\-Ordered@{check\-Is\-Ordered}}
 \index{check\-Is\-Ordered@{check\-Is\-Ordered}!aux.h@{aux.\-h}}
 \subsubsection[{check\-Is\-Ordered}]{\setlength{\rightskip}{0pt plus 5cm}bool check\-Is\-Ordered (
@@ -39,6 +52,17 @@ void {\bf print\-Array\-Contents} (int \-V[$\,$], int n)
 \item[{int}]{n}
 \end{DoxyParamCaption}
 )}\label{aux_8h_a8553d71c82adfb850fc54596aa58fb2f}
+
+
+\-Checks if an array is ordered. 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em \-V} & the array \\
+\hline
+{\em n} & the array's length \\
+\hline
+\end{DoxyParams}
 \index{aux.\-h@{aux.\-h}!copy\-Array@{copy\-Array}}
 \index{copy\-Array@{copy\-Array}!aux.h@{aux.\-h}}
 \subsubsection[{copy\-Array}]{\setlength{\rightskip}{0pt plus 5cm}void copy\-Array (
@@ -48,19 +72,41 @@ void {\bf print\-Array\-Contents} (int \-V[$\,$], int n)
 \item[{int}]{n}
 \end{DoxyParamCaption}
 )}\label{aux_8h_afba001e6ee8d26a3ca68ac86f648c712}
+
+
+\-Copies an array contents into another array with the same length. 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em \-V} & the original array \\
+\hline
+{\em \-W} & the cloned array \\
+\hline
+{\em n} & the array's length \\
+\hline
+\end{DoxyParams}
 \index{aux.\-h@{aux.\-h}!create\-Random\-Array@{create\-Random\-Array}}
 \index{create\-Random\-Array@{create\-Random\-Array}!aux.h@{aux.\-h}}
 \subsubsection[{create\-Random\-Array}]{\setlength{\rightskip}{0pt plus 5cm}void create\-Random\-Array (
 \begin{DoxyParamCaption}
 \item[{int}]{\-V[$\,$], }
-\item[{int}]{array\-Legth, }
+\item[{int}]{array\-Length, }
 \item[{int}]{max\-Integer}
 \end{DoxyParamCaption}
-)}\label{aux_8h_a5be9772a6203b77b246090767811dd0f}
+)}\label{aux_8h_a3524baead649ebaf6c3cc7b951164e59}
 
 
-\-Creates a random integer array between 0 and. 
+\-Creates a random integer array between 0 and \-Max\-Integer. 
 
+
+\begin{DoxyParams}{\-Parameters}
+{\em \-V} & an array already set to a length of array\-Length \\
+\hline
+{\em array\-Length} & the array's length \\
+\hline
+{\em max\-Integer} & the maximum integer to generate \\
+\hline
+\end{DoxyParams}
 \index{aux.\-h@{aux.\-h}!print\-Array\-Contents@{print\-Array\-Contents}}
 \index{print\-Array\-Contents@{print\-Array\-Contents}!aux.h@{aux.\-h}}
 \subsubsection[{print\-Array\-Contents}]{\setlength{\rightskip}{0pt plus 5cm}void print\-Array\-Contents (
@@ -69,3 +115,14 @@ void {\bf print\-Array\-Contents} (int \-V[$\,$], int n)
 \item[{int}]{n}
 \end{DoxyParamCaption}
 )}\label{aux_8h_aea6d79dade8214ad68f1aa1f4ab304d0}
+
+
+\-Prints array content on console. 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em \-V} & the array \\
+\hline
+{\em n} & the array's length \\
+\hline
+\end{DoxyParams}

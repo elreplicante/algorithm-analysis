@@ -2,17 +2,17 @@ var NAVTREE =
 [
   [ "AlgorithmAnalysis", "index.html", [
     [ "File List", "files.html", [
+      [ "include/aux.h", "aux_8h.html", null ],
+      [ "include/generators.h", "generators_8h.html", null ],
+      [ "include/interaction.h", "interaction_8h.html", null ],
+      [ "include/ordenacion.h", "ordenacion_8h.html", null ],
+      [ "include/test.h", "test_8h.html", null ],
       [ "src/aux.cpp", "aux_8cpp.html", null ],
-      [ "src/aux.h", "aux_8h.html", null ],
       [ "src/generators.cpp", "generators_8cpp.html", null ],
-      [ "src/generators.h", "generators_8h.html", null ],
       [ "src/interaction.cpp", "interaction_8cpp.html", null ],
-      [ "src/interaction.h", "interaction_8h.html", null ],
       [ "src/main.cpp", "main_8cpp.html", null ],
       [ "src/ordenacion.cpp", "ordenacion_8cpp.html", null ],
-      [ "src/ordenacion.h", "ordenacion_8h.html", null ],
-      [ "src/test.cpp", "test_8cpp.html", null ],
-      [ "src/test.h", "test_8h.html", null ]
+      [ "src/test.cpp", "test_8cpp.html", null ]
     ] ],
     [ "File Members", "globals.html", null ]
   ] ]

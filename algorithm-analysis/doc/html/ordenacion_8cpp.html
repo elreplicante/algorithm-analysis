@@ -28,7 +28,7 @@
   
   <td style="padding-left: 0.5em;">
    <div id="projectname">AlgorithmAnalysis
-   &#160;<span id="projectnumber">1.0</span>
+   &#160;<span id="projectnumber">1.1</span>
    </div>
    
   </td>
@@ -74,14 +74,19 @@
 <div class="title">src/ordenacion.cpp File Reference</div>  </div>
 </div>
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="ordenacion_8h.html">ordenacion.h</a>&quot;</code><br/>
+<div class="textblock"><code>#include &quot;../include/ordenacion.h&quot;</code><br/>
 </div><table class="memberdecls">
 <tr><td colspan="2"><h2><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ordenacion_8cpp.html#a4f35d67a35a590156a0a848ec6ff1b75">insertionSort</a> (int V[], int num)</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs an insertion sort algorithm on a vector of positive integers.  <a href="#a4f35d67a35a590156a0a848ec6ff1b75"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ordenacion_8cpp.html#a44f0003a1d501ba43ce28ddc5b48359a">selectionSort</a> (int V[], int num)</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs a selection sort algorithm on a vector of positive integers.  <a href="#a44f0003a1d501ba43ce28ddc5b48359a"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ordenacion_8cpp.html#a3599fa8bf75398e2bbc5685cb76f99df">bubbleSort</a> (int V[], int num)</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs a bubble sort algorithm on a vector of positive integers.  <a href="#a3599fa8bf75398e2bbc5685cb76f99df"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ordenacion_8cpp.html#a4d593a5e6f76418de88c3b7d667131ce">quickSort</a> (int V[], int left, int right)</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs a quick sort algorithm on a vector of positive integers.  <a href="#a4d593a5e6f76418de88c3b7d667131ce"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ordenacion_8cpp.html#af14b274a8fb4389c6efedda374fdd890">merge</a> (int *a, int *b, int low, int pivot, int high)</td></tr>
 </table>
 <hr/><h2>Function Documentation</h2>
 <a class="anchor" id="a3599fa8bf75398e2bbc5685cb76f99df"></a><!-- doxytag: member="ordenacion.cpp::bubbleSort" ref="a3599fa8bf75398e2bbc5685cb76f99df" args="(int V[], int num)" -->
@@ -109,6 +114,15 @@ Functions</h2></td></tr>
 </div>
 <div class="memdoc">
 
+<p>Performs a bubble sort algorithm on a vector of positive integers. </p>
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">V</td><td>a vector of positive integers </td></tr>
+    <tr><td class="paramname">num</td><td>The array length </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a class="anchor" id="a4f35d67a35a590156a0a848ec6ff1b75"></a><!-- doxytag: member="ordenacion.cpp::insertionSort" ref="a4f35d67a35a590156a0a848ec6ff1b75" args="(int V[], int num)" -->
@@ -126,6 +140,60 @@ Functions</h2></td></tr>
           <td></td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>num</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Performs an insertion sort algorithm on a vector of positive integers. </p>
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">V</td><td>a vector of positive integers </td></tr>
+    <tr><td class="paramname">num</td><td>The array length </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="af14b274a8fb4389c6efedda374fdd890"></a><!-- doxytag: member="ordenacion.cpp::merge" ref="af14b274a8fb4389c6efedda374fdd890" args="(int *a, int *b, int low, int pivot, int high)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void merge </td>
+          <td>(</td>
+          <td class="paramtype">int *&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int *&#160;</td>
+          <td class="paramname"><em>b</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>low</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>pivot</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>high</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -169,6 +237,16 @@ Functions</h2></td></tr>
 </div>
 <div class="memdoc">
 
+<p>Performs a quick sort algorithm on a vector of positive integers. </p>
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">V</td><td>a vector of positive integers </td></tr>
+    <tr><td class="paramname">left</td><td>the left index for the divide and conquer strategy (initially 0) </td></tr>
+    <tr><td class="paramname">right</td><td>the right index for the divide and conquer strategy (initially the array length) </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a class="anchor" id="a44f0003a1d501ba43ce28ddc5b48359a"></a><!-- doxytag: member="ordenacion.cpp::selectionSort" ref="a44f0003a1d501ba43ce28ddc5b48359a" args="(int V[], int num)" -->
@@ -196,6 +274,15 @@ Functions</h2></td></tr>
 </div>
 <div class="memdoc">
 
+<p>Performs a selection sort algorithm on a vector of positive integers. </p>
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">V</td><td>a vector of positive integers </td></tr>
+    <tr><td class="paramname">num</td><td>The array length </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 </div>
@@ -204,7 +291,7 @@ Functions</h2></td></tr>
     <ul>
       <li class="navelem"><a class="el" href="ordenacion_8cpp.html">ordenacion.cpp</a>      </li>
 
-    <li class="footer">Generated on Fri Dec 14 2012 22:11:02 for AlgorithmAnalysis by
+    <li class="footer">Generated on Sun Dec 16 2012 15:44:28 for AlgorithmAnalysis by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.7.5.1 </li>
    </ul>
