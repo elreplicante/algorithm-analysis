@@ -51,7 +51,7 @@ void generateInsertionSortDataFile(int problemSize, int V[], int GAP) {
 
 void generateSelectionSortDataFile(int problemSize, int V[], int GAP) {
 	ofstream file("selection-sort.txt");
-	for (int i = 1; i < problemSize; i += GAP - 1) {
+	for (int i = 1; i < problemSize; i += GAP) {
 		int arrayCopy[i];
 		copyArray(V, arrayCopy, i);
 		generateSelectionSortTime(file, arrayCopy, i);
@@ -62,7 +62,7 @@ void generateSelectionSortDataFile(int problemSize, int V[], int GAP) {
 
 void generateBubbleSortDataFile(int problemSize, int V[], int GAP) {
 	ofstream file("bubble-sort.txt");
-	for (int i = 1; i < problemSize; i += GAP - 1) {
+	for (int i = 1; i < problemSize; i += GAP) {
 		int arrayCopy[i];
 		copyArray(V, arrayCopy, i);
 		generateBubbleSortTime(file, arrayCopy, i);
@@ -73,7 +73,7 @@ void generateBubbleSortDataFile(int problemSize, int V[], int GAP) {
 
 void generateQuickSortDataFile(int problemSize, int V[], int GAP) {
 	ofstream file("quick-sort.txt");
-	for (int i = 1; i < problemSize; i += GAP - 1) {
+	for (int i = 1; i < problemSize; i += GAP) {
 		int arrayCopy[i];
 		copyArray(V, arrayCopy, i);
 		generateQuickSortTime(file, arrayCopy, i);

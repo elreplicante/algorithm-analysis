@@ -1,15 +1,6 @@
-/*
- * test.h
- *
- *  Created on: 14/12/2012
- *      Author: repli
- */
 #include "../include/aux.h"
 #ifndef TEST_H_
 #define TEST_H_
-
-
-
 
 /**
  * @brief Generates an array with n random integers betwwen 0 and maxInt
@@ -18,7 +9,6 @@
  * @param maxInt maximum integer to generate arraty to
  */
 void generateArray(int V[], int n, int maxInt);
-
 
 /**
  * @brief Makes four copies of a given array

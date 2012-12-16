@@ -1,4 +1,3 @@
-#include <time.h>
 #include <cstdlib>
 #include <iostream>
 #include "../include/ordenacion.h"

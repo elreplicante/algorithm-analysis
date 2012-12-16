@@ -1,13 +1,5 @@
-/*
- * ordenacion.h
- *
- *  Created on: 14/12/2012
- *      Author: repli
- */
-
 #ifndef ORDENACION_H_
 #define ORDENACION_H_
-
 
 /**
  * @brief Performs an insertion sort algorithm on a vector of positive integers
