@@ -21,9 +21,9 @@ fit cuadratic(x) "selection-sort.txt" via a;
 fit loglinear(x) "selection-sort.txt" via b;
 fit linear(x) "selection-sort.txt" via c;
 plot "selection-sort.txt" with lines lw 2 title "selection", \
-bubble-sort.txt" with lines lw 2 title "bubble", \
-insertion-sort.txt" with lines lw 2 title "insertion", \
-quick-sort.txt" with lines lw 2 title "quicksort", \
+"bubble-sort.txt" with lines lw 2 title "bubble", \
+"insertion-sort.txt" with lines lw 2 title "insertion", \
+"quick-sort.txt" with lines lw 2 title "quicksort", \
 linear(x) with lines title "lineal", \
 loglinear(x) with lines title "n log n", \
 cuadratic(x) with lines title "x^2 ";
