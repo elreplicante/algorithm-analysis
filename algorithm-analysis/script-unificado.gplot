@@ -1,55 +1,29 @@
 set terminal png nocrop enhanced size 1024,768
 #set terminal lapng
 #set output "plot.png"
+
 # lineas de ajuste
 cuadratic(x) = x*x * a;
 loglinear(x) = x*log(x) * b;
 linear(x) = x * c;
-# Insertion sort
+
 
 set ylabel "t (ms)"
 set xlabel "n (elementos en array)"
 
-set output "cuadratico.png"
-set title "Algoritmos cuadráticos O(n^2)"
+set output "unificado.png"
+set title "Comparacion entre algoritmos"
 
 fit cuadratic(x) "insertion-sort.txt" via a;
 fit loglinear(x) "insertion-sort.txt" via b;
 fit linear(x) "insertion-sort.txt" via c;
-plot "insertion-sort.txt" with lines lw 2 title "insertion", \
-linear(x) with lines title "lineal", \
-loglinear(x) with lines title "n log n", \
-cuadratic(x) with lines title "x^2 ";
-
 fit cuadratic(x) "selection-sort.txt" via a;
 fit loglinear(x) "selection-sort.txt" via b;
 fit linear(x) "selection-sort.txt" via c;
-plot "selection-sort.txt" with lines lw 2 title "insertion", \
+plot "selection-sort.txt" with lines lw 2 title "selection", \
+bubble-sort.txt" with lines lw 2 title "bubble", \
+insertion-sort.txt" with lines lw 2 title "insertion", \
+quick-sort.txt" with lines lw 2 title "quicksort", \
 linear(x) with lines title "lineal", \
 loglinear(x) with lines title "n log n", \
 cuadratic(x) with lines title "x^2 ";
-
-fit cuadratic(x) "bubble-sort.txt" via a;
-fit loglinear(x) "bubble-sort.txt" via b;
-fit linear(x) "bubble-sort.txt" via c;
-plot "bubble-sort.txt" with lines lw 2 title "insertion", \
-linear(x) with lines title "lineal", \
-loglinear(x) with lines title "n log n", \
-cuadratic(x) with lines title "x^2 ";
-
-# Quick Sort
-set output "nlogn.png"
-set title "Algoritmos cuasilogarítmicos O(n log(n))"
-fit cuadratic(x) "quick-sort.txt" via a;
-fit loglinear(x) "quick-sort.txt" via b;
-fit linear(x) "quick-sort.txt" via c;
-set ylabel "t (ms)"
-set xlabel "n (elementos en array)"
-
-plot "quick-sort.txt" with lines lw 2 title "quick", \
-linear(x) with lines title "lineal", \
-loglinear(x) with lines title "n log n", \
-cuadratic(x) with lines title "x^2 ";
-
-
-#unset output

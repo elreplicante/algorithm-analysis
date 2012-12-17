@@ -1,4 +1,5 @@
 set terminal png nocrop enhanced size 1024,768
+#set terminal aqua
 #set terminal lapng
 #set output "plot.png"
 

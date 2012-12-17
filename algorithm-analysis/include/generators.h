@@ -1,7 +1,9 @@
 #include "aux.h"
-#include <ctime>
+#include <time.h>
 #ifndef GENERATORS_H_
 #define GENERATORS_H_
+
+#define PRECISION 20
 
 /**
  * @brief Generates time data for insertion sort algorithm

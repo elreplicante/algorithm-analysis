@@ -1,3 +1,7 @@
+/*
+ * Auxiliary functions
+ */
+
 #include <cstdlib>
 #include <iostream>
 #include "../include/ordenacion.h"

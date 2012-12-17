@@ -1,13 +1,19 @@
 \section{Análisis de resultados}
+Todos los resultados han sido generados en un ordenador Apple MacBook Pro, Mac Os X 10.8.2, Procesador Intel Core i5 a 2,4Ghz (4 núcleos), 4 Gb de RAM a 1333 Mhz DDR3.
+\begin{itemize}
+\item Tamaño del problema: $50000$
+\item Máximo entero generado: $32767$
+\item Salto entre iteraciones: $100$
+\end{itemize}
 
 %Gráfica de ordenación por inserción
-\subsection{Ordenación por inserci\'on}
-Un buen algoritmo de ordenación para un número pequeño elementos. Funciona de la manera análoga a la que se ordenaría un mazo de cartas:
+\subsection{Ordenación por inserción \cite{CORMEN}}
+Su complejidad es de $O(n^2)$. Un buen algoritmo de ordenación para un número pequeño elementos. Funciona de la manera análoga a la que se ordenaría un mazo de cartas:
 \begin{enumerate}
-\item Empezamos con la mano izquierda vacía y las cartas boca abajo sobre la mesa.
-\item A continuación, cogemos una carta de la mesa, y la insertamos en la posición correcta en la mano izquierda.
-\item Para encontrar la posición correcta en la que insertar la carta, se compara con cada una de las cartas que ya tenemos en la mano izquierda, recorriendo de derecha a izquierda.
-\item En todo momento, las cartas sujetas con la mano izquierda se ordenan, permaneciendo las cartas originales sin ordenar encima de la pila en la mesa.
+	\item Empezamos con la mano izquierda vacía y las cartas boca abajo sobre la mesa.
+	\item A continuación, cogemos una carta de la mesa, y la insertamos en la posición correcta 			en la mano izquierda.
+	\item Para encontrar la posición correcta en la que insertar la carta, se compara con cada 			una de las cartas que ya tenemos en la mano izquierda, recorriendo de derecha a 					izquierda.
+\item En todo momento, las cartas sujetas con la mano izquierda se ordenan, permaneciendo las 			cartas originales sin ordenar encima de la pila en la mesa.
 \end{enumerate}
 
 	\begin{figure}[H]
@@ -31,7 +37,10 @@ El algoritmo divide la lista de entrada en dos partes: la lista secundaria de lo
 
 %Gráfica de ordenación por burbuja
 \subsection{Ordenación por burbuja}
-
+Es un algoritmo por comparación.  Recorremos los elementos del array de derecha a izquierda, comparando cada elemento con el siguiente e intercambiándolos en caso de estar desordenados.
+\subsubsection{Rendimiento}
+Para ordenar un vector de $n$ elementos, el algoritmo siempre realiza el mismo número de comparaciones:
+\[n\]
 	\begin{figure}[H]
 	  \centering
 	    \includegraphics[width=1.0\textwidth]{bubble-sort.png}

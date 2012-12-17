@@ -28,7 +28,7 @@
   
   <td style="padding-left: 0.5em;">
    <div id="projectname">AlgorithmAnalysis
-   &#160;<span id="projectnumber">1.1</span>
+   &#160;<span id="projectnumber">1.2</span>
    </div>
    
   </td>
@@ -79,14 +79,23 @@
 <tr><td colspan="2"><h2><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="generators_8cpp.html#a213d1d8b810cb298d1b8c27697335690">generateInsertionSortTime</a> (ofstream &amp;file, int V[], int n)</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates time data for insertion sort algorithm.  <a href="#a213d1d8b810cb298d1b8c27697335690"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="generators_8cpp.html#aed841c448738b017d7514a64203879da">generateSelectionSortTime</a> (ofstream &amp;file, int V[], int n)</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates time data for selection sort algorithm.  <a href="#aed841c448738b017d7514a64203879da"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="generators_8cpp.html#aed7e1642945596b20af6d7751c7270b7">generateBubbleSortTime</a> (ofstream &amp;file, int V[], int n)</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates time data for bubble sort algorithm.  <a href="#aed7e1642945596b20af6d7751c7270b7"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="generators_8cpp.html#a6a94404ce7d23e3ca2dc11259b8b3c4f">generateQuickSortTime</a> (ofstream &amp;file, int V[], int n)</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates time data for quick sort algorithm.  <a href="#a6a94404ce7d23e3ca2dc11259b8b3c4f"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="generators_8cpp.html#ad975418d5edbd85b1b2e7bf9ef2a7ce7">generateInsertionSortDataFile</a> (int problemSize, int V[], int GAP)</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates problem size time data file for insertion sort algorithm.  <a href="#ad975418d5edbd85b1b2e7bf9ef2a7ce7"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="generators_8cpp.html#a9b0145ef215689341242cd16cce3aa0d">generateSelectionSortDataFile</a> (int problemSize, int V[], int GAP)</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates problem size time data file for selection sort algorithm.  <a href="#a9b0145ef215689341242cd16cce3aa0d"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="generators_8cpp.html#ae86abd983d449623917a51692acc4349">generateBubbleSortDataFile</a> (int problemSize, int V[], int GAP)</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates problem size time data file for bubble sort algorithm.  <a href="#ae86abd983d449623917a51692acc4349"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="generators_8cpp.html#ab60204c8fbd353fed5b5dfb330c251ab">generateQuickSortDataFile</a> (int problemSize, int V[], int GAP)</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates problem size time data file for quick sort algorithm.  <a href="#ab60204c8fbd353fed5b5dfb330c251ab"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="generators_8cpp.html#a810479cf44e8e7f7ce298c78d5b9a336">generateAllFiles</a> (int problemSize, int V[], int GAP)</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates time data files for all algorithms.  <a href="#a810479cf44e8e7f7ce298c78d5b9a336"></a><br/></td></tr>
 </table>
 <hr/><h2>Function Documentation</h2>
 <a class="anchor" id="a810479cf44e8e7f7ce298c78d5b9a336"></a><!-- doxytag: member="generators.cpp::generateAllFiles" ref="a810479cf44e8e7f7ce298c78d5b9a336" args="(int problemSize, int V[], int GAP)" -->
@@ -119,6 +128,16 @@ Functions</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+
+<p>Generates time data files for all algorithms. </p>
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">problemSize</td><td>maximum array length </td></tr>
+    <tr><td class="paramname">V</td><td>unsorted array </td></tr>
+    <tr><td class="paramname">GAP</td><td>array's length increase </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -153,6 +172,16 @@ Functions</h2></td></tr>
 </div>
 <div class="memdoc">
 
+<p>Generates problem size time data file for bubble sort algorithm. </p>
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">problemSize</td><td>maximum array length </td></tr>
+    <tr><td class="paramname">V</td><td>unsorted array </td></tr>
+    <tr><td class="paramname">GAP</td><td>array's length increase </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a class="anchor" id="aed7e1642945596b20af6d7751c7270b7"></a><!-- doxytag: member="generators.cpp::generateBubbleSortTime" ref="aed7e1642945596b20af6d7751c7270b7" args="(ofstream &amp;file, int V[], int n)" -->
@@ -185,6 +214,16 @@ Functions</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+
+<p>Generates time data for bubble sort algorithm. </p>
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">file</td><td>output file </td></tr>
+    <tr><td class="paramname">V</td><td>unsorted array </td></tr>
+    <tr><td class="paramname">n</td><td>array length </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -219,6 +258,16 @@ Functions</h2></td></tr>
 </div>
 <div class="memdoc">
 
+<p>Generates problem size time data file for insertion sort algorithm. </p>
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">problemSize</td><td>maximum array length </td></tr>
+    <tr><td class="paramname">V</td><td>unsorted array </td></tr>
+    <tr><td class="paramname">GAP</td><td>array's length increase </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a class="anchor" id="a213d1d8b810cb298d1b8c27697335690"></a><!-- doxytag: member="generators.cpp::generateInsertionSortTime" ref="a213d1d8b810cb298d1b8c27697335690" args="(ofstream &amp;file, int V[], int n)" -->
@@ -251,6 +300,16 @@ Functions</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+
+<p>Generates time data for insertion sort algorithm. </p>
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">file</td><td>output file </td></tr>
+    <tr><td class="paramname">V</td><td>unsorted array </td></tr>
+    <tr><td class="paramname">n</td><td>array length </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -285,6 +344,16 @@ Functions</h2></td></tr>
 </div>
 <div class="memdoc">
 
+<p>Generates problem size time data file for quick sort algorithm. </p>
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">problemSize</td><td>maximum array length </td></tr>
+    <tr><td class="paramname">V</td><td>unsorted array </td></tr>
+    <tr><td class="paramname">GAP</td><td>array's length increase </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a class="anchor" id="a6a94404ce7d23e3ca2dc11259b8b3c4f"></a><!-- doxytag: member="generators.cpp::generateQuickSortTime" ref="a6a94404ce7d23e3ca2dc11259b8b3c4f" args="(ofstream &amp;file, int V[], int n)" -->
@@ -317,6 +386,16 @@ Functions</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+
+<p>Generates time data for quick sort algorithm. </p>
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">file</td><td>output file </td></tr>
+    <tr><td class="paramname">V</td><td>unsorted array </td></tr>
+    <tr><td class="paramname">n</td><td>array length </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -351,6 +430,16 @@ Functions</h2></td></tr>
 </div>
 <div class="memdoc">
 
+<p>Generates problem size time data file for selection sort algorithm. </p>
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">problemSize</td><td>maximum array length </td></tr>
+    <tr><td class="paramname">V</td><td>unsorted array </td></tr>
+    <tr><td class="paramname">GAP</td><td>array's length increase </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a class="anchor" id="aed841c448738b017d7514a64203879da"></a><!-- doxytag: member="generators.cpp::generateSelectionSortTime" ref="aed841c448738b017d7514a64203879da" args="(ofstream &amp;file, int V[], int n)" -->
@@ -384,6 +473,16 @@ Functions</h2></td></tr>
 </div>
 <div class="memdoc">
 
+<p>Generates time data for selection sort algorithm. </p>
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">file</td><td>output file </td></tr>
+    <tr><td class="paramname">V</td><td>unsorted array </td></tr>
+    <tr><td class="paramname">n</td><td>array length </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 </div>
@@ -392,7 +491,7 @@ Functions</h2></td></tr>
     <ul>
       <li class="navelem"><a class="el" href="generators_8cpp.html">generators.cpp</a>      </li>
 
-    <li class="footer">Generated on Sun Dec 16 2012 15:55:05 for AlgorithmAnalysis by
+    <li class="footer">Generated on Sun Dec 16 2012 19:45:06 for AlgorithmAnalysis by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.7.5.1 </li>
    </ul>
