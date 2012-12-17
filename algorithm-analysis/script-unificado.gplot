@@ -11,6 +11,7 @@ linear(x) = x * c;
 set ylabel "t (ms)"
 set xlabel "n (elementos en array)"
 
+
 set output "unificado.png"
 set title "Comparacion entre algoritmos"
 
@@ -20,6 +21,12 @@ fit linear(x) "insertion-sort.txt" via c;
 fit cuadratic(x) "selection-sort.txt" via a;
 fit loglinear(x) "selection-sort.txt" via b;
 fit linear(x) "selection-sort.txt" via c;
+fit cuadratic(x) "bubble-sort.txt" via a;
+fit loglinear(x) "bubble-sort.txt" via b;
+fit linear(x) "bubble-sort.txt" via c;
+fit cuadratic(x) "quick-sort.txt" via a;
+fit loglinear(x) "quick-sort.txt" via b;
+fit linear(x) "quick-sort.txt" via c;
 plot "selection-sort.txt" with lines lw 2 title "selection", \
 "bubble-sort.txt" with lines lw 2 title "bubble", \
 "insertion-sort.txt" with lines lw 2 title "insertion", \
