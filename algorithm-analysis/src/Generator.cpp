@@ -7,6 +7,11 @@
 
 #include "../include/Generator.h"
 
+
+
+
+
+
 void Generator::generateInsertionSortTime(ofstream &file, int V[], int n) {
 
 	clock_t initalTime = clock();

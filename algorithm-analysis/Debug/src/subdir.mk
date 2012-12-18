@@ -36,4 +36,11 @@ src/%.o: ../src/%.cpp
 	@echo 'Finished building: $<'
 	@echo ' '
 
+src/main.o: ../src/main.cpp
+	@echo 'Building file: $<'
+	@echo 'Invoking: GCC C++ Compiler'
+	g++ -I/usr/include/c++/4.2.1 -I/usr/include -include"/Users/repli/Documents/Programacion/algorithm-analysis/algorithm-analysis/include/Generator.h" -include"/Users/repli/Documents/Programacion/algorithm-analysis/algorithm-analysis/include/Helper.h" -include"/Users/repli/Documents/Programacion/algorithm-analysis/algorithm-analysis/include/Sorting.h" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"$(@:%.o=%.d)" -MT"src/main.d" -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
 

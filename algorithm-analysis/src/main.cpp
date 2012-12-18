@@ -10,6 +10,7 @@
 #include "../include/Messages.h"
 #include "../include/Generator.h"
 
+
 int main(int argc, char *argv[]) {
 
 	int problemSize = Messages::getProblemSize();
@@ -26,6 +27,7 @@ int main(int argc, char *argv[]) {
 		char option = Messages::chooseAlgorithm();
 		switch (option) {
 		case '1':
+
 			Generator::generateInsertionSortDataFile(problemSize, V, GAP);
 			break;
 
@@ -55,15 +57,10 @@ int main(int argc, char *argv[]) {
 			break;
 
 		default:
-			//cout << "Choose a valid option.\n\n";
+			cout << "Choose a valid option.\n\n";
 			break;
 		}
 	}
-
-
-
-
-
 
 	return 0;
 }
