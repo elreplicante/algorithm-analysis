@@ -18,7 +18,7 @@ int main(int argc, char *argv[]) {
 
 	int V[problemSize];
 	Testing::generateArray(V, problemSize, maxInt);
-	//Helper::printArrayContents(V, problemSize);
+	Helper::printArrayContents(V, problemSize);
 
 	bool exitMenu = false;
 
@@ -59,6 +59,11 @@ int main(int argc, char *argv[]) {
 			break;
 		}
 	}
+
+
+
+
+
 
 	return 0;
 }

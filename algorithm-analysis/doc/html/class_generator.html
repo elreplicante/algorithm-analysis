@@ -78,7 +78,7 @@
 </div>
 <div class="contents">
 <!-- doxytag: class="Generator" -->
-<p><code>#include &lt;Generator.h&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="_generator_8h_source.html">Generator.h</a>&gt;</code></p>
 
 <p><a href="class_generator-members.html">List of all members.</a></p>
 <table class="memberdecls">
@@ -109,7 +109,10 @@ Static Private Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_generator.html#a1e2feb1068f98e6ebbdd67ab75f4fd72">generateMergeSortTime</a> (ofstream &amp;file, int V[], int n)</td></tr>
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates time data for merge sort algorithm.  <a href="#a1e2feb1068f98e6ebbdd67ab75f4fd72"></a><br/></td></tr>
 </table>
-<hr/><h2>Member Function Documentation</h2>
+<hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
+<div class="textblock">
+<p>Definition at line <a class="el" href="_generator_8h_source.html#l00013">13</a> of file <a class="el" href="_generator_8h_source.html">Generator.h</a>.</p>
+</div><hr/><h2>Member Function Documentation</h2>
 <a class="anchor" id="a130306df78976870fd3d362841f29d32"></a><!-- doxytag: member="Generator::generateAllFiles" ref="a130306df78976870fd3d362841f29d32" args="(int problemSize, int V[], int GAP)" -->
 <div class="memitem">
 <div class="memproto">
@@ -150,6 +153,12 @@ Static Private Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+<p>Definition at line <a class="el" href="_generator_8cpp_source.html#l00112">112</a> of file <a class="el" href="_generator_8cpp_source.html">Generator.cpp</a>.</p>
+
+<p>References <a class="el" href="_generator_8cpp_source.html#l00079">generateBubbleSortDataFile()</a>, <a class="el" href="_generator_8cpp_source.html#l00057">generateInsertionSortDataFile()</a>, <a class="el" href="_generator_8cpp_source.html#l00101">generateMergeSortDataFile()</a>, <a class="el" href="_generator_8cpp_source.html#l00090">generateQuickSortDataFile()</a>, and <a class="el" href="_generator_8cpp_source.html#l00068">generateSelectionSortDataFile()</a>.</p>
+
+<p>Referenced by <a class="el" href="main_8cpp_source.html#l00013">main()</a>.</p>
 
 </div>
 </div>
@@ -194,6 +203,12 @@ Static Private Member Functions</h2></td></tr>
   </dd>
 </dl>
 
+<p>Definition at line <a class="el" href="_generator_8cpp_source.html#l00079">79</a> of file <a class="el" href="_generator_8cpp_source.html">Generator.cpp</a>.</p>
+
+<p>References <a class="el" href="_helper_8cpp_source.html#l00017">Helper::copyArray()</a>, and <a class="el" href="_generator_8cpp_source.html#l00029">generateBubbleSortTime()</a>.</p>
+
+<p>Referenced by <a class="el" href="_generator_8cpp_source.html#l00112">generateAllFiles()</a>, and <a class="el" href="main_8cpp_source.html#l00013">main()</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="af786d88dcc7612025cd32efd94f58e44"></a><!-- doxytag: member="Generator::generateBubbleSortTime" ref="af786d88dcc7612025cd32efd94f58e44" args="(ofstream &amp;file, int V[], int n)" -->
@@ -236,6 +251,12 @@ Static Private Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+<p>Definition at line <a class="el" href="_generator_8cpp_source.html#l00029">29</a> of file <a class="el" href="_generator_8cpp_source.html">Generator.cpp</a>.</p>
+
+<p>References <a class="el" href="_sorting_8cpp_source.html#l00041">Sorting::bubbleSort()</a>, and <a class="el" href="_generator_8h_source.html#l00016">PRECISION</a>.</p>
+
+<p>Referenced by <a class="el" href="_generator_8cpp_source.html#l00079">generateBubbleSortDataFile()</a>.</p>
 
 </div>
 </div>
@@ -280,6 +301,12 @@ Static Private Member Functions</h2></td></tr>
   </dd>
 </dl>
 
+<p>Definition at line <a class="el" href="_generator_8cpp_source.html#l00057">57</a> of file <a class="el" href="_generator_8cpp_source.html">Generator.cpp</a>.</p>
+
+<p>References <a class="el" href="_helper_8cpp_source.html#l00017">Helper::copyArray()</a>, and <a class="el" href="_generator_8cpp_source.html#l00010">generateInsertionSortTime()</a>.</p>
+
+<p>Referenced by <a class="el" href="_generator_8cpp_source.html#l00112">generateAllFiles()</a>, and <a class="el" href="main_8cpp_source.html#l00013">main()</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="aaa31bd22a8b60df41e9e4472d90fbb77"></a><!-- doxytag: member="Generator::generateInsertionSortTime" ref="aaa31bd22a8b60df41e9e4472d90fbb77" args="(ofstream &amp;file, int V[], int n)" -->
@@ -322,6 +349,12 @@ Static Private Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+<p>Definition at line <a class="el" href="_generator_8cpp_source.html#l00010">10</a> of file <a class="el" href="_generator_8cpp_source.html">Generator.cpp</a>.</p>
+
+<p>References <a class="el" href="_sorting_8cpp_source.html#l00011">Sorting::insertionSort()</a>, and <a class="el" href="_generator_8h_source.html#l00016">PRECISION</a>.</p>
+
+<p>Referenced by <a class="el" href="_generator_8cpp_source.html#l00057">generateInsertionSortDataFile()</a>.</p>
 
 </div>
 </div>
@@ -366,6 +399,12 @@ Static Private Member Functions</h2></td></tr>
   </dd>
 </dl>
 
+<p>Definition at line <a class="el" href="_generator_8cpp_source.html#l00101">101</a> of file <a class="el" href="_generator_8cpp_source.html">Generator.cpp</a>.</p>
+
+<p>References <a class="el" href="_helper_8cpp_source.html#l00017">Helper::copyArray()</a>, and <a class="el" href="_generator_8cpp_source.html#l00038">generateQuickSortTime()</a>.</p>
+
+<p>Referenced by <a class="el" href="_generator_8cpp_source.html#l00112">generateAllFiles()</a>, and <a class="el" href="main_8cpp_source.html#l00013">main()</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a1e2feb1068f98e6ebbdd67ab75f4fd72"></a><!-- doxytag: member="Generator::generateMergeSortTime" ref="a1e2feb1068f98e6ebbdd67ab75f4fd72" args="(ofstream &amp;file, int V[], int n)" -->
@@ -408,6 +447,10 @@ Static Private Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+<p>Definition at line <a class="el" href="_generator_8cpp_source.html#l00047">47</a> of file <a class="el" href="_generator_8cpp_source.html">Generator.cpp</a>.</p>
+
+<p>References <a class="el" href="_sorting_8cpp_source.html#l00128">Sorting::mergeSort()</a>, and <a class="el" href="_generator_8h_source.html#l00016">PRECISION</a>.</p>
 
 </div>
 </div>
@@ -452,6 +495,12 @@ Static Private Member Functions</h2></td></tr>
   </dd>
 </dl>
 
+<p>Definition at line <a class="el" href="_generator_8cpp_source.html#l00090">90</a> of file <a class="el" href="_generator_8cpp_source.html">Generator.cpp</a>.</p>
+
+<p>References <a class="el" href="_helper_8cpp_source.html#l00017">Helper::copyArray()</a>, and <a class="el" href="_generator_8cpp_source.html#l00038">generateQuickSortTime()</a>.</p>
+
+<p>Referenced by <a class="el" href="_generator_8cpp_source.html#l00112">generateAllFiles()</a>, and <a class="el" href="main_8cpp_source.html#l00013">main()</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a5503bd17989580d93f0a0b78ddc8588f"></a><!-- doxytag: member="Generator::generateQuickSortTime" ref="a5503bd17989580d93f0a0b78ddc8588f" args="(ofstream &amp;file, int V[], int n)" -->
@@ -494,6 +543,12 @@ Static Private Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+<p>Definition at line <a class="el" href="_generator_8cpp_source.html#l00038">38</a> of file <a class="el" href="_generator_8cpp_source.html">Generator.cpp</a>.</p>
+
+<p>References <a class="el" href="_generator_8h_source.html#l00016">PRECISION</a>, and <a class="el" href="_sorting_8cpp_source.html#l00060">Sorting::quickSort()</a>.</p>
+
+<p>Referenced by <a class="el" href="_generator_8cpp_source.html#l00101">generateMergeSortDataFile()</a>, and <a class="el" href="_generator_8cpp_source.html#l00090">generateQuickSortDataFile()</a>.</p>
 
 </div>
 </div>
@@ -538,6 +593,12 @@ Static Private Member Functions</h2></td></tr>
   </dd>
 </dl>
 
+<p>Definition at line <a class="el" href="_generator_8cpp_source.html#l00068">68</a> of file <a class="el" href="_generator_8cpp_source.html">Generator.cpp</a>.</p>
+
+<p>References <a class="el" href="_helper_8cpp_source.html#l00017">Helper::copyArray()</a>, and <a class="el" href="_generator_8cpp_source.html#l00020">generateSelectionSortTime()</a>.</p>
+
+<p>Referenced by <a class="el" href="_generator_8cpp_source.html#l00112">generateAllFiles()</a>, and <a class="el" href="main_8cpp_source.html#l00013">main()</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a4105db90301125edfe01457582f32610"></a><!-- doxytag: member="Generator::generateSelectionSortTime" ref="a4105db90301125edfe01457582f32610" args="(ofstream &amp;file, int V[], int n)" -->
@@ -581,11 +642,17 @@ Static Private Member Functions</h2></td></tr>
   </dd>
 </dl>
 
+<p>Definition at line <a class="el" href="_generator_8cpp_source.html#l00020">20</a> of file <a class="el" href="_generator_8cpp_source.html">Generator.cpp</a>.</p>
+
+<p>References <a class="el" href="_sorting_8cpp_source.html#l00011">Sorting::insertionSort()</a>, and <a class="el" href="_generator_8h_source.html#l00016">PRECISION</a>.</p>
+
+<p>Referenced by <a class="el" href="_generator_8cpp_source.html#l00068">generateSelectionSortDataFile()</a>.</p>
+
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>include/<a class="el" href="_generator_8h.html">Generator.h</a></li>
-<li>src/<a class="el" href="_generator_8cpp.html">Generator.cpp</a></li>
+<li>include/<a class="el" href="_generator_8h_source.html">Generator.h</a></li>
+<li>src/<a class="el" href="_generator_8cpp_source.html">Generator.cpp</a></li>
 </ul>
 </div>
 </div>
@@ -593,7 +660,7 @@ Static Private Member Functions</h2></td></tr>
     <ul>
       <li class="navelem"><a class="el" href="class_generator.html">Generator</a>      </li>
 
-    <li class="footer">Generated on Tue Dec 18 2012 17:01:20 for AlgorithmAnalysis by
+    <li class="footer">Generated on Tue Dec 18 2012 18:11:57 for AlgorithmAnalysis by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.7.5.1 </li>
    </ul>

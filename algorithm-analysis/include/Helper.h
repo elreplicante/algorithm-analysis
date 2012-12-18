@@ -49,13 +49,17 @@ public:
 	 */
 	static bool checkIsOrdered(int V[], int n);
 
-
 	/**
 	 * @brief Prints array content on console
 	 * @param V the array
 	 * @param n the array's length
 	 */
 	static void printArrayContents(int V[], int n);
+
+	/**
+	 * @brief Executes the shell script to generate the image files
+	 */
+	static void executePlotCommand();
 
 private:
 	static bool checkSameLength(int V[], int W[]);

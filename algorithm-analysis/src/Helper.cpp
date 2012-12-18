@@ -76,3 +76,13 @@ void Helper::printArrayContents(int V[], int n) {
 
 }
 
+void Helper::executePlotCommand() {
+		int i;
+			  printf ("Checking if processor is available...");
+			  if (system(NULL)) puts ("Ok");
+			    else exit (1);
+			  printf ("Executing command generate-plots.sh...\n");
+			  i=system ("generate-plots.sh");
+			  printf ("The value returned was: %d.\n",i);
+	}
+

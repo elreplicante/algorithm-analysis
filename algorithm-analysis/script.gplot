@@ -19,7 +19,7 @@ fit linear(x) "insertion-sort.txt" via c;
 set ylabel "t (ms)"
 set xlabel "n (elementos en array)"
 
-plot "insertion-sort.txt" with lines lw 2 title "f", \
+plot "insertion-sort.txt" with lines lw 2 title "insertion-sort", \
 linear(x) with lines title "lineal", \
 loglinear(x) with lines title "n log n", \
 cuadratic(x) with lines title "x^2 ";
@@ -33,7 +33,7 @@ fit linear(x) "selection-sort.txt" via c;
 set ylabel "t (ms)"
 set xlabel "n (elementos en array)"
 
-plot "selection-sort.txt" with lines lw 2 title "f", \
+plot "selection-sort.txt" with lines lw 2 title "selection-sort", \
 linear(x) with lines title "lineal", \
 loglinear(x) with lines title "n log n", \
 cuadratic(x) with lines title "x^2 ";
@@ -47,7 +47,7 @@ fit linear(x) "bubble-sort.txt" via c;
 set ylabel "t (ms)"
 set xlabel "n (elementos en array)"
 
-plot "bubble-sort.txt" with lines lw 2 title "f", \
+plot "bubble-sort.txt" with lines lw 2 title "bubble-sort", \
 linear(x) with lines title "lineal", \
 loglinear(x) with lines title "n log n", \
 cuadratic(x) with lines title "x^2 ";
@@ -62,7 +62,7 @@ fit linear(x) "quick-sort.txt" via c;
 set ylabel "t (ms)"
 set xlabel "n (elementos en array)"
 
-plot "quick-sort.txt" with lines lw 2 title "f", \
+plot "quick-sort.txt" with lines lw 2 title "quick-sort", \
 linear(x) with lines title "lineal", \
 loglinear(x) with lines title "n log n", \
 cuadratic(x) with lines title "x^2 ";
@@ -76,7 +76,7 @@ fit linear(x) "merge-sort.txt" via c;
 set ylabel "t (ms)"
 set xlabel "n (elementos en array)"
 
-plot "merge-sort.txt" with lines lw 2 title "f", \
+plot "merge-sort.txt" with lines lw 2 title "merge-sort", \
 linear(x) with lines title "lineal", \
 loglinear(x) with lines title "n log n", \
 cuadratic(x) with lines title "x^2 ";
