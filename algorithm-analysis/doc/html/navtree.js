@@ -1,18 +1,27 @@
 var NAVTREE =
 [
   [ "AlgorithmAnalysis", "index.html", [
+    [ "Class List", "annotated.html", [
+      [ "Generator", "class_generator.html", null ],
+      [ "Helper", "class_helper.html", null ],
+      [ "Messages", "class_messages.html", null ],
+      [ "Sorting", "class_sorting.html", null ],
+      [ "Testing", "class_testing.html", null ]
+    ] ],
+    [ "Class Index", "classes.html", null ],
+    [ "Class Members", "functions.html", null ],
     [ "File List", "files.html", [
-      [ "include/aux.h", "aux_8h.html", null ],
-      [ "include/generators.h", "generators_8h.html", null ],
-      [ "include/interaction.h", "interaction_8h.html", null ],
-      [ "include/ordenacion.h", "ordenacion_8h.html", null ],
-      [ "include/test.h", "test_8h.html", null ],
-      [ "src/aux.cpp", "aux_8cpp.html", null ],
-      [ "src/generators.cpp", "generators_8cpp.html", null ],
-      [ "src/interaction.cpp", "interaction_8cpp.html", null ],
+      [ "include/Generator.h", "_generator_8h.html", null ],
+      [ "include/Helper.h", "_helper_8h.html", null ],
+      [ "include/Messages.h", "_messages_8h.html", null ],
+      [ "include/Sorting.h", "_sorting_8h.html", null ],
+      [ "include/Testing.h", "_testing_8h.html", null ],
+      [ "src/Generator.cpp", "_generator_8cpp.html", null ],
+      [ "src/Helper.cpp", "_helper_8cpp.html", null ],
       [ "src/main.cpp", "main_8cpp.html", null ],
-      [ "src/ordenacion.cpp", "ordenacion_8cpp.html", null ],
-      [ "src/test.cpp", "test_8cpp.html", null ]
+      [ "src/Messages.cpp", "_messages_8cpp.html", null ],
+      [ "src/Sorting.cpp", "_sorting_8cpp.html", null ],
+      [ "src/Testing.cpp", "_testing_8cpp.html", null ]
     ] ],
     [ "File Members", "globals.html", null ]
   ] ]

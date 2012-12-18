@@ -6,47 +6,47 @@
  *
  */
 
-#include "../include/test.h"
-#include "../include/interaction.h"
-#include "../include/generators.h"
+#include "../include/Testing.h"
+#include "../include/Messages.h"
+#include "../include/Generator.h"
 
-int main() {
+int main(int argc, char *argv[]) {
 
-	int problemSize = getProblemSize();
-	int maxInt = getMaximumInteger();
-	int GAP = getGap();
+	int problemSize = Messages::getProblemSize();
+	int maxInt = Messages::getMaximumInteger();
+	int GAP = Messages::getGap();
 
 	int V[problemSize];
-	generateArray(V, problemSize, maxInt);
-	printArrayContents(V, problemSize);
+	Testing::generateArray(V, problemSize, maxInt);
+	//Helper::printArrayContents(V, problemSize);
 
 	bool exitMenu = false;
 
 	while (!exitMenu) {
-		char option = chooseAlgorithm();
+		char option = Messages::chooseAlgorithm();
 		switch (option) {
 		case '1':
-			generateInsertionSortDataFile(problemSize, V, GAP);
+			Generator::generateInsertionSortDataFile(problemSize, V, GAP);
 			break;
 
 		case '2':
-			generateSelectionSortDataFile(problemSize, V, GAP);
+			Generator::generateSelectionSortDataFile(problemSize, V, GAP);
 			break;
 
 		case '3':
-			generateBubbleSortDataFile(problemSize, V, GAP);
+			Generator::generateBubbleSortDataFile(problemSize, V, GAP);
 			break;
 
 		case '4':
-			generateQuickSortDataFile(problemSize, V, GAP);
+			Generator::generateQuickSortDataFile(problemSize, V, GAP);
 			break;
 
 		case '5':
-			generateMergeSortDataFile(problemSize, V, GAP);
+			Generator::generateMergeSortDataFile(problemSize, V, GAP);
 			break;
 
 		case '6': {
-			generateAllFiles(problemSize, V, GAP);
+			Generator::generateAllFiles(problemSize, V, GAP);
 			break;
 		}
 
