@@ -30,6 +30,12 @@ void bubbleSort(int V[], int num);
  */
 void quickSort(int V[], int left, int right);
 
-//void mergeSort(int *a, int*b, int low, int high);
+/**
+ * @brief Performs a merge sort algorithm on a vector of positive integers.
+ * @param V a vector of positive integers
+ * @param left the left index for the divide and conquer strategy (initially 0)
+ * @param right the right index for the divide and conquer strategy (initially the array length)
+ */
+void mergeSort(int V[], int left, int right);
 
 #endif /* ORDENACION_H_ */

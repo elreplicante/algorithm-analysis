@@ -67,5 +67,17 @@ linear(x) with lines title "lineal", \
 loglinear(x) with lines title "n log n", \
 cuadratic(x) with lines title "x^2 ";
 
+# Merge Sort
+set output "merge-sort.png"
+set title "Ordenación rápida O(n log(n))"
+fit cuadratic(x) "merge-sort.txt" via a;
+fit loglinear(x) "merge-sort.txt" via b;
+fit linear(x) "merge-sort.txt" via c;
+set ylabel "t (ms)"
+set xlabel "n (elementos en array)"
 
+plot "merge-sort.txt" with lines lw 2 title "f", \
+linear(x) with lines title "lineal", \
+loglinear(x) with lines title "n log n", \
+cuadratic(x) with lines title "x^2 ";
 #unset output

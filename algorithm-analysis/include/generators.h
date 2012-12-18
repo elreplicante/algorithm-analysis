@@ -39,6 +39,15 @@ void generateQuickSortTime(ofstream &file, int V[], int n);
 
 
 /**
+ * @brief Generates time data for merge sort algorithm
+ * @param file output file
+ * @param V unsorted array
+ * @param n array length
+ */
+void generateMergeSortTime(ofstream &file, int V[], int n);
+
+
+/**
  * @brief Generates problem size time data file for insertion sort algorithm
  * @param problemSize maximum array length
  * @param V unsorted array
@@ -72,11 +81,22 @@ void generateQuickSortDataFile(int problemSize, int V[], int GAP);
 
 
 /**
+ * @brief Generates problem size time data file for merge sort algorithm
+ * @param problemSize maximum array length
+ * @param V unsorted array
+ * @param GAP array's length increase
+ */
+void generateMergeSortDataFile(int problemSize, int V[], int GAP);
+
+/**
  * @brief Generates time data files for all algorithms
  * @param problemSize maximum array length
  * @param V unsorted array
  * @param GAP array's length increase
  */
 void generateAllFiles(int problemSize, int V[], int GAP);
+
+
+
 
 #endif /* GENERATORS_H_ */

@@ -10,7 +10,6 @@
 #include "../include/interaction.h"
 #include "../include/generators.h"
 
-
 int main() {
 
 	int problemSize = getProblemSize();
@@ -40,6 +39,10 @@ int main() {
 
 		case '4':
 			generateQuickSortDataFile(problemSize, V, GAP);
+			break;
+
+		case '5':
+			generateMergeSortDataFile(problemSize, V, GAP);
 			break;
 
 		case '6': {

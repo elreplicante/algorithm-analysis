@@ -77,37 +77,55 @@ void quickSort(int V[], int left, int right) {
 		quickSort(V, i, right);
 }
 
-void merge(int *a, int *b, int low, int pivot, int high) {
-	int h, i, j, k;
-	h = low;
-	i = low;
-	j = pivot + 1;
+void merge(int V[], int left, int half, int right) {
 
-	while ((h <= pivot) && (j <= high)) {
-		if (a[h] <= a[j]) {
-			b[i] = a[h];
-			h++;
+	int *U = new int[right - left + 1];
+	int i, j, k;
+
+	for(k = left; k <= right; k++) {
+		U[k - left] = V[k];
+	}
+
+	i = 0;
+	j = half - left + 1;
+	k = left;
+
+	while((i <= half - left) && (j <= right - left)) {
+		if(U[i] <= U[j]) {
+			V[k] = U[i];
+			i++;
 		} else {
-			b[i] = a[j];
+			V[k] = U[j];
 			j++;
 		}
+		k++;
+	}
+
+	while (i <= half - left) {
+		V[k] = U[i];
 		i++;
+		k++;
 	}
-	if (h > pivot) {
-		for (k = j; k <= high; k++) {
-			b[i] = a[k];
-			i++;
-		}
-	} else {
-		for (k = h; k <= pivot; k++) {
-			b[i] = a[k];
-			i++;
-		}
+
+	while (j <= right - left) {
+		V[k] = U[j];
+		j++;
+		k++;
 	}
-	for (k = low; k <= high; k++)
-		a[k] = b[k];
+
+	delete[] U;
 }
 
 
+void mergeSort(int V[], int left, int right) {
+	int half;
 
+	if (left < right) {
+		half = (left + right) / 2;
+		mergeSort(V, left, half);
+		mergeSort(V, half + 1, right);
+		merge(V, left, half, right);
+
+	}
+}
 

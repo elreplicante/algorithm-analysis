@@ -37,6 +37,15 @@ void generateQuickSortTime(ofstream &file, int V[], int n) {
 
 }
 
+void generateMergeSortTime(ofstream &file, int V[], int n) {
+	clock_t initalTime = clock();
+		mergeSort(V, 0, n);
+		clock_t finalTime = clock();
+		float time = ((float) (finalTime - initalTime)) / CLOCKS_PER_SEC;
+		file << setprecision(PRECISION) << fixed << n << " " << time << "\n";
+
+}
+
 
 void generateInsertionSortDataFile(int problemSize, int V[], int GAP) {
 	ofstream file("insertion-sort.txt");
@@ -82,10 +91,22 @@ void generateQuickSortDataFile(int problemSize, int V[], int GAP) {
 	file.close();
 }
 
+void generateMergeSortDataFile(int problemSize, int V[], int GAP) {
+	ofstream file("merge-sort.txt");
+	for (int i = 1; i <= problemSize; i += GAP) {
+		int arrayCopy[i];
+		copyArray(V, arrayCopy, i);
+		generateQuickSortTime(file, arrayCopy, i);
+	}
+
+	file.close();
+}
+
 void generateAllFiles(int problemSize, int V[], int GAP) {
 	generateInsertionSortDataFile(problemSize, V, GAP);
 	generateBubbleSortDataFile(problemSize, V, GAP);
 	generateSelectionSortDataFile(problemSize, V, GAP);
 	generateQuickSortDataFile(problemSize, V, GAP);
+	generateMergeSortDataFile(problemSize, V, GAP);
 }
 

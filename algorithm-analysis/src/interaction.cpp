@@ -18,7 +18,7 @@ int getProblemSize() {
 
 int getMaximumInteger() {
 	int maxInt;
-	cout << "Enter the maximum integer to generate (-1, of course...):";
+	cout << "Enter the maximum integer to generate:";
 	cin >> maxInt;
 	return maxInt;
 }
@@ -38,6 +38,7 @@ char chooseAlgorithm() {
 	cout << "2: Selection Sort.\n";
 	cout << "3: Bubble Sort.\n";
 	cout << "4: Quick Sort.\n";
+	cout << "5: Merge Sort.\n";
 	cout << "6: Generate all (DO IT AT YOUR OKWN RISK!.\n";
 	cout << "0: Exit.\n";
 	cout << "Choose an option:";
