@@ -1,7 +1,6 @@
 \section{Análisis de resultados}
-Todos los resultados han sido generados en un ordenador Apple MacBook Pro, Mac Os X 10.8.2, Procesador Intel Core i5 a 2,4Ghz (4 núcleos), 4 Gb de RAM a 1333 Mhz DDR3.
 \begin{itemize}
-\item Tamaño del problema: $50000$
+\item Tamaño del problema: $50000$\footnote{Todos los resultados han sido generados en un ordenador Apple MacBook Pro, Mac Os X 10.8.2, Procesador Intel Core i5 a 2,4Ghz (4 núcleos), 4 Gb de RAM a 1333 Mhz DDR3.}
 \item Máximo entero generado: $32767$
 \item Salto entre iteraciones: $100$
 \end{itemize}
@@ -25,7 +24,7 @@ Su complejidad es de $O(n^2)$. Un buen algoritmo de ordenación para un número 
 
 %Gráfica de ordenación por selección
 \subsection{Ordenación por selecci\'on}
-Es un algoritmo de ordenación por comparación. Su complejidad es de $O(n^2)$. Resulta ineficiente en tamaños de problema grandes, y suele funcionar peor que la ordenación por inserción. Se caracteriza por su sencillez, y también tiene ventajas de rendimiento sobre algoritmos más complicados en determinadas situaciones, sobre todo cuando la memoria auxiliar es limitada.
+Es un algoritmo de ordenación por comparación. Su complejidad es de $O(n^2)$. Resulta ineficiente en tamaños de problema grandes, y suele funcionar peor que la ordenación por inserción. Se caracteriza por su sencillez, y también tiene ventajas de rendimiento sobre algoritmos más complicados en determinadas situaciones, sobre todo cuando la memoria auxiliar es limitada.\\
 El algoritmo divide la lista de entrada en dos partes: la lista secundaria de los elementos que ya están ordenados, dispuestos de izquierda a derecha, y la lista secundaria de los elementos restantes a ser ordenados, ocupando el resto de la lista. Inicialmente, la sublista ordenada está vacía y la sublista sin ordenar es la lista original menos los elementos ordenados. El algoritmo continúa encontrando siempre el elemento inmediatamente superior (según orden de clasificación) y lo cambia con el último elemento del array.
 
 	\begin{figure}[H]

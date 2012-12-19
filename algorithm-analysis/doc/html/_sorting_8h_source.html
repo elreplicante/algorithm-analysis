@@ -28,7 +28,7 @@
   
   <td style="padding-left: 0.5em;">
    <div id="projectname">AlgorithmAnalysis
-   &#160;<span id="projectnumber">2.0</span>
+   &#160;<span id="projectnumber">1.0</span>
    </div>
    
   </td>
@@ -73,44 +73,36 @@
 <div class="title">include/Sorting.h</div>  </div>
 </div>
 <div class="contents">
-<a href="_sorting_8h.html">Go to the documentation of this file.</a><div class="fragment"><pre class="fragment"><a name="l00001"></a>00001 <span class="comment">/*</span>
-<a name="l00002"></a>00002 <span class="comment"> * Sorting.h</span>
-<a name="l00003"></a>00003 <span class="comment"> *</span>
-<a name="l00004"></a>00004 <span class="comment"> *  Created on: 18/12/2012</span>
-<a name="l00005"></a>00005 <span class="comment"> *      Author: repli</span>
-<a name="l00006"></a>00006 <span class="comment"> */</span>
-<a name="l00007"></a>00007 
-<a name="l00008"></a>00008 <span class="preprocessor">#ifndef SORTING_H_</span>
-<a name="l00009"></a>00009 <span class="preprocessor"></span><span class="preprocessor">#define SORTING_H_</span>
-<a name="l00010"></a>00010 <span class="preprocessor"></span>
-<a name="l00011"></a><a class="code" href="class_sorting.html">00011</a> <span class="keyword">class </span><a class="code" href="class_sorting.html">Sorting</a> {
-<a name="l00012"></a>00012 
+<a href="_sorting_8h.html">Go to the documentation of this file.</a><div class="fragment"><pre class="fragment"><a name="l00001"></a>00001 
+<a name="l00009"></a>00009 <span class="preprocessor">#ifndef SORTING_H_</span>
+<a name="l00010"></a>00010 <span class="preprocessor"></span><span class="preprocessor">#define SORTING_H_</span>
+<a name="l00011"></a>00011 <span class="preprocessor"></span>
+<a name="l00012"></a><a class="code" href="class_sorting.html">00012</a> <span class="keyword">class </span><a class="code" href="class_sorting.html" title="Sorting algorithms.">Sorting</a> {
 <a name="l00013"></a>00013 
 <a name="l00014"></a>00014 <span class="keyword">public</span>:
-<a name="l00020"></a>00020         <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="class_sorting.html#aa90b818eea2eaeb2e6c1501838c60613" title="Performs an insertion sort algorithm on a vector of positive integers.">insertionSort</a>(<span class="keywordtype">int</span> V[], <span class="keywordtype">int</span> num);
+<a name="l00020"></a>00020         <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="class_sorting.html#aa90b818eea2eaeb2e6c1501838c60613" title="Performs an insertion sort algorithm on an array of positive integers.">insertionSort</a>(<span class="keywordtype">int</span> V[], <span class="keywordtype">int</span> num);
 <a name="l00021"></a>00021 
-<a name="l00027"></a>00027         <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="class_sorting.html#a0c160ea2611a6c825b96ad0f614c0b4a" title="Performs a selection sort algorithm on a vector of positive integers.">selectionSort</a>(<span class="keywordtype">int</span> V[], <span class="keywordtype">int</span> num);
+<a name="l00027"></a>00027         <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="class_sorting.html#a0c160ea2611a6c825b96ad0f614c0b4a" title="Performs a selection sort algorithm on an array of positive integers.">selectionSort</a>(<span class="keywordtype">int</span> V[], <span class="keywordtype">int</span> num);
 <a name="l00028"></a>00028 
-<a name="l00034"></a>00034         <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="class_sorting.html#a971c6a462a9bacb4cbc175f426e49d95" title="Performs a bubble sort algorithm on a vector of positive integers.">bubbleSort</a>(<span class="keywordtype">int</span> V[], <span class="keywordtype">int</span> num);
+<a name="l00034"></a>00034         <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="class_sorting.html#a971c6a462a9bacb4cbc175f426e49d95" title="Performs a bubble sort algorithm on an array of positive integers.">bubbleSort</a>(<span class="keywordtype">int</span> V[], <span class="keywordtype">int</span> num);
 <a name="l00035"></a>00035 
-<a name="l00042"></a>00042         <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="class_sorting.html#a795d13ce9d02e2571167252bfb45c636" title="Performs a quick sort algorithm on a vector of positive integers.">quickSort</a>(<span class="keywordtype">int</span> V[], <span class="keywordtype">int</span> left, <span class="keywordtype">int</span> right);
+<a name="l00042"></a>00042         <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="class_sorting.html#a795d13ce9d02e2571167252bfb45c636" title="Performs a quick sort algorithm on an array of positive integers.">quickSort</a>(<span class="keywordtype">int</span> V[], <span class="keywordtype">int</span> left, <span class="keywordtype">int</span> right);
 <a name="l00043"></a>00043 
-<a name="l00050"></a>00050         <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="class_sorting.html#a456e85dbdf12a1f9cf2b293f17126254" title="Performs a merge sort algorithm on a vector of positive integers.">mergeSort</a>(<span class="keywordtype">int</span> V[], <span class="keywordtype">int</span> left, <span class="keywordtype">int</span> right);
+<a name="l00050"></a>00050         <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="class_sorting.html#a456e85dbdf12a1f9cf2b293f17126254" title="Performs a merge sort algorithm on an array of positive integers.">mergeSort</a>(<span class="keywordtype">int</span> V[], <span class="keywordtype">int</span> left, <span class="keywordtype">int</span> right);
 <a name="l00051"></a>00051 
-<a name="l00052"></a>00052 
-<a name="l00053"></a>00053 <span class="keyword">private</span>:
-<a name="l00054"></a>00054         <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="class_sorting.html#a47334d5f6cb249f9d565a0cc8d30260b">merge</a>(<span class="keywordtype">int</span> V[], <span class="keywordtype">int</span> left, <span class="keywordtype">int</span> half, <span class="keywordtype">int</span> right);
-<a name="l00055"></a>00055 
-<a name="l00056"></a>00056 };
-<a name="l00057"></a>00057 
-<a name="l00058"></a>00058 <span class="preprocessor">#endif </span><span class="comment">/* SORTING_H_ */</span>
+<a name="l00052"></a>00052 <span class="keyword">private</span>:
+<a name="l00053"></a>00053         <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="class_sorting.html#a47334d5f6cb249f9d565a0cc8d30260b">merge</a>(<span class="keywordtype">int</span> V[], <span class="keywordtype">int</span> left, <span class="keywordtype">int</span> half, <span class="keywordtype">int</span> right);
+<a name="l00054"></a>00054 
+<a name="l00055"></a>00055 };
+<a name="l00056"></a>00056 
+<a name="l00057"></a>00057 <span class="preprocessor">#endif </span><span class="comment">/* SORTING_H_ */</span>
 </pre></div></div>
 </div>
   <div id="nav-path" class="navpath">
     <ul>
       <li class="navelem"><a class="el" href="_sorting_8h.html">Sorting.h</a>      </li>
 
-    <li class="footer">Generated on Tue Dec 18 2012 18:11:57 for AlgorithmAnalysis by
+    <li class="footer">Generated on Tue Dec 18 2012 23:00:03 for AlgorithmAnalysis by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.7.5.1 </li>
    </ul>

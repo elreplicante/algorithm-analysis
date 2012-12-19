@@ -19,15 +19,18 @@ int main(int argc, char *argv[]) {
 
 	int V[problemSize];
 	Testing::generateArray(V, problemSize, maxInt);
-	Helper::printArrayContents(V, problemSize);
+	//Helper::printArrayContents(V, problemSize);
 
 	bool exitMenu = false;
 
 	while (!exitMenu) {
+		//Invoke menu
 		char option = Messages::chooseAlgorithm();
-		switch (option) {
-		case '1':
 
+		//Choose an algorithm
+		switch (option) {
+
+		case '1':
 			Generator::generateInsertionSortDataFile(problemSize, V, GAP);
 			break;
 

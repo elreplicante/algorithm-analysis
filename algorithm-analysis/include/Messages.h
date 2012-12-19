@@ -1,8 +1,9 @@
-/*
- * Messages.h
+/**
+ * @class Messages
+ * @brief User interaction
  *
- *  Created on: 18/12/2012
- *      Author: repli
+ *
+ * @author Sergio Revilla
  */
 
 #ifndef MESSAGES_H_

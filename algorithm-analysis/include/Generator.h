@@ -1,8 +1,9 @@
-/*
- * Generator.h
+/**
+ * @class Generator
+ * @brief Static methods that generates data from user input values
  *
- *  Created on: 18/12/2012
- *      Author: repli
+ *
+ * @author Sergio Revilla
  */
 #include "../include/Helper.h"
 #include <time.h>
@@ -14,8 +15,6 @@ class Generator {
 
 public:
 #define PRECISION 20
-
-
 
 	/**
 	 * @brief Generates problem size time data file for insertion sort algorithm

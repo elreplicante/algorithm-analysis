@@ -1,8 +1,9 @@
-/*
- * Testing.h
+/**
+ * @class Testing
+ * @brief Static methods that generates data from user input values
  *
- *  Created on: 18/12/2012
- *      Author: repli
+ *
+ * @author Sergio Revilla
  */
 
 #include "../include/Helper.h"

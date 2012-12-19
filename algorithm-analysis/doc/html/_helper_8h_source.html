@@ -28,7 +28,7 @@
   
   <td style="padding-left: 0.5em;">
    <div id="projectname">AlgorithmAnalysis
-   &#160;<span id="projectnumber">2.0</span>
+   &#160;<span id="projectnumber">1.0</span>
    </div>
    
   </td>
@@ -73,50 +73,45 @@
 <div class="title">include/Helper.h</div>  </div>
 </div>
 <div class="contents">
-<a href="_helper_8h.html">Go to the documentation of this file.</a><div class="fragment"><pre class="fragment"><a name="l00001"></a>00001 <span class="comment">/*</span>
-<a name="l00002"></a>00002 <span class="comment"> * Helper.h</span>
-<a name="l00003"></a>00003 <span class="comment"> *</span>
-<a name="l00004"></a>00004 <span class="comment"> *  Created on: 18/12/2012</span>
-<a name="l00005"></a>00005 <span class="comment"> *      Author: repli</span>
-<a name="l00006"></a>00006 <span class="comment"> */</span>
-<a name="l00007"></a>00007 <span class="preprocessor">#include &lt;cstdlib&gt;</span>
-<a name="l00008"></a>00008 <span class="preprocessor">#include &lt;iostream&gt;</span>
-<a name="l00009"></a>00009 <span class="preprocessor">#include &quot;../include/Sorting.h&quot;</span>
-<a name="l00010"></a>00010 <span class="preprocessor">#include &lt;fstream&gt;</span>
-<a name="l00011"></a>00011 <span class="preprocessor">#include &lt;iomanip&gt;</span>
-<a name="l00012"></a>00012 
-<a name="l00013"></a>00013 <span class="keyword">using namespace </span>std;
-<a name="l00014"></a>00014 
-<a name="l00015"></a>00015 <span class="preprocessor">#ifndef HELPER_H_</span>
-<a name="l00016"></a>00016 <span class="preprocessor"></span><span class="preprocessor">#define HELPER_H_</span>
-<a name="l00017"></a>00017 <span class="preprocessor"></span>
-<a name="l00018"></a><a class="code" href="class_helper.html">00018</a> <span class="keyword">class </span><a class="code" href="class_helper.html">Helper</a> {
-<a name="l00019"></a>00019 
-<a name="l00020"></a>00020 <span class="keyword">public</span>:
-<a name="l00027"></a>00027         <span class="keyword">static</span> <span class="keywordtype">void</span> createRandomArray(<span class="keywordtype">int</span> V[], <span class="keywordtype">int</span> arrayLength, <span class="keywordtype">int</span> maxInteger);
-<a name="l00028"></a>00028 
-<a name="l00035"></a>00035         <span class="keyword">static</span> <span class="keywordtype">void</span> copyArray(<span class="keywordtype">int</span> V[], <span class="keywordtype">int</span> W[], <span class="keywordtype">int</span> n);
-<a name="l00036"></a>00036 
-<a name="l00043"></a>00043         <span class="keyword">static</span> <span class="keywordtype">bool</span> checkArrayEquality(<span class="keywordtype">int</span> V[], <span class="keywordtype">int</span> W[], <span class="keywordtype">int</span> n);
-<a name="l00044"></a>00044 
-<a name="l00050"></a>00050         <span class="keyword">static</span> <span class="keywordtype">bool</span> checkIsOrdered(<span class="keywordtype">int</span> V[], <span class="keywordtype">int</span> n);
-<a name="l00051"></a>00051 
-<a name="l00057"></a>00057         <span class="keyword">static</span> <span class="keywordtype">void</span> printArrayContents(<span class="keywordtype">int</span> V[], <span class="keywordtype">int</span> n);
-<a name="l00058"></a>00058 
-<a name="l00062"></a>00062         <span class="keyword">static</span> <span class="keywordtype">void</span> executePlotCommand();
-<a name="l00063"></a>00063 
-<a name="l00064"></a>00064 <span class="keyword">private</span>:
-<a name="l00065"></a>00065         <span class="keyword">static</span> <span class="keywordtype">bool</span> checkSameLength(<span class="keywordtype">int</span> V[], <span class="keywordtype">int</span> W[]);
-<a name="l00066"></a>00066 };
-<a name="l00067"></a>00067 
-<a name="l00068"></a>00068 <span class="preprocessor">#endif </span><span class="comment">/* HELPER_H_ */</span>
+<a href="_helper_8h.html">Go to the documentation of this file.</a><div class="fragment"><pre class="fragment"><a name="l00001"></a>00001 
+<a name="l00008"></a>00008 <span class="preprocessor">#include &lt;cstdlib&gt;</span>
+<a name="l00009"></a>00009 <span class="preprocessor">#include &lt;iostream&gt;</span>
+<a name="l00010"></a>00010 <span class="preprocessor">#include &quot;../include/Sorting.h&quot;</span>
+<a name="l00011"></a>00011 <span class="preprocessor">#include &lt;fstream&gt;</span>
+<a name="l00012"></a>00012 <span class="preprocessor">#include &lt;iomanip&gt;</span>
+<a name="l00013"></a>00013 
+<a name="l00014"></a>00014 <span class="keyword">using namespace </span>std;
+<a name="l00015"></a>00015 
+<a name="l00016"></a>00016 <span class="preprocessor">#ifndef HELPER_H_</span>
+<a name="l00017"></a>00017 <span class="preprocessor"></span><span class="preprocessor">#define HELPER_H_</span>
+<a name="l00018"></a>00018 <span class="preprocessor"></span>
+<a name="l00019"></a><a class="code" href="class_helper.html">00019</a> <span class="keyword">class </span><a class="code" href="class_helper.html" title="Static methods that generates and copies random integer arrays.">Helper</a> {
+<a name="l00020"></a>00020 
+<a name="l00021"></a>00021 <span class="keyword">public</span>:
+<a name="l00028"></a>00028         <span class="keyword">static</span> <span class="keywordtype">void</span> createRandomArray(<span class="keywordtype">int</span> V[], <span class="keywordtype">int</span> arrayLength, <span class="keywordtype">int</span> maxInteger);
+<a name="l00029"></a>00029 
+<a name="l00036"></a>00036         <span class="keyword">static</span> <span class="keywordtype">void</span> copyArray(<span class="keywordtype">int</span> V[], <span class="keywordtype">int</span> W[], <span class="keywordtype">int</span> n);
+<a name="l00037"></a>00037 
+<a name="l00044"></a>00044         <span class="keyword">static</span> <span class="keywordtype">bool</span> checkArrayEquality(<span class="keywordtype">int</span> V[], <span class="keywordtype">int</span> W[], <span class="keywordtype">int</span> n);
+<a name="l00045"></a>00045 
+<a name="l00051"></a>00051         <span class="keyword">static</span> <span class="keywordtype">bool</span> checkIsOrdered(<span class="keywordtype">int</span> V[], <span class="keywordtype">int</span> n);
+<a name="l00052"></a>00052 
+<a name="l00058"></a>00058         <span class="keyword">static</span> <span class="keywordtype">void</span> printArrayContents(<span class="keywordtype">int</span> V[], <span class="keywordtype">int</span> n);
+<a name="l00059"></a>00059 
+<a name="l00063"></a>00063         <span class="keyword">static</span> <span class="keywordtype">void</span> executePlotCommand();
+<a name="l00064"></a>00064 
+<a name="l00065"></a>00065 <span class="keyword">private</span>:
+<a name="l00066"></a>00066         <span class="keyword">static</span> <span class="keywordtype">bool</span> checkSameLength(<span class="keywordtype">int</span> V[], <span class="keywordtype">int</span> W[]);
+<a name="l00067"></a>00067 };
+<a name="l00068"></a>00068 
+<a name="l00069"></a>00069 <span class="preprocessor">#endif </span><span class="comment">/* HELPER_H_ */</span>
 </pre></div></div>
 </div>
   <div id="nav-path" class="navpath">
     <ul>
       <li class="navelem"><a class="el" href="_helper_8h.html">Helper.h</a>      </li>
 
-    <li class="footer">Generated on Tue Dec 18 2012 18:11:57 for AlgorithmAnalysis by
+    <li class="footer">Generated on Tue Dec 18 2012 23:00:03 for AlgorithmAnalysis by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.7.5.1 </li>
    </ul>

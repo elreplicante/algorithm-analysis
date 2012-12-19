@@ -1,8 +1,9 @@
-/*
- * Helper.h
+/**
+ * @class Helper
+ * @brief Static methods that generates and copies random integer arrays
  *
- *  Created on: 18/12/2012
- *      Author: repli
+ *
+ * @author Sergio Revilla
  */
 #include <cstdlib>
 #include <iostream>
