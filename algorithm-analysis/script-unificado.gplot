@@ -2,14 +2,14 @@ set terminal png nocrop enhanced size 1024,768
 #set terminal lapng
 #set output "plot.png"
 
+
 # lineas de ajuste
 cuadratic(x) = x*x * a;
 loglinear(x) = x*log(x) * b;
 linear(x) = x * c;
 
 
-set ylabel "t (ms)"
-set xlabel "n (elementos en array)"
+
 
 
 set output "unificado.png"
@@ -27,10 +27,24 @@ fit linear(x) "bubble-sort.txt" via c;
 fit cuadratic(x) "quick-sort.txt" via a;
 fit loglinear(x) "quick-sort.txt" via b;
 fit linear(x) "quick-sort.txt" via c;
+
+set ylabel "t (ms)"
+set xlabel "n (elementos en array)"
+
 plot "selection-sort.txt" with lines lw 2 title "selection", \
-"bubble-sort.txt" with lines lw 2 title "bubble", \
-"insertion-sort.txt" with lines lw 2 title "insertion", \
-"quick-sort.txt" with lines lw 2 title "quicksort", \
 linear(x) with lines title "lineal", \
 loglinear(x) with lines title "n log n", \
 cuadratic(x) with lines title "x^2 ";
+plot "bubble-sort.txt" with lines lw 2 title "bubble", \
+linear(x) with lines title "lineal", \
+loglinear(x) with lines title "n log n", \
+cuadratic(x) with lines title "x^2 ";
+plot "insertion-sort.txt" with lines lw 2 title "insertion", \
+linear(x) with lines title "lineal", \
+loglinear(x) with lines title "n log n", \
+cuadratic(x) with lines title "x^2 ";
+plot "quick-sort.txt" with lines lw 2 title "quicksort", \
+linear(x) with lines title "lineal", \
+loglinear(x) with lines title "n log n", \
+cuadratic(x) with lines title "x^2 ";
+

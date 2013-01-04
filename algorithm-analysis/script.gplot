@@ -1,7 +1,9 @@
 set terminal png nocrop enhanced size 1024,768
+set encoding default
 #set terminal aqua
 #set terminal lapng
 #set output "plot.png"
+
 
 
 
@@ -16,7 +18,7 @@ set title "Ordenación por inserción O(n^2)"
 fit cuadratic(x) "insertion-sort.txt" via a;
 fit loglinear(x) "insertion-sort.txt" via b;
 fit linear(x) "insertion-sort.txt" via c;
-set ylabel "t (ms)"
+set ylabel "t (s)"
 set xlabel "n (elementos en array)"
 
 plot "insertion-sort.txt" with lines lw 2 title "insertion-sort", \
@@ -30,7 +32,7 @@ set title "Ordenación por selección O(n^2)"
 fit cuadratic(x) "selection-sort.txt" via a;
 fit loglinear(x) "selection-sort.txt" via b;
 fit linear(x) "selection-sort.txt" via c;
-set ylabel "t (ms)"
+set ylabel "t (s)"
 set xlabel "n (elementos en array)"
 
 plot "selection-sort.txt" with lines lw 2 title "selection-sort", \
@@ -44,7 +46,7 @@ set title "Ordenación por burbuja O(n^2)"
 fit cuadratic(x) "bubble-sort.txt" via a;
 fit loglinear(x) "bubble-sort.txt" via b;
 fit linear(x) "bubble-sort.txt" via c;
-set ylabel "t (ms)"
+set ylabel "t (s)"
 set xlabel "n (elementos en array)"
 
 plot "bubble-sort.txt" with lines lw 2 title "bubble-sort", \
@@ -59,7 +61,7 @@ set title "Ordenación rápida O(n log(n))"
 fit cuadratic(x) "quick-sort.txt" via a;
 fit loglinear(x) "quick-sort.txt" via b;
 fit linear(x) "quick-sort.txt" via c;
-set ylabel "t (ms)"
+set ylabel "t (s)"
 set xlabel "n (elementos en array)"
 
 plot "quick-sort.txt" with lines lw 2 title "quick-sort", \
@@ -73,7 +75,7 @@ set title "Ordenación rápida O(n log(n))"
 fit cuadratic(x) "merge-sort.txt" via a;
 fit loglinear(x) "merge-sort.txt" via b;
 fit linear(x) "merge-sort.txt" via c;
-set ylabel "t (ms)"
+set ylabel "t (s)"
 set xlabel "n (elementos en array)"
 
 plot "merge-sort.txt" with lines lw 2 title "merge-sort", \

@@ -8,13 +8,16 @@
 #include "../include/Helper.h"
 #include <time.h>
 
+
+#define PRECISION 50
+
 #ifndef GENERATOR_H_
 #define GENERATOR_H_
 
 class Generator {
 
 public:
-#define PRECISION 20
+
 
 	/**
 	 * @brief Generates problem size time data file for insertion sort algorithm

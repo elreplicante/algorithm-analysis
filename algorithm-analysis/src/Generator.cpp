@@ -13,7 +13,7 @@ void Generator::generateInsertionSortTime(ofstream &file, int V[], int n) {
 	Sorting::insertionSort(V, n);
 	clock_t finalTime = clock();
 	float time = ((float) (finalTime - initalTime)) / (CLOCKS_PER_SEC);
-	file << setprecision(PRECISION) << fixed << n << " " << time << "\n";
+	file << setprecision(PRECISION) << fixed << n << " " << time * 1000 << "\n";
 
 }
 
@@ -23,7 +23,7 @@ void Generator::generateSelectionSortTime(ofstream &file, int V[], int n) {
 	Sorting::insertionSort(V, n);
 	clock_t finalTime = clock();
 	float time = ((float) (finalTime - initalTime)) / CLOCKS_PER_SEC;
-	file << setprecision(PRECISION) << fixed << n << " " << time << "\n";
+	file << setprecision(PRECISION) << fixed << n << " " << time * 1000 << "\n";
 }
 
 void Generator::generateBubbleSortTime(ofstream &file, int V[], int n) {
@@ -32,7 +32,7 @@ void Generator::generateBubbleSortTime(ofstream &file, int V[], int n) {
 	Sorting::bubbleSort(V, n);
 	clock_t finalTime = clock();
 	float time = ((float) (finalTime - initalTime)) / CLOCKS_PER_SEC;
-	file << setprecision(PRECISION) << fixed << n << " " << time << "\n";
+	file << setprecision(PRECISION) << fixed << n << " " << time * 1000 << "\n";
 }
 
 void Generator::generateQuickSortTime(ofstream &file, int V[], int n) {
@@ -40,7 +40,7 @@ void Generator::generateQuickSortTime(ofstream &file, int V[], int n) {
 	Sorting::quickSort(V, 0, n);
 	clock_t finalTime = clock();
 	float time = ((float) (finalTime - initalTime)) / CLOCKS_PER_SEC;
-	file << setprecision(PRECISION) << fixed << n << " " << time << "\n";
+	file << setprecision(PRECISION) << fixed << n << " " << time * 1000 << "\n";
 
 }
 
@@ -49,14 +49,14 @@ void Generator::generateMergeSortTime(ofstream &file, int V[], int n) {
 	Sorting::mergeSort(V, 0, n);
 	clock_t finalTime = clock();
 	float time = ((float) (finalTime - initalTime)) / CLOCKS_PER_SEC;
-	file << setprecision(PRECISION) << fixed << n << " " << time << "\n";
+	file << setprecision(PRECISION) << fixed << n << " " << time * 1000 << "\n";
 
 }
 
 void Generator::generateInsertionSortDataFile(int problemSize, int V[],
 		int GAP) {
 	ofstream file("insertion-sort.txt");
-	for (int i = 0; i <= problemSize; i += GAP) {
+	for (int i = GAP; i <= problemSize; i += GAP) {
 		int arrayCopy[i];
 		Helper::copyArray(V, arrayCopy, i);
 		generateInsertionSortTime(file, arrayCopy, i);
@@ -68,7 +68,7 @@ void Generator::generateInsertionSortDataFile(int problemSize, int V[],
 void Generator::generateSelectionSortDataFile(int problemSize, int V[],
 		int GAP) {
 	ofstream file("selection-sort.txt");
-	for (int i = 0; i <= problemSize; i += GAP) {
+	for (int i = GAP; i <= problemSize; i += GAP) {
 		int arrayCopy[i];
 		Helper::copyArray(V, arrayCopy, i);
 		generateSelectionSortTime(file, arrayCopy, i);
@@ -79,7 +79,7 @@ void Generator::generateSelectionSortDataFile(int problemSize, int V[],
 
 void Generator::generateBubbleSortDataFile(int problemSize, int V[], int GAP) {
 	ofstream file("bubble-sort.txt");
-	for (int i = 0; i <= problemSize; i += GAP) {
+	for (int i = GAP; i <= problemSize; i += GAP) {
 		int arrayCopy[i];
 		Helper::copyArray(V, arrayCopy, i);
 		generateBubbleSortTime(file, arrayCopy, i);
@@ -90,7 +90,7 @@ void Generator::generateBubbleSortDataFile(int problemSize, int V[], int GAP) {
 
 void Generator::generateQuickSortDataFile(int problemSize, int V[], int GAP) {
 	ofstream file("quick-sort.txt");
-	for (int i = 0; i <= problemSize; i += GAP) {
+	for (int i = GAP; i <= problemSize; i += GAP) {
 		int arrayCopy[i];
 		Helper::copyArray(V, arrayCopy, i);
 		generateQuickSortTime(file, arrayCopy, i);
@@ -101,7 +101,7 @@ void Generator::generateQuickSortDataFile(int problemSize, int V[], int GAP) {
 
 void Generator::generateMergeSortDataFile(int problemSize, int V[], int GAP) {
 	ofstream file("merge-sort.txt");
-	for (int i = 0; i <= problemSize; i += GAP) {
+	for (int i = GAP; i <= problemSize; i += GAP) {
 		int arrayCopy[i];
 		Helper::copyArray(V, arrayCopy, i);
 		generateQuickSortTime(file, arrayCopy, i);
