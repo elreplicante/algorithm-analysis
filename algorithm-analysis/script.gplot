@@ -5,8 +5,6 @@ set encoding default
 #set output "plot.png"
 
 
-
-
 # lineas de ajuste
 cuadratic(x) = x*x * a;
 loglinear(x) = x*log(x) * b;
@@ -14,7 +12,7 @@ linear(x) = x * c;
 
 # Insertion sort
 set output "insertion-sort.png"
-set title "Ordenaci贸n por inserci贸n O(n^2)"
+set title "Ordenaci髇 por inserci髇 O(n^2)"
 fit cuadratic(x) "insertion-sort.txt" via a;
 fit loglinear(x) "insertion-sort.txt" via b;
 fit linear(x) "insertion-sort.txt" via c;
@@ -28,7 +26,7 @@ cuadratic(x) with lines title "x^2 ";
 
 # Selection sort
 set output "selection-sort.png"
-set title "Ordenaci贸n por selecci贸n O(n^2)"
+set title "Ordenaci髇 por selecci髇 O(n^2)"
 fit cuadratic(x) "selection-sort.txt" via a;
 fit loglinear(x) "selection-sort.txt" via b;
 fit linear(x) "selection-sort.txt" via c;
@@ -42,7 +40,7 @@ cuadratic(x) with lines title "x^2 ";
 
 # Bubble sort
 set output "bubble-sort.png"
-set title "Ordenaci贸n por burbuja O(n^2)"
+set title "Ordenaci髇 por burbuja O(n^2)"
 fit cuadratic(x) "bubble-sort.txt" via a;
 fit loglinear(x) "bubble-sort.txt" via b;
 fit linear(x) "bubble-sort.txt" via c;
@@ -57,7 +55,7 @@ cuadratic(x) with lines title "x^2 ";
 
 # Quick Sort
 set output "quick-sort.png"
-set title "Ordenaci贸n r谩pida O(n log(n))"
+set title "Ordenaci髇 r醦ida O(n log(n))"
 fit cuadratic(x) "quick-sort.txt" via a;
 fit loglinear(x) "quick-sort.txt" via b;
 fit linear(x) "quick-sort.txt" via c;
@@ -71,7 +69,7 @@ cuadratic(x) with lines title "x^2 ";
 
 # Merge Sort
 set output "merge-sort.png"
-set title "Ordenaci贸n r谩pida O(n log(n))"
+set title "Ordenaci髇 por mezcla O(n log(n))"
 fit cuadratic(x) "merge-sort.txt" via a;
 fit loglinear(x) "merge-sort.txt" via b;
 fit linear(x) "merge-sort.txt" via c;
@@ -82,4 +80,5 @@ plot "merge-sort.txt" with lines lw 2 title "merge-sort", \
 linear(x) with lines title "lineal", \
 loglinear(x) with lines title "n log n", \
 cuadratic(x) with lines title "x^2 ";
+
 #unset output

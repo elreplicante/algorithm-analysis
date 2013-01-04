@@ -13,7 +13,7 @@ void Generator::generateInsertionSortTime(ofstream &file, int V[], int n) {
 	Sorting::insertionSort(V, n);
 	clock_t finalTime = clock();
 	float time = ((float) (finalTime - initalTime)) / (CLOCKS_PER_SEC);
-	file << setprecision(PRECISION) << fixed << n << " " << time * 1000 << "\n";
+	file << setprecision(PRECISION) << fixed << n << " " << time << "\n";
 
 }
 
@@ -23,7 +23,7 @@ void Generator::generateSelectionSortTime(ofstream &file, int V[], int n) {
 	Sorting::insertionSort(V, n);
 	clock_t finalTime = clock();
 	float time = ((float) (finalTime - initalTime)) / CLOCKS_PER_SEC;
-	file << setprecision(PRECISION) << fixed << n << " " << time * 1000 << "\n";
+	file << setprecision(PRECISION) << fixed << n << " " << time << "\n";
 }
 
 void Generator::generateBubbleSortTime(ofstream &file, int V[], int n) {
@@ -32,7 +32,7 @@ void Generator::generateBubbleSortTime(ofstream &file, int V[], int n) {
 	Sorting::bubbleSort(V, n);
 	clock_t finalTime = clock();
 	float time = ((float) (finalTime - initalTime)) / CLOCKS_PER_SEC;
-	file << setprecision(PRECISION) << fixed << n << " " << time * 1000 << "\n";
+	file << setprecision(PRECISION) << fixed << n << " " << time << "\n";
 }
 
 void Generator::generateQuickSortTime(ofstream &file, int V[], int n) {
@@ -40,7 +40,7 @@ void Generator::generateQuickSortTime(ofstream &file, int V[], int n) {
 	Sorting::quickSort(V, 0, n);
 	clock_t finalTime = clock();
 	float time = ((float) (finalTime - initalTime)) / CLOCKS_PER_SEC;
-	file << setprecision(PRECISION) << fixed << n << " " << time * 1000 << "\n";
+	file << setprecision(PRECISION) << fixed << n << " " << time << "\n";
 
 }
 
@@ -49,7 +49,7 @@ void Generator::generateMergeSortTime(ofstream &file, int V[], int n) {
 	Sorting::mergeSort(V, 0, n);
 	clock_t finalTime = clock();
 	float time = ((float) (finalTime - initalTime)) / CLOCKS_PER_SEC;
-	file << setprecision(PRECISION) << fixed << n << " " << time * 1000 << "\n";
+	file << setprecision(PRECISION) << fixed << n << " " << time << "\n";
 
 }
 

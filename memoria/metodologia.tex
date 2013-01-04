@@ -3,16 +3,16 @@
 		\item El programa preguntará por el tamaño del problema (la longitud del array)
 		\item También podemos elegir el mayor entero a generar (un entero puede tener un valor 				máximo de $2147483647$ )
 		\item El programa preguntará por el salto \emph{(gap)} entre iteraciones.  Cuanto menor 					sea el tamaño de la iteración, más ajustada será la gráfica.  Para asegurarnos que 					recorremos hasta el último elemento del array el salto debe ser múltiplo de $5$.
-		\item En primera instancia se genera un array con números aleatorios que sirve como base 					para las ordenaciones.  De esta manera las copias del array original se hacen del 					tamaño que corresponde a la iteración, en lugar de hacer copias con el tamaño original 				del problema y así evitar problemas de memoria para tamaños del problema muy grandes 					$(n > 20000)$.  Así, si el tamaño del array a ordenar en cada iteración es de $n$ 					elementos, el programa copia el array en intervalos de $0 \leq gap \leq n$ hasta alcanzar el 				tamaño del problema $n$.
-		\item El programa genera un archivo con los datos separados por un salto de línea.  Cada 					línea contiene el tamaño del problema y el tiempo empleado para la ordenación expresado 			en milisegundos $(ms)$.
-		\item Con los archivo de datos, pueden ejecutarse el script de órdenes con la sintaxis de 				\textbf{gnuplot} para crear los arhivos de imagen con las gráficas de las métricas 					generadas.
+		\item En primera instancia se genera un array con números aleatorios que sirve como base 					para las ordenaciones.  De esta manera las copias del array original se hacen del 					tamaño que corresponde a la iteración.  Así, si el tamaño del array a ordenar en cada iteración es de $n$ 					elementos, el programa copia el array en intervalos de $gap$ elementos hasta alcanzar el tamaño máximo del problema $(n)$.
+		\item El programa genera un archivo con los datos separados por un salto de línea.  Cada 					línea contiene el tamaño del problema y el tiempo empleado para la ordenación expresado 			en segundos.
+		\item Con los archivo de datos, puede ejecutarse el script de órdenes con la sintaxis de 				\textbf{gnuplot} para crear los arhivos de imagen con las gráficas de las métricas 					generadas.
 	\end{enumerate}
 
 
 \section{Análisis de resultados}
 \begin{itemize}
-\item Tamaño del problema: $50000$\footnote{Todos los resultados han sido generados en un ordenador Apple MacBook Pro, Mac Os X 10.8.2, Procesador Intel Core i5 a 2,4Ghz (4 núcleos), 4 Gb de RAM a 1333 Mhz DDR3.}
-\item Máximo entero generado: $32767$
+\item Tamaño del problema: $100000$\footnote{Todos los resultados han sido generados en un ordenador Apple Imac, Mac Os X 10.8.2, Procesador Intel Core i5 a 2,5Ghz (4 núcleos), 4 Gb de RAM a 1333 Mhz DDR3.}
+\item Máximo entero generado: $125000$
 \item Salto entre iteraciones: $100$
 \end{itemize}
 \newpage
@@ -68,4 +68,13 @@ Para ordenar un vector de $n$ elementos, el algoritmo siempre realiza el mismo n
    	 	\includegraphics[width=1.0\textwidth]{quick-sort.png}
   		\caption{Ordenación rápida}
   		\label{fig:quick}
+	\end{figure}
+	
+\subsection{Ordenación por mezcla}
+
+	\begin{figure}[H]
+  		\centering
+   	 	\includegraphics[width=1.0\textwidth]{merge-sort.png}
+  		\caption{Ordenación por mezcla}
+  		\label{fig:merge}
 	\end{figure}
