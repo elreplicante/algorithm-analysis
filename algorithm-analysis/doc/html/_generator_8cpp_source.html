@@ -131,7 +131,7 @@
 <a name="l00056"></a><a class="code" href="class_generator.html#a7d7c511f0392e76294c7415fd7445942">00056</a> <span class="keywordtype">void</span> <a class="code" href="class_generator.html#a7d7c511f0392e76294c7415fd7445942" title="Generates problem size time data file for insertion sort algorithm.">Generator::generateInsertionSortDataFile</a>(<span class="keywordtype">int</span> problemSize, <span class="keywordtype">int</span> V[],
 <a name="l00057"></a>00057                 <span class="keywordtype">int</span> GAP) {
 <a name="l00058"></a>00058         ofstream file(<span class="stringliteral">&quot;insertion-sort.txt&quot;</span>);
-<a name="l00059"></a>00059         <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt;= problemSize; i += GAP) {
+<a name="l00059"></a>00059         <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = GAP; i &lt;= problemSize; i += GAP) {
 <a name="l00060"></a>00060                 <span class="keywordtype">int</span> arrayCopy[i];
 <a name="l00061"></a>00061                 <a class="code" href="class_helper.html#ac82095dac28dad472f4758666ced3fc2" title="Copies an array contents into another array with the same length.">Helper::copyArray</a>(V, arrayCopy, i);
 <a name="l00062"></a>00062                 <a class="code" href="class_generator.html#aaa31bd22a8b60df41e9e4472d90fbb77" title="Generates time data for insertion sort algorithm.">generateInsertionSortTime</a>(file, arrayCopy, i);
@@ -143,7 +143,7 @@
 <a name="l00068"></a><a class="code" href="class_generator.html#af7204223a7e54c36fcb4c19a74fb6720">00068</a> <span class="keywordtype">void</span> <a class="code" href="class_generator.html#af7204223a7e54c36fcb4c19a74fb6720" title="Generates problem size time data file for selection sort algorithm.">Generator::generateSelectionSortDataFile</a>(<span class="keywordtype">int</span> problemSize, <span class="keywordtype">int</span> V[],
 <a name="l00069"></a>00069                 <span class="keywordtype">int</span> GAP) {
 <a name="l00070"></a>00070         ofstream file(<span class="stringliteral">&quot;selection-sort.txt&quot;</span>);
-<a name="l00071"></a>00071         <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt;= problemSize; i += GAP) {
+<a name="l00071"></a>00071         <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = GAP; i &lt;= problemSize; i += GAP) {
 <a name="l00072"></a>00072                 <span class="keywordtype">int</span> arrayCopy[i];
 <a name="l00073"></a>00073                 <a class="code" href="class_helper.html#ac82095dac28dad472f4758666ced3fc2" title="Copies an array contents into another array with the same length.">Helper::copyArray</a>(V, arrayCopy, i);
 <a name="l00074"></a>00074                 <a class="code" href="class_generator.html#a4105db90301125edfe01457582f32610" title="Generates time data for selection sort algorithm.">generateSelectionSortTime</a>(file, arrayCopy, i);
@@ -154,7 +154,7 @@
 <a name="l00079"></a>00079 
 <a name="l00080"></a><a class="code" href="class_generator.html#a26bb1c3ac6e7105fc9a063c9b9a13f34">00080</a> <span class="keywordtype">void</span> <a class="code" href="class_generator.html#a26bb1c3ac6e7105fc9a063c9b9a13f34" title="Generates problem size time data file for bubble sort algorithm.">Generator::generateBubbleSortDataFile</a>(<span class="keywordtype">int</span> problemSize, <span class="keywordtype">int</span> V[], <span class="keywordtype">int</span> GAP) {
 <a name="l00081"></a>00081         ofstream file(<span class="stringliteral">&quot;bubble-sort.txt&quot;</span>);
-<a name="l00082"></a>00082         <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt;= problemSize; i += GAP) {
+<a name="l00082"></a>00082         <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = GAP; i &lt;= problemSize; i += GAP) {
 <a name="l00083"></a>00083                 <span class="keywordtype">int</span> arrayCopy[i];
 <a name="l00084"></a>00084                 <a class="code" href="class_helper.html#ac82095dac28dad472f4758666ced3fc2" title="Copies an array contents into another array with the same length.">Helper::copyArray</a>(V, arrayCopy, i);
 <a name="l00085"></a>00085                 <a class="code" href="class_generator.html#af786d88dcc7612025cd32efd94f58e44" title="Generates time data for bubble sort algorithm.">generateBubbleSortTime</a>(file, arrayCopy, i);
@@ -165,7 +165,7 @@
 <a name="l00090"></a>00090 
 <a name="l00091"></a><a class="code" href="class_generator.html#a1f9b3db8e7c4c0eef7374d542d12fa44">00091</a> <span class="keywordtype">void</span> <a class="code" href="class_generator.html#a1f9b3db8e7c4c0eef7374d542d12fa44" title="Generates problem size time data file for quick sort algorithm.">Generator::generateQuickSortDataFile</a>(<span class="keywordtype">int</span> problemSize, <span class="keywordtype">int</span> V[], <span class="keywordtype">int</span> GAP) {
 <a name="l00092"></a>00092         ofstream file(<span class="stringliteral">&quot;quick-sort.txt&quot;</span>);
-<a name="l00093"></a>00093         <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt;= problemSize; i += GAP) {
+<a name="l00093"></a>00093         <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = GAP; i &lt;= problemSize; i += GAP) {
 <a name="l00094"></a>00094                 <span class="keywordtype">int</span> arrayCopy[i];
 <a name="l00095"></a>00095                 <a class="code" href="class_helper.html#ac82095dac28dad472f4758666ced3fc2" title="Copies an array contents into another array with the same length.">Helper::copyArray</a>(V, arrayCopy, i);
 <a name="l00096"></a>00096                 <a class="code" href="class_generator.html#a5503bd17989580d93f0a0b78ddc8588f" title="Generates time data for quick sort algorithm.">generateQuickSortTime</a>(file, arrayCopy, i);
@@ -176,7 +176,7 @@
 <a name="l00101"></a>00101 
 <a name="l00102"></a><a class="code" href="class_generator.html#adec5a1b0c42f4b9144835bccbaa8edc2">00102</a> <span class="keywordtype">void</span> <a class="code" href="class_generator.html#adec5a1b0c42f4b9144835bccbaa8edc2" title="Generates problem size time data file for merge sort algorithm.">Generator::generateMergeSortDataFile</a>(<span class="keywordtype">int</span> problemSize, <span class="keywordtype">int</span> V[], <span class="keywordtype">int</span> GAP) {
 <a name="l00103"></a>00103         ofstream file(<span class="stringliteral">&quot;merge-sort.txt&quot;</span>);
-<a name="l00104"></a>00104         <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt;= problemSize; i += GAP) {
+<a name="l00104"></a>00104         <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = GAP; i &lt;= problemSize; i += GAP) {
 <a name="l00105"></a>00105                 <span class="keywordtype">int</span> arrayCopy[i];
 <a name="l00106"></a>00106                 <a class="code" href="class_helper.html#ac82095dac28dad472f4758666ced3fc2" title="Copies an array contents into another array with the same length.">Helper::copyArray</a>(V, arrayCopy, i);
 <a name="l00107"></a>00107                 <a class="code" href="class_generator.html#a5503bd17989580d93f0a0b78ddc8588f" title="Generates time data for quick sort algorithm.">generateQuickSortTime</a>(file, arrayCopy, i);
@@ -199,7 +199,7 @@
     <ul>
       <li class="navelem"><a class="el" href="_generator_8cpp.html">Generator.cpp</a>      </li>
 
-    <li class="footer">Generated on Tue Dec 18 2012 23:00:03 for AlgorithmAnalysis by
+    <li class="footer">Generated on Mon Jan 7 2013 18:17:30 for AlgorithmAnalysis by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.7.5.1 </li>
    </ul>

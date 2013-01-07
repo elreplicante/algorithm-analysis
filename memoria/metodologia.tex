@@ -17,7 +17,7 @@
 \end{itemize}
 \newpage
 %Gráfica de ordenación por inserción
-\subsection{Ordenación por inserción}
+\subsection{Ordenación por inserción \textit{(insertion-sort)}}
 Su complejidad es de $O(n^2)$. Un buen algoritmo de ordenación para un número pequeño elementos. Funciona de la manera análoga a la que se ordenaría un mazo de cartas:\cite{CORMEN}
 \begin{enumerate}
 	\item Empezamos con la mano izquierda vacía y las cartas boca abajo sobre la mesa.
@@ -35,7 +35,7 @@ Su complejidad es de $O(n^2)$. Un buen algoritmo de ordenación para un número 
 
 \newpage
 %Gráfica de ordenación por selección
-\subsection{Ordenación por selección}
+\subsection{Ordenación por selección \textit{(selection-sort)}}
 Es un algoritmo de ordenación por comparación. Su complejidad es de $O(n^2)$. Resulta ineficiente en tamaños de problema grandes, y suele funcionar peor que la ordenación por inserción. Se caracteriza por su sencillez, y también tiene ventajas de rendimiento sobre algoritmos más complicados en determinadas situaciones, sobre todo cuando la memoria auxiliar es limitada.\\
 El algoritmo divide la lista de entrada en dos partes: la lista secundaria de los elementos que ya están ordenados, dispuestos de izquierda a derecha, y la lista secundaria de los elementos restantes a ser ordenados, ocupando el resto de la lista. Inicialmente, la sublista ordenada está vacía y la sublista sin ordenar es la lista original menos los elementos ordenados. El algoritmo continúa encontrando siempre el elemento inmediatamente superior (según orden de clasificación) y lo cambia con el último elemento del array.
 
@@ -48,7 +48,7 @@ El algoritmo divide la lista de entrada en dos partes: la lista secundaria de lo
 
 \newpage
 %Gráfica de ordenación por burbuja
-\subsection{Ordenación por burbuja}
+\subsection{Ordenación por burbuja \textit{(bubble-sort)}}
 Es un algoritmo por comparación.  Recorremos los elementos del array de derecha a izquierda, comparando cada elemento con el siguiente e intercambiándolos en caso de estar desordenados.  Para ordenar un vector de $n$ elementos, el algoritmo siempre realiza el mismo número de comparaciones:
 \[\frac{n^2 - n}{2}\]
 Esto lo convierte en un algoritmo ineficiente para tamaños de problema grandes y, en general, es menos eficiente que otros algoritmos de orden $O(n^2)$ como \textit{insertion-sort}.
@@ -60,8 +60,8 @@ Esto lo convierte en un algoritmo ineficiente para tamaños de problema grandes 
 	\end{figure}
 
 %Gráfica de ordenación rápida
-\subsection{Ordenación rápida}
-El algoritmo de ordenación rápida o \textit{quick-sort}, aunque tiene una complejidad en el caso peor de orden $O(n^2)$, resulta uno de los algoritmos más eficientes debido a su complejidad media de orden $O(nlog(n))$.  Sigue el esquema de \textit{divide y vencerás} y su rendimiento depende en gran medida de cómo se realicen las particiones (qué elementos escojamos para las particiones).  Si éstas son balanceadas, el algoritmo se ejecuta asintóticamente tan rápido como \textit{merge-sort}.  Si no son balanceadas, puede ejecutarse tan despacio como \textit{insertion-sort}.\cite{CORMEN}
+\subsection{Ordenación rápida \textit{(quick-sort)}}
+El algoritmo de ordenación rápida, aunque tiene una complejidad en el caso peor de orden $O(n^2)$, resulta uno de los algoritmos más eficientes debido a su complejidad media de orden $O(nlog(n))$.  Sigue el esquema de \textit{divide y vencerás} y su rendimiento depende en gran medida de cómo se realicen las particiones (qué elementos escojamos para las particiones).  Si éstas son balanceadas, el algoritmo se ejecuta asintóticamente tan rápido como \textit{merge-sort}.  Si no son balanceadas, puede ejecutarse tan despacio como \textit{insertion-sort}.\cite{CORMEN}
 	\begin{figure}[H]
   		\centering
    	 	\includegraphics[width=1.0\textwidth]{quick-sort.png}
@@ -69,7 +69,7 @@ El algoritmo de ordenación rápida o \textit{quick-sort}, aunque tiene una comp
   		\label{fig:quick}
 	\end{figure}
 	
-\subsection{Ordenación por mezcla}
+\subsection{Ordenación por mezcla \textit{(merge-sort)}}
 
 	\begin{figure}[H]
   		\centering
