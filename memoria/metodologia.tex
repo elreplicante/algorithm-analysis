@@ -1,8 +1,8 @@
 \section{Método de obtención de tiempos y gráficas}
 	\begin{enumerate}
 		\item El programa preguntará por el tamaño del problema (la longitud del array)
-		\item También podemos elegir el mayor entero a generar (un entero puede tener un valor 				máximo de $2147483647$ )
-		\item El programa preguntará por el salto \emph{(gap)} entre iteraciones.  Cuanto menor sea el tamaño de la iteración, más puntos se generarán en el archivo de datos y más ajustada será la gráfica.  Para asegurarnos que 					recorremos hasta el último elemento del array el salto debe ser múltiplo de $5$.
+		\item También podemos elegir el mayor entero a generar (un entero puede tener un valor 				máximo de $32767$)
+		\item El programa preguntará por el salto \emph{(gap)} entre iteraciones.  Cuanto menor sea el tamaño de la iteración, más puntos se generarán en el archivo de datos y más ajustada será la gráfica.
 		\item En primera instancia se genera un array con números aleatorios que permanece inmutable y que sirve como base 					para las ordenaciones. Las copias del array se van procesando en incrementos de \textit{gap} elementos y los algoritmos se ejecutan sobre un array con los mismos elementos que el array original.
 		\item El programa genera un archivo con los datos separados por un salto de línea.  Cada 					línea contiene el tamaño del problema y el tiempo empleado para la ordenación expresado 			en segundos.
 		\item A pesar de que las métricas se han obtenido sin ningún otra aplicación en ejecución, algunos procesos del sistema operativo pueden ralentizar el tiempo de ordenación de los algoritmos, aunque la desviación en este caso puede considerarse despreciable.
