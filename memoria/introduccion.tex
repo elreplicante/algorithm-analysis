@@ -12,7 +12,7 @@
 			\item Compilar el archivo \textit{main.cpp} contenido en la carpeta \textit{/src}
 			\item Ejecutar desde la consola el comando \textit{gnuplot script.gnuplot} desde el 					mismo directorio donde se generaron los archivos de datos.
 			\item El script generará archivos de imagen en formato \textit{png} con las gráficas.
-			\item El código está documentado con el formato \textit{Doxygen}. Existe una documentación generada en \textit{HTML} en la carpeta \textit{/doc} del proyecto.
+			\item El código está documentado con el formato \textbf{Doxygen}. Existe una documentación generada en \textbf{HTML} en la carpeta \textbf{/doc} del proyecto.
 			\end{itemize}
 \end{enumerate}
 
@@ -22,7 +22,7 @@ Todos los algoritmos analizados en este trabajo parten de unas precondiciones y 
 	\item \textbf{Precondición:}\\
 		$P \equiv \{\mbox{lon}(V) = n \geq 0 \wedge V[n] \geq 0\}$ (Vector no vacío de enteros positivos)
 	\item \textbf{Definición:}\\
-		$\mbox{ordena}(\mbox{int \:\: \&V} [],\: \mbox{int} \:n)$ (Devuelve el 				vector ordenado por referencia)
+		$\mbox{ordena}(\mbox{int \&V} [],\: \mbox{int} \:n)$ (Devuelve el 				vector ordenado por referencia)
 	\item \textbf{Postcondición:}\\
 		$Q \equiv \{\forall{i} : 0 \leq i < n - 1: V[i] \leq V[i + 1]\}$
 \end{itemize}
@@ -32,4 +32,5 @@ O expresado de otra manera:\cite{CORMEN}
 	\item \textbf{Salida:} una permutación (reordenación) de la secuencia de entrada tal que $(a_{1} \leq 				a_{2}\:  \leq a_{3},\:  \ldots \:  ,\:\leq  a_{n})$
 \end{itemize}
 
-Cada método de ordenación se expresa como un algoritmo: un procedimiento de cálculo bien definido que toma algún valor o conjunto de valores como entrada y produce un cierto valor o conjunto de valores como salida. 
+Cada método de ordenación se expresa como un algoritmo: un procedimiento de cálculo bien definido que toma algún valor o conjunto de valores como entrada y produce un cierto valor o conjunto de valores como salida.
+

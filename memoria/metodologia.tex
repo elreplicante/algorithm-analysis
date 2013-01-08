@@ -5,7 +5,8 @@
 		\item El programa preguntará por el salto \emph{(gap)} entre iteraciones.  Cuanto menor sea el tamaño de la iteración, más puntos se generarán en el archivo de datos y más ajustada será la gráfica.  Para asegurarnos que 					recorremos hasta el último elemento del array el salto debe ser múltiplo de $5$.
 		\item En primera instancia se genera un array con números aleatorios que permanece inmutable y que sirve como base 					para las ordenaciones. Las copias del array se van procesando en incrementos de \textit{gap} elementos y los algoritmos se ejecutan sobre un array con los mismos elementos que el array original.
 		\item El programa genera un archivo con los datos separados por un salto de línea.  Cada 					línea contiene el tamaño del problema y el tiempo empleado para la ordenación expresado 			en segundos.
-		\item Con los archivo de datos, puede ejecutarse el script de órdenes con la sintaxis de 				\textit{gnuplot} para crear los arhivos de imagen con las gráficas de las métricas 					generadas.
+		\item A pesar de que las métricas se han obtenido sin ningún otra aplicación en ejecución, algunos procesos del sistema operativo pueden ralentizar el tiempo de ordenación de los algoritmos, aunque la desviación en este caso puede considerarse despreciable.
+		\item Una vez generados los archivos de datos, puede ejecutarse el script de órdenes \textit{script.gplot} con la sintaxis de 				\textbf{gnuplot} para crear los arhivos de imagen con las gráficas de las métricas 					generadas.
 	\end{enumerate}
 
 
@@ -50,7 +51,7 @@ El algoritmo divide la lista de entrada en dos partes: la lista secundaria de lo
 %Gráfica de ordenación por burbuja
 \subsection{Ordenación por burbuja \textit{(bubble-sort)}}
 Es un algoritmo por comparación.  Recorremos los elementos del array de derecha a izquierda, comparando cada elemento con el siguiente e intercambiándolos en caso de estar desordenados.  Para ordenar un vector de $n$ elementos, el algoritmo siempre realiza el mismo número de comparaciones:
-\[\frac{n^2 - n}{2}\]
+\[c(n)=\frac{n^2 - n}{2}\]
 Esto lo convierte en un algoritmo ineficiente para tamaños de problema grandes y, en general, es menos eficiente que otros algoritmos de orden $O(n^2)$ como \textit{insertion-sort}.
 	\begin{figure}[H]
 	  \centering
@@ -70,7 +71,7 @@ El algoritmo de ordenación rápida, aunque tiene una complejidad en el caso peo
 	\end{figure}
 	
 \subsection{Ordenación por mezcla \textit{(merge-sort)}}
-
+Al igual que el algoritmo de ordenación rápida, sigue un esquema de \textit{divide y vencerás}, sólo que en lugar de elegir un pivote e ir colocando los elementos menores a la izquierda del pivote y los mayores a la derecha del mismo, el índice se posiciona al principio de cada mitad y toma de uno u otro subvector el menor elemento.  Para realizar la mezcla se vale de un array auxiliar que luego se copia al array original para mantener una solución eficiente $O(n)$.\cite{EDA}
 	\begin{figure}[H]
   		\centering
    	 	\includegraphics[width=1.0\textwidth]{merge-sort.png}
