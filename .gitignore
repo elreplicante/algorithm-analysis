@@ -69,3 +69,13 @@ paper/analisis-asintotico-de-algoritmos.synctex.gz
 *.prefs
 
 *.xmi
+algorithm-analysis/selection-sort.png
+algorithm-analysis/selection-sort.txt
+algorithm-analysis/bubble-sort.png
+algorithm-analysis/bubble-sort.txt
+algorithm-analysis/insertion-sort.png
+algorithm-analysis/insertion-sort.txt
+algorithm-analysis/merge-sort.png
+algorithm-analysis/merge-sort.txt
+algorithm-analysis/quick-sort.png
+algorithm-analysis/quick-sort.txt

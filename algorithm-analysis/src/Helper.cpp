@@ -8,7 +8,6 @@
 #include "../include/Helper.h"
 
 void Helper::createRandomArray(int V[], int n, int maxInteger) {
-	srand((unsigned int) time(NULL));
 	for (int i = 0; i < n; i++) {
 		V[i] = rand() % maxInteger;
 	}

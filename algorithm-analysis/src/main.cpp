@@ -17,9 +17,12 @@ int main(int argc, char *argv[]) {
 	int maxInt = Messages::getMaximumInteger();
 	int GAP = Messages::getGap();
 
+	//Random array seed
+	srand((unsigned int) time(NULL));
+
 	int V[problemSize];
 	Testing::generateArray(V, problemSize, maxInt);
-	//Helper::printArrayContents(V, problemSize);
+	Helper::printArrayContents(V, problemSize);
 
 	bool exitMenu = false;
 
